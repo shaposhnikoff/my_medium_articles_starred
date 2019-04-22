@@ -19,7 +19,7 @@ It’s name, TICK, comes from its components :
 
 * Kapacitor
 
-The schema blow illustrates the overall architecture and gives role of each component.
+The schema below illustrates the overall architecture and gives role of each component.
 
 ![](https://cdn-images-1.medium.com/max/2000/1*A7uRhGM_vOXFxT7kdqwNfw.png)
 

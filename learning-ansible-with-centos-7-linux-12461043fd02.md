@@ -182,6 +182,51 @@ While the above is a way you could patch and reboot a server with Ansible 2.7 is
             - name: Reboot machine
               reboot:
 
+According to Red Hat “By default tasks in playbooks block, meaning the connections stay open until the task is done on each node.” Doing a yum update can take a while to complete so using an asynchronous task allows operations to execute without blocking. Below is an example of doing a yum update asynchronously and then rebooting the servers. The following yum update Playbook uses variable substitution and Ansible Facts which will be explained further down within the document.
+
+    ---
+    # performYumUpdateRebootServer.yml
+    # performs yum update and reboots server
+    - name: perform yum update / reboot server
+      hosts: my_hosts
+      remote_user: lnxcfg
+      become: true
+      become_method: sudo
+      become_user: root
+     
+      tasks:
+
+        - debug:
+            msg: "Performing Yum update of server {{ ansible_hostname }} "
+
+        - name: Perform yum update of all packages
+          yum:
+            name: '*'
+            state: latest
+          async: 3600
+          poll: 0
+          register: yum_sleeper
+
+        - name: Check on async task of yum update
+           async_status:
+            jid: "{{ yum_sleeper.ansible_job_id }}"
+          register: job_result
+          until: job_result.finished
+          retries: 5000
+
+        - debug:
+            msg: "Yum update of server {{ ansible_hostname }} has been completed."
+
+        - name: Reboot server
+          reboot:
+            msg: Server is being rebooted
+          ignore_errors: yes
+          register: result
+
+        - debug:
+            msg: "Server {{ ansible_hostname }} was rebooted {{ result }}"
+          when: result is defined
+
 Here is how to create a directory using Ansible. The following Playbook is only using the lnxcfg user as the owner and group for example purposes.
 
     ---
@@ -205,6 +250,32 @@ Here is how to create a directory using Ansible. The following Playbook is only 
                  recurse: yes
                  path:  /var/ansible_directory
                  state: directory
+
+Here is how to modify and manipulate the sysctl.conf file. The Playbook below uses a list of sysctl names and values which changes the vm.swappiness and vm.dirty values. Again, the Playbook uses variable substitution which will be explained further down within the document. The Playbook uses the Ansible sysctl module:
+
+    ---
+    # configSysctl.yml
+    # modify the /etc/sysctl.conf file 
+    - name: Configure sysctl.conf 
+      hosts: my_hosts
+      remote_user: lnxcfg
+      become: true
+      become_method: sudo
+      become_user: root
+     
+      tasks:
+
+        - name: Configure sysctl
+          sysctl:
+            name: "{{ item.name }}" 
+            value: "{{ item.value }}"       
+            state: present
+            reload: yes
+            sysctl_set: yes
+          with_items:
+             - { name: vm.swappiness, value: 1 }
+             - { name: vm.dirty_background_ratio, value: 5 }
+             - { name: vm.dirty_ratio, value: 80 }
 
 Here is a playbook to open the CentOS 7 firewall and install httpd. The following Playbook uses a template to create the index.html file. In addition, the Playbook uses a variable *templateSource *to set the template location.
 
@@ -298,7 +369,62 @@ The web output in a browser from the index.j2 which creates the index.html file 
     home: /root 
     pwd: /home/lnxcfg
 
-The following Playbook creates a partition, LVM logical volume, directory, mounts the directory, and even adds to the /etc/fstab. Notice Ansible variables are defined in the *vars *section of the Playbook then interpolated between the {{ and }} tags. Variable concatenation with a string is easy as shown here: “/dev/{{ volumeGroup }}/{{ logicalVolume }}”.
+Ansible’s line-in-file and multi-line-in-file are very powerful and enables the ability to add text, replace text, and work with files.
+
+The below Playbook configLineInFile.yml adds an entry into the /etc/hosts file. Notice Ansible variables are defined in the *vars *section of the Playbook then interpolated between the {{ and }} tags. Variable concatenation is easy as shown here: hosts_var: “{{ ansible_default_ipv4.address }} {{ ansible_fqdn }} {{ ansible_hostname }} “. Also notice the use of Ansible Facts with ansible_default_ipv4.address, ansible_fqdn, and ansible_hostname. These are just some of the predefined Ansible Facts about a client.
+
+    ---
+    # configLineInFile.yml
+    # modify a line in a file 
+    - name: Configure line in file  
+      hosts: my_hosts
+      remote_user: lnxcfg
+      become: true
+      become_method: sudo
+      become_user: root
+
+      vars:
+     
+        hosts_var: "{{ ansible_default_ipv4.address }} {{ ansible_fqdn }} {{ ansible_hostname }} "
+     
+      tasks:
+
+        - name: Configure line in a file
+          lineinfile:
+            path: /etc/hosts 
+            line: "{{ hosts_var }}"
+            state: present
+
+Below is an example of using multi-line-in-file which adds a block of text to a file.
+
+    ---
+    # configMultiLineInFile.yml
+    # modify a multi line in a file 
+    - name: Configure multi line in file  
+      hosts: my_hosts
+      remote_user: lnxcfg
+      become: true
+      become_method: sudo
+      become_user: root
+
+      tasks:
+
+        - name: configure /etc/ssh/sshd_config 
+          blockinfile:
+            path: /etc/ssh/sshd_config
+            block: |
+               Match User lnxcfg
+                 PasswordAuthentication no
+                 AuthenticationMethods publickey
+          notify: restart sshd
+
+      handlers:
+        - name: restart sshd
+          service:
+            name: sshd
+            state: restarted
+
+The following Playbook creates a partition, LVM logical volume, directory, mounts the directory, and even adds to the /etc/fstab. Again notice Ansible variables are defined in the *vars *section of the Playbook then interpolated between the {{ and }} tags. Variable concatenation with a string is easy as shown here: “/dev/{{ volumeGroup }}/{{ logicalVolume }}”.
 
     ---
     # createPartitionAndLVM.yml

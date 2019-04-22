@@ -1,17 +1,17 @@
 
-# Google Cloud Platform: Creating an Instance and Configuring DNS
+# Create a VPS with Google Cloud: Introducing Compute Engine
 
 
 
-For the last few weeks I’ve been enamored with Google’s cloud platform, aptly named Google Cloud Platform. GCP contains the things you might expect from a young player in the ‘screw AWS’ space: much of what exists on AWS has an equivalent on GPC, but certain subtleties exist, such as the lack of Python serverless functions and so forth. That said, GCP makes up for any shortcomings by leveraging services exclusive to Google.
+I’ve been enamored with Google’s cloud platform (aptly named Google Cloud Platform). GCP contains the things you might expect from a young player in the cloud provider space; a lot of existing AWS services already have an equivalent on GPC, but the comparison isn’t always 1-to-1.
 
-In my opinion, GCP is the first contender in the market to package enterprise cloud computing in a satisfying way. Its clear GCP has assigned UI and Product Management resources to their platform, where Amazon clearly did not. while not without its shortcomings, it’s obvious Google has chosen usability as a key differentiator from AWS.
+A seemingly prevalent philosophy behind GCP is prioritizing reliability and simplicity over features. It’s a philosophy I agree with but occasionally comes up short from AWS’s offering. GCP is the first contender to package enterprise cloud computing in a simple, satisfying way. Its clear GCP has assigned UI and Product Management resources to their platform (where Amazon did not, to the point where it seems to be by design).
 
-Aside from the UI, GCP offers plenty of fun functionality such as their cloud launcher. This is the equivalent of one-click deploys for cool stuff, whether they be services to add to your VPC, Google APIs, Datasets, or what have you. If you’re the type of person who browses Product Hunt with a mild SaaS addiction, good luck escaping from Cloud Launcher in a reasonable amount of time.
+Aside from the usability, GCP offers plenty of fun features such as their cloud launcher. This is a one-click deploy shop (similar to DigitalOcean or Heroku’s equivalent), chick full of services to add to your VPC, Google APIs, Datasets, or what have you. The ease of plug-and-play these plug-and-play services make GCP a compelling choice for a respectable enterprise which hasn’t lost the gift of curiosity.
 
 ![It’s like Product Hunt… on crack.](https://cdn-images-1.medium.com/max/2292/0*UxWLRPRNPkxqjFpr.gif)*It’s like Product Hunt… on crack.*
 
-The ease of plug-and-play these plug-and-play services make GCP a compelling choice for a respectable enterprise which hasn’t lost the gift of curiosity just yet. Let’s set up a server to see what the hype is about. Today’ll we’ll be creating a standard Linux instance and walking through the steps to configure an existing DNS for said instance.
+The best way to get a feel for what value a product has would be to use it. In the interest of becoming familiar with Google Cloud, we’ll execute the most basic task of setting up a VPS to deploy code to. This practice will end up touching on many of GCP’s core services which will allow us to grasp the basic offerings of the product, as well as its strengths and weakness.
 
 ## Does in Fact Compute
 
@@ -21,9 +21,9 @@ Create a “project” in Google Cloud, and you’ll immediately land at a dashb
 
 ![Shhh, it’s thinking.](https://cdn-images-1.medium.com/max/2640/1*UcKGdjHlmlLtHSCF0SonZg.gif)*Shhh, it’s thinking.*
 
-Select *create*. As opposed to the preset choices of VPCS you might be used to, Google allows us to customize our VPS to our exact technical specifications on a sliding scale. Want 96 processing cores, but only a single GB of RAM? No problem, if that’s what y0u’re into. Weirdo.
+Select **create**. As opposed to picking from a selection of cookie-cutter VPS machines, Google allows us to customize our VPS to our exact technical specifications with a sliding scale. Want 96 processing cores, but only a single GB of RAM? No problem, if that’s what you’re into.
 
-As well as picking between the usual Linux distros, Compute Engine also allows customers to select their number of GPUs, as well as the generation of Intel CPU their instance will run on.
+As well as picking between the usual Linux distributions, Compute Engine also allows customers to select their number of GPUs, and even the generation of Intel CPU their instance will run on.
 
 ![Dat customization tho.](https://cdn-images-1.medium.com/max/3416/0*jVMDKSdIx-zogP23.png)*Dat customization tho.*
 
@@ -35,7 +35,7 @@ GCP is not without its own fair share of arbitrary product classifications. DNS 
 
 ![Allllll the way at the bottom.](https://cdn-images-1.medium.com/max/3712/0*RDCFkNqArF5LfZ_k.png)*Allllll the way at the bottom.*
 
-Here’s we’ll be able to see a “custom domains” tab which allows us to point a domain we’ve purchased from a service like *Namecheap *or what-have-you to Google Cloud. I’ll personally be walking though this example by directing a pointless domain called *memegenerator.io* I purchased on Namecheap for no good reason.
+Here’s we’ll be able to see a “custom domains” tab which allows us to point a domain we’ve purchased from a service like *Namecheap *or what-have-you to Google Cloud. I’ll personally be walking through this example by directing a pointless domain called *memegenerator.io* I purchased on Namecheap for no good reason.
 
 When you add a custom domain via this screen, you’ll immediately be asked to verify ownership over the domain via the familiar Google Webmaster tool, which you’ll be redirected to automatically.
 
@@ -51,7 +51,7 @@ If you’re using Namecheap like I am, log in to your dashboard and find your do
 
 ![Even if you’re not using Namecheap, this shouldn’t be much different.](https://cdn-images-1.medium.com/max/3368/1*dKYWuVZn7CvVgOuUpiAOVg.png)*Even if you’re not using Namecheap, this shouldn’t be much different.*
 
-Delete all existing records. Then create a TXT record (with @ as the host) and input the value that Google provided you earlier. Now, when you return to the webmaster tool, clicking verify tool *should* pick up on this change.
+Delete all existing records. Then create a TXT record (with @ as the host) and input the value that Google provided you earlier. Now, when you return to the webmaster tool, clicking “verify” *should* pick up on this change.
 > If the webmaster tool does not pick up on this verification right away, don’t panic. This happens fairly often — just frantically keep making sure everything is set up correctly while mashing the verify button.
 
 Navigate back to the Custom Domains tab in GCP and continue the process- you should see that your domain is verified. You’ll be prompted to enter any subdomains you’d GCP to pick up on here. Wrap that up and save.
@@ -112,7 +112,7 @@ Look, I just want to say you’re all doing a great job so far. All of you. We�
 
 * **Target service account** **scope** — Select “in this project”.
 
-* **Source Filter **— Once again, select *specified service account.*
+* **Source Filter **— Once again, select the *specified service account.*
 
 * **Source service account** **scope **— Select “in this project”
 
@@ -120,10 +120,12 @@ Look, I just want to say you’re all doing a great job so far. All of you. We�
 
 * For **IPs** and **ports, **well, do what you want.
 
-## Get at it
+## Get At It
 
-Well, there you have it. Hopefully by now the domain you’ve painstaking configured now points to your server, so you can go ahead and configure your webserver settings or whatever it is you do.
+Well, there you have it. Hopefully, by now the domain you’ve painstaking configured now points to your server, so you can go ahead and configure your web server settings or whatever it is you do.
 
-Alright fine, so GCP isn’t completely free of its own redundancies. As much as I love to hate on AWS, it seems almost inevitable at this point that any enterprise cloud service will maintain a certain level of obscure processes. This is great for flexibility when scaling, but let’s be honest: if these platforms were easy to use, who would pay to become certified in using them?
+GCP isn’t completely free of its own redundancies. As much as I love to hate on AWS, it seems almost inevitable at this point that any enterprise cloud service will maintain a certain level of complex processes. This flexibility is great for enterprises scaling quickly, but let’s be honest: if these platforms were easy to use, who would pay for the certifications?
+
+Cheekiness aside, I’ve become a strong fan of GCP. Google seems to have hit a middle ground between being user-friendly and powerful, which fills a niché we’ll realize was desperately needed. For a fair review of the platform itself, I find myself agreeing mostly with this stranger from the internet: [https://www.deps.co/blog/google-cloud-platform-good-bad-ugly/](https://www.deps.co/blog/google-cloud-platform-good-bad-ugly/)
 
 *Originally published at [hackersandslackers.com](https://hackersandslackers.com/setting-up-dns-with-google-cloud-platform/) on July 14, 2018.*
