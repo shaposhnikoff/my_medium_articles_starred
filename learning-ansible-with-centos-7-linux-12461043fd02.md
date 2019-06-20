@@ -13,28 +13,34 @@ On the Ansible server install EPEL by executing as root:
 
     yum install [https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm](https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm)
 
-To install Ansible execute as root:
+With the new Ansible 2.8 version EPEL is no longer has the latest Ansible version. To install Ansible we need to install Python’s pip; execute as root:
 
-    yum install ansible
+    yum install python2-pip
 
-Using the EPEL version of Ansible will install the latest Ansible version which is necessary as the Ansible Playbooks used in this document utilize Ansible modules that need Ansible version 2.5 or greater. Using Ansible from EPEL is the free version of Ansible. There is a paid for version from Red Hat which you can read about here: [Red Hat Ansible Tower](https://www.ansible.com/products/tower).
+Then execute:
+
+    pip install ansible --upgrade
+
+This will install the new Ansible version 2.8.
 
 On the Ansible CentOS 7 server create a login named lnxcfg**.** The lnxcfg login will be used for Ansible Playbook execution which will manipulate, modify, and configure Ansible client servers. On the Ansible server you could create a lnxcfg userid like this:
 
     groupadd -g 2002 lnxcfg
     useradd -u 2002 -g 2002 -c "Ansible Automation Account" -s /bin/bash -m -d /home/lnxcfg lnxcfg
 
-As root edit the /etc/ansible/ansible.cfg file and change the inventory line to:
+Ansible’s configuration file is located in /etc/ansible/ansible.cfg. To override and customize Ansible we can create a local ***ansible.cfg*** configuration file located in the root directory of the lnxcfg user. Create a flat file in the root directory of lnxcfg named ***ansible.cfg ***and add the following to the file:
 
-    inventory = /home/lnxcfg/hosts
+***/home/lnxcfg/ansible.cfg:***
 
-This will allow us to define the Ansible client system inventory in the local lnxcfg home directory.
-
-In addition, to stop Ansible from prompting to add a client server to the ssh known_hosts you can add the following to the /etc/ansible/ansible.cfg file:
-
+    [defaults]
+    inventory = /home/lnxcfg/inventory 
     host_key_checking = False
 
-On the Ansible server as the lnxcfg login create a flat file named **hosts **which will house the Ansible client inventory names. For example a /home/lnxcfg/hosts file could look like this:
+The inventory line of inventory = /home/lnxcfg/inventory will allow us to define the Ansible client system inventory in the local lnxcfg home directory.
+
+The host_key_checking = False will stop Ansible from prompting to add a client server to the ssh known_hosts when an Ansible playbook is executed.
+
+On the Ansible server as the lnxcfg login create a flat file named ***inventory ***which will house the Ansible client inventory names. For example a /home/lnxcfg/inventory file could look like this:
 
     [my_hosts]
     ansibleclient1
@@ -49,7 +55,7 @@ On the Ansible server as the lnxcfg login create the following directory structu
     scripts
     templates
 
-To do this execute as the login lnxcfg:
+To do this execute as lnxcfg login:
 
     mkdir -p {playbooks,scripts,templates}
 
@@ -127,11 +133,13 @@ To execute the script on an **Ansible client **from the **Ansible server** you c
 
 If using a Linux Kickstart configuration file which is probably the preferred way of creating the lnxcfg user while building the **Ansible client systems **you could always carve out the script from above and put the majority of the Bash code in the Kickstart’s %post section.
 
+**Ansible Playbooks:**
+
 Now on the actual Ansible Playbooks. Playbooks are the nuts and bolts of Ansible automation. This is where we configure, manipulate, and maintain Ansible clients. For better organization you could put all of your Playbooks in the /home/lnxcfg/playbooks directory.
 
-If you look through the Ansible Playbooks listed below at the top of each one you will see three consecutive dashes. The dashes are only necessary when executing Playbooks in the same stream. For example if you include multiple Playbooks in the same file or pipe multiple playbooks together the three dashes would separate them. Even though I have one Playbook per file for convention reasons I still include the three dashes.
+If you look through the Ansible Playbooks listed below at the top of each one you will see three consecutive dashes. The dashes are only necessary when executing Playbooks in the same stream. For example if you include multiple Playbooks in the same file or pipe multiple playbooks together the three dashes would separate them. Even though I have one Playbook per file for convention reasons I still include the three dashes. In addition, Ansible lint and yaml lint tools look and expect the three dashes to be in place.
 
-The **hosts** statement in the Playbook processes all listed inventory within the bracketed title in the **Ansible hosts file** (/home/lnxcfg/hosts). In the example of the host’s file above a Playbook that uses my_hosts would execute the Playbook against servers ansibleclient1, ansibleclient2, and ansibleclient3.
+The **hosts** statement in the Ansible Playbook will process all listed inventory within the bracketed title of the **Ansible inventory file** (/home/lnxcfg/inventory). In the example of the inventory file above a Playbook that uses my_hosts would execute the Playbook against servers ansibleclient1, ansibleclient2, and ansibleclient3.
 
 The Playbook will use the lnxcfg userid to **sudo to root** and process the Playbook’s **tasks**.
 
@@ -251,32 +259,6 @@ Here is how to create a directory using Ansible. The following Playbook is only 
                  path:  /var/ansible_directory
                  state: directory
 
-Here is how to modify and manipulate the sysctl.conf file. The Playbook below uses a list of sysctl names and values which changes the vm.swappiness and vm.dirty values. Again, the Playbook uses variable substitution which will be explained further down within the document. The Playbook uses the Ansible sysctl module:
-
-    ---
-    # configSysctl.yml
-    # modify the /etc/sysctl.conf file 
-    - name: Configure sysctl.conf 
-      hosts: my_hosts
-      remote_user: lnxcfg
-      become: true
-      become_method: sudo
-      become_user: root
-     
-      tasks:
-
-        - name: Configure sysctl
-          sysctl:
-            name: "{{ item.name }}" 
-            value: "{{ item.value }}"       
-            state: present
-            reload: yes
-            sysctl_set: yes
-          with_items:
-             - { name: vm.swappiness, value: 1 }
-             - { name: vm.dirty_background_ratio, value: 5 }
-             - { name: vm.dirty_ratio, value: 80 }
-
 Here is a playbook to open the CentOS 7 firewall and install httpd. The following Playbook uses a template to create the index.html file. In addition, the Playbook uses a variable *templateSource *to set the template location.
 
     ---
@@ -369,7 +351,7 @@ The web output in a browser from the index.j2 which creates the index.html file 
     home: /root 
     pwd: /home/lnxcfg
 
-Ansible’s line-in-file and multi-line-in-file are very powerful and enables the ability to add text, replace text, and work with files.
+Ansible’s line-in-file and block-in-file are very powerful and enables the ability to add text, replace text, and work with files.
 
 The below Playbook configLineInFile.yml adds an entry into the /etc/hosts file. Notice Ansible variables are defined in the *vars *section of the Playbook then interpolated between the {{ and }} tags. Variable concatenation is easy as shown here: hosts_var: “{{ ansible_default_ipv4.address }} {{ ansible_fqdn }} {{ ansible_hostname }} “. Also notice the use of Ansible Facts with ansible_default_ipv4.address, ansible_fqdn, and ansible_hostname. These are just some of the predefined Ansible Facts about a client.
 
@@ -395,7 +377,7 @@ The below Playbook configLineInFile.yml adds an entry into the /etc/hosts file. 
             line: "{{ hosts_var }}"
             state: present
 
-Below is an example of using multi-line-in-file which adds a block of text to a file.
+Below is an example of using block-in-file which adds a block of text to a file.
 
     ---
     # configMultiLineInFile.yml
@@ -423,6 +405,72 @@ Below is an example of using multi-line-in-file which adds a block of text to a 
           service:
             name: sshd
             state: restarted
+
+Speaking of Facts and variables you can take a variable and assign it into an Ansible Fact. You can then take the Ansible Fact and use it further down in a Playbook. The following Playbook creates a list of developer languages and assigns that variable into an Ansible Fact. The Ansible Fact is then loaded into a file using the Ansible blockinfile module. Notice the use of Jinja2 templating syntax to load the variable data into the blockinfile.
+
+    ---
+    # create a list of variables and assign that variable to an ansible
+    # fact.   
+    - name: set developer language fact
+      hosts: my_hosts
+      remote_user: lnxcfg
+      become: true
+      become_method: sudo
+      become_user: root
+
+      tasks:
+
+      - name: build list of developer languages and set an ansible fact
+        vars:
+          developerLanguages: []
+        set_fact:
+          developerLanguages: "{{ developerLanguages }} + [ '{{ item.name }}' ]"
+        with_items: 
+          - { name: 'bash' }
+          - { name: 'ruby' }
+          - { name: 'python' }
+          - { name: 'java' }
+          - { name: 'c' }
+          - { name: 'php' }
+          - { name: 'rexx' }
+
+      - name: take variable from fact and create a file of developer languages.
+        blockinfile:
+          path: /home/lnxcfg/developerLanguages
+          create: true 
+          owner: lnxcfg
+          group: lnxcfg
+          mode: 0644
+          block: |
+            {% for var in developerLanguages %}
+            {{ var }}
+            {% endfor %}
+
+Next is how to modify and manipulate the sysctl.conf file. The Playbook below uses a list of sysctl names and values which changes the vm.swappiness and vm.dirty values on the Ansible client. The Playbook uses variable substitution and passes the list of items to be processed to the Ansible sysctl module:
+
+    ---
+    # configSysctl.yml
+    # modify the /etc/sysctl.conf file 
+    - name: Configure sysctl.conf 
+      hosts: my_hosts
+      remote_user: lnxcfg
+      become: true
+      become_method: sudo
+      become_user: root
+     
+      tasks:
+
+        - name: Configure sysctl
+          sysctl:
+            name: "{{ item.name }}" 
+            value: "{{ item.value }}"       
+            state: present
+            reload: yes
+            sysctl_set: yes
+          with_items:
+             - { name: vm.swappiness, value: 1 }
+             - { name: vm.dirty_background_ratio, value: 5 }
+             - { name: vm.dirty_ratio, value: 80 }
 
 The following Playbook creates a partition, LVM logical volume, directory, mounts the directory, and even adds to the /etc/fstab. Again notice Ansible variables are defined in the *vars *section of the Playbook then interpolated between the {{ and }} tags. Variable concatenation with a string is easy as shown here: “/dev/{{ volumeGroup }}/{{ logicalVolume }}”.
 
@@ -505,10 +553,6 @@ The following Playbook creates a partition, LVM logical volume, directory, mount
                  mode: "{{ directoryMode }}" 
                  recurse: yes
                  path: "{{ directoryPath }}"
-
-Passing variables to playbooks is also easy instead of defining them within the Playbook. To do this from the command line use the ansible-playbook command with the -e or — extra-args argument. As an example you could pass a host variable to the hosts statement in the Playbook. With the example from above if we changed the hosts statement to hosts: “{{ my_hosts }}” we could then pass the host name to the Playbook as:
-
-    ansible-playbook -e my_hosts=ansibleclient4 createPartitionAndLVM.yml
 
 Passing variables to a Playbook can also be accomplished through the inventory hosts file. Here is an example four inventory server items with variable names and their assignments in the inventory host file:
 
@@ -973,7 +1017,7 @@ Speaking of using cron Ansible has the ability to create cron data in either a u
                 # creates ansible_cron_date file in /etc/cron.d
                 # executes at the 10 minute of every hour
                 name: lnxcfg cron date
-                minute: 10
+                minute: '*/10'
                 user: lnxcfg
                 job: "/bin/date >> /home/lnxcfg/ansible_cron_date"
                 cron_file: ansible_cron_date
@@ -982,25 +1026,7 @@ Speaking of using cron Ansible has the ability to create cron data in either a u
 On an Ansible client a file of ansible_cron_date is created inside of the /etc/cron.d directory with the contents of the file being:
 
     #Ansible: lnxcfg cron date
-    10 * * * * lnxcfg /bin/date >> /home/lnxcfg/ansible_cron_date
-
-Unfortunately at the current moment using minute: */10 which would get this cron to execute every ten minutes creates an error on both Ansible versions 2.5 and 2.6. The error is:
-
-    ERROR! Syntax Error while loading YAML.
-      did not find expected alphabetic or numeric character
-
-    The error appears to have been in '/home/lnxcfg/playbooks/createCron.yml': line 17, column 22, but may
-    be elsewhere in the file depending on the exact syntax problem.
-
-    The offending line appears to be:
-
-    name: lnxcfg cron date
-                minute: */10
-                         ^ here
-
-Which is very unfortunate.
-
-Now, back to Ansible.
+    */10 * * * * lnxcfg /bin/date >> /home/lnxcfg/ansible_cron_date
 
 Here is an example of managing systemd services. Below is a Playbook which creates a *simple* systemd service named configSystemdService.yml. This Playbook uses templates to create a Bash script and it’s corresponding systemd unit file which executes the Bash script. After a reboot or power on this particular systemd service will write the current date and time to a file. This Playbook and templates can be used as a systemd replacement for the old system V rc.local script:
 

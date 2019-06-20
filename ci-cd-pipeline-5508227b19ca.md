@@ -1,17 +1,17 @@
 
-# CI CD Pipeline : Learn How to Setup a CI CD Pipeline From Scratch
+# CI CD Pipeline:  Learn How to Setup a CI CD Pipeline From Scratch
 
 CI CD Pipeline - Edureka
 
-CI CD Pipeline implementation or the Continuous Integration/Continuous Deployment software is the backbone of the modern DevOps environment. You can find the requirement of [***Continuous Integration](https://www.edureka.co/blog/continuous-integration/?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline) & [Continuous Deployment ](https://www.edureka.co/blog/continuous-deployment/?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline)skills*** in various job roles such as [Data Engineer](https://www.edureka.co/blog/big-data-engineer-skills?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline), Cloud Architect, [Data Scientist](https://www.edureka.co/blog/data-scientist-salary?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline), etc. CI/CD bridges the gap between development and operations teams by automating build, test, and deployment of applications. In this blog, we will know What is CI CD pipeline and how it works.
+CI CD Pipeline implementation or the Continuous Integration/Continuous Deployment software is the backbone of the modern DevOps environment. You can find the requirement of [*Continuous Integration](https://www.edureka.co/blog/continuous-integration/?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline) & Continuous Deployment skills* in various job roles such as Data Engineer, Cloud Architect, Data Scientist, etc. CI/CD bridges the gap between development and operations teams by automating build, test, and deployment of applications. In this blog, we will know What is CI CD pipeline and how it works.
 
 Before moving onto the CI CD pipeline’s working, let’s start by understanding DevOps.
 
-## [What is DevOps?](https://www.edureka.co/blog/what-is-devops/?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline)
+## What is DevOps?
 
 ![](https://cdn-images-1.medium.com/max/2270/1*w0aSgmjyxkDOZWjzAr061g.png)
 
-DevOps is a software development approach which involves continuous development, continuous testing, [continuous integration](https://www.edureka.co/blog/continuous-integration?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline), [continuous deployment](https://www.edureka.co/blog/continuous-deployment/?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline) and continuous monitoring of the software throughout its development life cycle. This is exactly the process adopted by all the top companies to develop high-quality software and shorter development life cycles, resulting in greater customer satisfaction, something that every company wants.
+DevOps is a software development approach which involves continuous development, continuous testing, continuous integration, continuous deployment and continuous monitoring of the software throughout its development life cycle. This is exactly the process adopted by all the top companies to develop high-quality software and shorter development life cycles, resulting in greater customer satisfaction, something that every company wants.
 
 ## DevOps Stages
 
@@ -19,11 +19,9 @@ Your understanding of what is DevOps is incomplete without learning about its li
 
 ![](https://cdn-images-1.medium.com/max/2270/1*sln2Y2DyyEo227IRRC67cA.png)
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/m0a2CzgLNsc" frameborder="0" allowfullscreen></iframe></center>
-
 ## What is CI CD Pipeline?
 
-CI stands for [Continuous Integration ](https://www.edureka.co/blog/continuous-integration/?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline)and CD stands for [Continuous Delivery ](https://www.edureka.co/blog/continuous-delivery/?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline)and [Continuous Deployment](https://www.edureka.co/blog/continuous-deployment/?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline). You can think of it as a process which is similar to a software development lifecycle.
+CI stands for Continuous Integration and CD stands for Continuous Delivery and Continuous Deployment. You can think of it as a process which is similar to a software development lifecycle.
  Now let us see how does it work.
 
 ![](https://cdn-images-1.medium.com/max/7520/1*vMNZfDEYPz6My4M4qx56tQ.png)
@@ -70,7 +68,7 @@ So, this lifecycle continues until we get a code or a product which can be deplo
 
 We have understood CI CD Pipeline and its working, now we will move on to understand what Jenkins is and how we can deploy the demonstrated code using Jenkins and automate the entire process.
 
-## [Jenkins ](https://www.edureka.co/blog/what-is-jenkins/?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline)— The Ultimate CI Tool and Its Importance in CI CD Pipeline
+## Jenkins — The Ultimate CI Tool and Its Importance in CI CD Pipeline
 
 Our task is to automate the entire process, from the time the development team gives us the code and commits it to the time we get it into production.
 
@@ -78,21 +76,21 @@ Our task is to automate the pipeline in order to make the entire software develo
 
 ![](https://cdn-images-1.medium.com/max/4096/1*iKuaNfxgZSTe_J2x3PYRUg.png)
 
-[***Jenkins](https://www.edureka.co/blog/jenkins-tutorial?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline)*** provides us with various interfaces and tools in order to automate the entire process.
+Jenkins provides us with various interfaces and tools in order to automate the entire process.
 
 So what happens, we have a git repository where the development team will commit the code. Then Jenkins takes over from there which is a front-end tool where you can define your entire job or the task. Our job is to ensure the continuous integration and delivery process for that particular tool or for the particular application.
 
 From Git, Jenkins pulls the code and then moves it to the **commit phase**, where the code is committed from every branch. Then Jenkins moves it into the **build phase** where we compile the code. If it is Java code, we use tools like maven in Jenkins and then compile that code, which we can be deployed to run a series of tests. These test cases are overseen by Jenkins again.
 
-Then it moves on to the staging server to deploy it using [**Docker](https://www.edureka.co/blog/docker-tutorial?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline)**. After a series of Unit Tests or sanity test, it moves to the production.
+Then it moves on to the staging server to deploy it using [Docker](https://www.edureka.co/blog/docker-tutorial?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline). After a series of Unit Tests or sanity test, it moves to the production.
 
 This is how the delivery phase is taken care by a tool called **Jenkins,** which automate everything. Now in order to deploy it, we will need an environment which will replicate the production environment, I.e., **Docker**.
 
-## [Docker](https://www.edureka.co/blog/docker-tutorial?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline)
+## Docker
 
 ![](https://cdn-images-1.medium.com/max/4096/1*7k5Z3-gJaqrY7YFxQx509g.png)
 
-[***Docker](https://www.edureka.co/blog/docker-explained/?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline)*** is just like a virtual environment in which we can create a server. It takes a few seconds to create an entire server and deploy the artifacts which we want to test. But here the question arises,
+Docker is just like a virtual environment in which we can create a server. It takes a few seconds to create an entire server and deploy the artifacts which we want to test. But here the question arises,
 
 ***Why do we use docker?***
 
@@ -141,7 +139,7 @@ As said earlier, you can run the entire cluster in a few seconds. We have storag
 
 ![](https://cdn-images-1.medium.com/max/2000/1*J2jpLriZkrtkebC-yTovPA.png)
 
-**Step 11:** Provide the shell commands. Here it will start the integration phase and **build** the [Docker Container](https://www.edureka.co/blog/what-is-docker-container?utm_source=medium&utm_medium=content-link&utm_campaign=ci-cd-pipeline).
+**Step 11:** Provide the shell commands. Here it will start the integration phase and **build** the Docker Container.
 
 ![](https://cdn-images-1.medium.com/max/2000/1*4Kd1illXWp6Ygohs3y0ZmQ.png)
 
@@ -232,5 +230,11 @@ Do look out for other articles in this series which will explain the various oth
 > 16. [Docker Networking](https://medium.com/edureka/docker-networking-1a7d65e89013)
 > 17. [Ansible Roles](https://medium.com/edureka/ansible-roles-78d48578aca1)
 > 18.[ Ansible Vault](https://medium.com/edureka/ansible-vault-secure-secrets-f5c322779c77)
+> 19. [Ansible for AWS](https://medium.com/edureka/ansible-for-aws-provision-ec2-instance-9308b49daed9)
+> 20. [Jenkins Pipeline](https://medium.com/edureka/jenkins-pipeline-tutorial-continuous-delivery-75a86936bc92)
+> 21. [Top Git Commands](https://medium.com/edureka/git-commands-with-example-7c5a555d14c)
+> 22. [Top Docker Commands](https://medium.com/edureka/docker-commands-29f7551498a8)
+> 23. [Git vs GitHub](https://medium.com/edureka/git-vs-github-67c511d09d3e)
+> 24. [DevOps Interview Questions](https://medium.com/edureka/devops-interview-questions-e91a4e6ecbf3)
 
 *Originally published at [www.edureka.co](https://www.edureka.co/blog/ci-cd-pipeline/) on August 9, 2018.*

@@ -129,7 +129,7 @@ Go to your config folder, and create 3 files: ssl.conf common.conf common_locati
 
 <iframe src="https://medium.com/media/aa3bfba55e69daf851bb1ddc8ac47085" frameborder=0></iframe>
 
-Now open the plex.conf file, and change it to the following (notice lines 2, 6, 9, 10 & 14):
+Now open the plex.conf file, and change it to the following (notice lines 6, 9, 10 & 14):
 
 <iframe src="https://medium.com/media/f01589b8da7775122c581d87c3d917d5" frameborder=0></iframe>
 

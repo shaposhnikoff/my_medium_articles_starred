@@ -236,5 +236,9 @@ If you know of any Python CLI tool, do comment in the comments section.
 
 **Enjoyed this article? Do clap to make it reach more people.**
 
+I am open for any Python/Javascript gigs, job position or you can check out my Fiverr page: [https://www.fiverr.com/oyetoketobi/build-professional-django-website-for-you](https://www.fiverr.com/oyetoketobi/build-professional-django-website-for-you).
+
+Contact me : oyetoketoby80@gmail.com
+
 ![](https://cdn-images-1.medium.com/max/2394/1*i3hPOj27LTt0ZPn5TQuhZg.png)
 > ✉️ *Subscribe to *CodeBurst’s* once-weekly [**Email Blast](http://bit.ly/codeburst-email), ***🐦 *Follow *CodeBurst* on [**Twitter](http://bit.ly/codeburst-twitter)**, view *🗺️ [***The 2018 Web Developer Roadmap](http://bit.ly/2018-web-dev-roadmap)**, and *🕸️ [***Learn Full Stack Web Development](http://bit.ly/learn-web-dev-codeburst)**.*

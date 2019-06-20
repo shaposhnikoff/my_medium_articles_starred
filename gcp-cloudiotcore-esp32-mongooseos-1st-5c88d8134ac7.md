@@ -1,19 +1,17 @@
 
 # How to check the weather using GCP-Cloud IoT Core with ESP32 and Mongoose OS
 
-This is a step-by-step tutorial for newbies to Google Cloud Platform-Cloud IoT Core. The devices are ESP32 Wifi chips running Mongoose OS.
+TL;DR
+
+This post is a step-by-step tutorial for newbies to **Google Cloud Platform-Cloud IoT Core**. The devices are **ESP32 Wifi chips** running **Mongoose OS**. To go through this tutorial, the concepts and then the setup of a simple **IoT system** **measuring weather data** are described.
 
 **Live demo is here:** [https://hello-cloud-iot-core.firebaseapp.com/](https://hello-cloud-iot-core.firebaseapp.com/)
 
-**GitHub for last section* **(Logging, storing and visualizing weather data with Firebase) **is here:* [**https://github.com/olivierlourme/iot-store-display](https://github.com/olivierlourme/iot-store-display)
+**GitHub for last section* **(Logging, storing and visualizing weather data with Firebase)* **is here: [**https://github.com/olivierlourme/iot-store-display](https://github.com/olivierlourme/iot-store-display)
 
 **This post is completed by a second one:** see [here](https://medium.com/@o.lourme/gcp-cloudiotcore-esp32-mongooseos-2nd-config-state-encrypt-7c5e937e5be9).
 
 ![“For the moment we’re just the two of us but soon we’ll be a thousand!”](https://cdn-images-1.medium.com/max/6528/1*GGNvAgxLJXeagpiyQnlHvQ.jpeg)*“For the moment we’re just the two of us but soon we’ll be a thousand!”*
-
-## TL;DR
-
-In this post, we describe the concepts and then the setup of an **IoT system** managed by **Google Cloud Platform-Cloud IoT Core**, the devices being **ESP32 **Wifi** **chips having **Mongoose OS** for OS.
 
 ## Introduction
 
@@ -21,9 +19,9 @@ In this post, we describe the concepts and then the setup of an **IoT system** m
 
 In a previous 3-post series [[link](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-1-a07db495ac5f), [link](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-2-14b0609d3f5e), [link](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-3-644048e90ca4)], we used an **ESP8266 Wifi chip **to regularly measure luminosity and feed a database with the obtained data. The data set was ultimately lively plotted to a web app (see live plot here: [[link](https://esp8266-rocks.firebaseapp.com/)]). We massively used **Firebase products **(Realtime Database, Cloud Functions, SDK and Hosting) to meet our goals.
 
-This project works fine, it draws very little power and we enjoyed developing it — but:
+This project worked fine, thanks to deep sleep it draws very little power and we enjoyed developing it — but:
 
-* **This project was okay to handle just a few connected sensors**. Setting up a set of a hundred sensors would require a lot of (rigorous) manual intervention and monitoring them would be challenging as well. Indeed, there is no central place where we can manage our system.
+* **This project was okay to handle just a few connected sensors**. Setting up a set of a hundred sensors would require a lot of (rigorous) manual intervention and monitoring/exploiting them would be challenging as well. Indeed, there is no central place where we can manage our system.
 
 * **Arduino IDE** and **Arduino core for ESP8266** were great for discovering ESP8266 but they are **quickly insufficient**: The IDE file management is really basic, there is only one program in the chip, and **there is no Operating System** **providing useful APIs for IoT**.
 
@@ -38,7 +36,7 @@ This is why we decided to:
 
 * **move from ESP8266 to ESP32**, which offers memory encryption;
 
-* **run Mongoose OS** [[link](https://mongoose-os.com/)] in our ESP32s. This OS accepts programs written in Javascript(JS) and provides a lot of APIs to deal with time, MQTT protocol, sensors, provisioning, etc. It is easy to interface with the main IoT platforms, including Google Cloud Platform-Cloud IoT Core.
+* **run Mongoose OS** [[link](https://mongoose-os.com/)] in our ESP32s. This OS accepts programs written in Javascript (JS) and provides a lot of APIs to deal with time, MQTT protocol (the most used in IoT, described a few paragraphs later), sensors, etc. Moreover, Mongoose OS comes with a development tool called **mos**, allowing to easily set up a device and provision it with Cloud IoT Core.
 
 ### **2) A word about ESP32 Wifi chip**
 
@@ -61,7 +59,7 @@ Just below are given DHT22 specifications. Afterwards, we think the accuracy fig
 
 ![DHT22 sensor characteristics ([[link](https://learn.adafruit.com/dht/overview)])](https://cdn-images-1.medium.com/max/2000/1*WIxEy4NLdDr_2SVhcjmv0g.png)*DHT22 sensor characteristics ([[link](https://learn.adafruit.com/dht/overview)])*
 
-We can already build the following assembly twice (one for indoor and one for outdoor). For now, power will come from the USB connector connected to our host machine. In production, power may come from a power bank.
+We can already build the following assembly twice (one for indoor and one for outdoor). For now, power will come from the USB connector connected to our host machine. In production, power may come from a phone charger. A power bank is not a realistic choice as current consumption is pretty high - we show this in the post following this one : [[link](https://medium.com/@o.lourme/gcp-cloudiotcore-esp32-mongooseos-2nd-config-state-encrypt-7c5e937e5be9)].
 
 ![Assembly Diagram — ESP32 DEVKIT V1 and DHT22 sensor constitute a “device”. Pinout is here : [[link](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)]](https://cdn-images-1.medium.com/max/2094/1*tFxxVtWwVH9gFajtrCWQ0w.png)*Assembly Diagram — ESP32 DEVKIT V1 and DHT22 sensor constitute a “device”. Pinout is here : [[link](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)]*
 
@@ -75,7 +73,7 @@ Here is the general architecture of our project:
 
 ![Project architecture](https://cdn-images-1.medium.com/max/3204/1*PttQxTGMbDHCGwzCsWlZvA.png)*Project architecture*
 
-*Note: *There is no **gateway **between our devices and Cloud IoT Core because they “speak” MQTT.
+*Note: *There is no **gateways **between our devices and Cloud IoT Core because they “speak” MQTT.
 
 *Note:* Devices can also communicate with Cloud IoT Core via its **HTTP bridge**. As it is less performant than the **MQTT bridge** (see a comparison : [[link](https://cloud.google.com/iot/docs/concepts/protocols)]), we will disallow this communication later during registry configuration. Limiting access just to what is necessary is a good practice.
 
@@ -119,7 +117,7 @@ Cloud IoT Core does not support QoS 2. And QoS 1 is better than QoS 0. So **QoS 
 
 * *Security*
 
-Concerning **security**, in our Mongoose OS/Cloud IoT Core context, MQTT communications are made over **TLS **([[link](https://cloud.google.com/iot/docs/how-tos/mqtt-bridge#mqtt_server)]), so (1) the device is assured to be connected to Cloud IoT Core MQTT server (CA’s certificates are stored in Mongoose OS ca.pem file), (2) the data exchange will be private and (3) data integrity will be checked. On the other way, **device authentication **([[link](https://cloud.google.com/iot/docs/how-tos/mqtt-bridge#device_authentication)]) with Cloud IoT Core is performed with a per-device public/private key authentication using **JSON Web Tokens (JWT)**. The device performs the signature part of the JWT with its private key and Cloud IoT Core validates it using the related public key. Mongoose OS tools handles this keys generation and distribution, we’ll see that soon in the section called “Device registration within the Cloud IoT Core project” lying a few paragraphs below. In this section, we’ll see also how to store securely the private key on the device by performing memory encryption (preventing as well reverse engineering).
+Concerning **security**, in our Mongoose OS/Cloud IoT Core context, MQTT communications are made over **TLS **([[link](https://cloud.google.com/iot/docs/how-tos/mqtt-bridge#mqtt_server)]), so (1) the device is assured to be connected to Cloud IoT Core MQTT server (CA’s certificates are stored in Mongoose OS ca.pem file), (2) the data exchange will be private and (3) data integrity will be checked. On the other way, **device authentication **([[link](https://cloud.google.com/iot/docs/how-tos/mqtt-bridge#device_authentication)]) with Cloud IoT Core is performed with a per-device public/private key authentication using **JSON Web Token (JWT)**. The device performs the signature part of the JWT with its private key and Cloud IoT Core validates it using the related public key. Mongoose OS tools handles this keys generation and distribution, we’ll see that soon in the section called “Device registration within the Cloud IoT Core project” lying a few paragraphs below. In this section, we’ll see also how to store securely the private key on the device by performing memory encryption (preventing as well reverse engineering).
 
 *Note:* Beyond JWT device authentication, for additional security, it’s possible to impose TLS from Cloud IoT Core to devices (so each device has also a public key certificate, etc.). It is an option we won’t use but it’s described [here](https://mongoose-os.com/docs/mongoose-os/api/net/mqtt.md) for Mongoose OS side (see “mutual TLS”) and [here](https://cloud.google.com/iot/docs/how-tos/credentials/verifying-credentials) for Cloud Iot Core side. It’s good to know that AWS IoT imposes this mutual TLS, unconditionally ([[link](https://docs.aws.amazon.com/iot/latest/developerguide/iot-security-identity.html)]).
 
@@ -174,15 +172,15 @@ For efficiency, this kind of publication shouldn’t be done more than once per 
 *Note:* Sending** commands **to devices is also possible from Cloud IoT Core: see [[link](https://cloud.google.com/iot/docs/how-tos/commands)] but we won’t illustrate it.
 > But for the moment, we will focus on telemetry. After this journey, in a “coming soon” post we will show how to handle *config* and *state* special topics.
 
-UPDATE March 29, 2019: This post about *config* and *state* special topics is out: [[link](https://medium.com/@o.lourme/gcp-cloudiotcore-esp32-mongooseos-2nd-config-state-encrypt-7c5e937e5be9)].
+UPDATE March 29, 2019: This post about config and state special topics is out: [[link](https://medium.com/@o.lourme/gcp-cloudiotcore-esp32-mongooseos-2nd-config-state-encrypt-7c5e937e5be9)].
 
 ## **Mongoose OS installation on devices**
 
 ### 1) A short description of Mongoose OS
 
-**Mongoose OS** ([[link](https://mongoose-os.com/)], [[link](https://lwn.net/Articles/733297/)]) is a smart IoT-oriented OS, runnable on several chips, including ESP8266 and ESP32. Mongoose OS is in partnership with the major actors in IoT ([[link](https://mongoose-os.com/about.html)]). It comes with a development tool called **mos**, working either in a UI or with a Command Line Terminal (like cmd.exe in Windows). In either cases, we’ll write mos commands. There is also a device management app called mDash but we didn’t try it. **Numerous APIs dealing with most of the network and sensor protocols are provided.** Programs can be written in both C/C++ and JS.
+**Mongoose OS** ([[link](https://mongoose-os.com/)], [[link](https://lwn.net/Articles/733297/)]) is a smart IoT-oriented OS, runnable on several chips, including ESP8266 and ESP32. Mongoose OS is in partnership with the major actors in IoT ([[link](https://mongoose-os.com/about.html)]). It comes with a development tool called **mos**, really useful to set up the device and then provision it with the IoT platform, working either in a UI or with a Command Line Terminal (like cmd.exe in Windows). In either cases, we’ll write mos commands. There is also a device management app called mDash but we didn’t try it. **Numerous APIs dealing with most of the network and sensor protocols are provided.** Programs can be written in both C/C++ and JS.
 
-At last, there is a 12 tutorial series on YouTube, really useful:
+At last, there is a 12-tutorial series on YouTube, really useful:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries" frameborder="0" allowfullscreen></iframe></center>
 
@@ -346,7 +344,7 @@ Let’s now register the devices to the project! One at a time of course. **mos 
 
 *Note: *This command could be the last one of the “provisioning script” we mentioned already twice.
 
-This command is a mos command that will itself use gcloud commands. The device about to be registered must be connected via the serial port to our host computer because some information will be uploaded to it just like keys, MQTT bridge address, etc.
+This command is a mos command that will itself use gcloud commands. The device about to be registered must be connected via the serial port to our host computer because some information will be uploaded to it just like a private key, MQTT bridge address, etc.
 
 Indeed, we see on mos console that **two keys (one private, one public) are generated**. We can inspect them in app1 project folder. The private one is for ESP32 and the public one is for Google IoT Core. They are used during the authentication process involving the JSON Web Token we mentioned earlier.
 
@@ -426,11 +424,11 @@ We are then prompted to associate the current directory (iot-store-display) with
 
 To overcome this, first we hit CTRL+C to stop this initialization process and then we go to** Firebase Console** at [https://console.firebase.google.com](https://console.firebase.google.com). We choose “Add a project”:
 
-![Firebse Console — Add a project](https://cdn-images-1.medium.com/max/2000/1*nOcFfL_ZwGUKGe-PDnsZUQ.png)*Firebse Console — Add a project*
+![Firebase Console — Add a project](https://cdn-images-1.medium.com/max/2000/1*nOcFfL_ZwGUKGe-PDnsZUQ.png)*Firebase Console — Add a project*
 
 And we can see our project (with Google Cloud logo) and choose it:
 
-![Fierbase Console — Even Google Cloud projects are listed.](https://cdn-images-1.medium.com/max/2000/1*QqI3k8bH5P348eAInetTOQ.png)*Fierbase Console — Even Google Cloud projects are listed.*
+![Firebase Console — Even Google Cloud projects are listed.](https://cdn-images-1.medium.com/max/2000/1*QqI3k8bH5P348eAInetTOQ.png)*Firebase Console — Even Google Cloud projects are listed.*
 
 *Note:* You might then be asked to confirm Firebase billing plan if the Google Cloud project itself has a billing plan.
 
@@ -444,7 +442,7 @@ Great! We restart the Firebase initialization with firebase init command and thi
 
 Then the wizard asks a single question about the Realtime Database and its rules: the name of the file where they will be saved. We maintain the default name. It’s more practical to have these rules in a file lying in the project directory than to go to Firebase Console as we did in past posts. We will detail these rules later.
 
-![Name of file storing Realtime Database rules](https://cdn-images-1.medium.com/max/2000/1*YtlGoKNyjspvirVxSoXYNg.png)*Name of file storing Realtime Database rules*
+![Name of the file storing Realtime Database rules](https://cdn-images-1.medium.com/max/2000/1*YtlGoKNyjspvirVxSoXYNg.png)*Name of the file storing Realtime Database rules*
 
 **Cloud Functions configuration**
 

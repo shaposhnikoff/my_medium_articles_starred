@@ -25,7 +25,7 @@ It’s been a while since we heard about the ESP8266 component for the first tim
 
 ### A) 1) ESP8266: a short introduction
 
-ESP8266 [[link](https://en.wikipedia.org/wiki/ESP8266)] is a **low cost and low power Wifi SoC** integrating a 32-bit Tensilica microcontroller running at 80 MHz. It is designed by ESPRESSIF chinese company and manufactured by companies such as ESPRESSIF, AI-THINKER or DOIT. Due to its embedded Wifi capability, it is widely used in IoT projects and products (in **Sonoff switches **for instance : [[link](https://sonoff.itead.cc/en/products/sonoff/sonoff-basic)]). Until now, ESP8266 is declined in many versions but we use here the widespread one called ESP-12E [[link to specs as a pdf](https://www.kloppenborg.net/images/blog/esp8266/esp8266-esp12e-specs.pdf)].
+ESP8266 [[link](https://en.wikipedia.org/wiki/ESP8266)] is a **low cost and low power Wifi SoC** integrating a 32-bit Tensilica microcontroller running at 80 MHz. It is designed by ESPRESSIF chinese company and manufactured by companies such as ESPRESSIF, AI-THINKER or DOIT. Due to its embedded Wifi capability, it is widely used in IoT projects and products (in **Sonoff or Shelly switches **for instance : [[link](https://sonoff.itead.cc/en/products/sonoff/sonoff-basic), [link](https://shelly.cloud/)]). Until now, ESP8266 is declined in many versions but we use here the widespread one called ESP-12E [[link to specs as a pdf](https://www.kloppenborg.net/images/blog/esp8266/esp8266-esp12e-specs.pdf)].
 
 *Note:* What do we mean by low cost ? We’ll use a **NodeMCU DEVKIT v1.0 **board integrating an ESP8266 and many items for development purpose (see a few lines below). It costs between $3 and $4 from classical chinese web sites. A device dedicated to production costs even less.
 
@@ -224,7 +224,7 @@ Later, we will also have to store credentials that give access to a Firebase dat
 
 **How can we protect credentials from hackers having physical access to the chip ?**
 
-* ESP8266 doesn’t support native flash encryption. A possibility is to make it work with a encrypting device like **ATECC508A** or **ATECC608A **[[link](https://www.microchip.com/wwwproducts/en/ATECC608A)] from Microchip/Atmel. **Mongoose OS** (a step further from what we talk in this post) uses this solution when dealing with ESP8266 [[link](https://mongoose-os.com/docs/mos/userguide/security.md)].
+* ESP8266 doesn’t support native flash encryption. A possibility is to make it work with a encrypting device like **ATECC508A** or **ATECC608A **[[link](https://www.microchip.com/wwwproducts/en/ATECC608A)] from Microchip/Atmel. **Mongoose OS** (a step further from what we talk in this post) uses this solution to encrypt sensitive information when dealing with ESP8266 [[link](https://mongoose-os.com/docs/mongoose-os/userguide/security.md#atecc608a-crypto-chip)].
 
 * But maybe it would be simpler to upgrade to a **ESP32 chip** (we talked about this ESP8266 successor at the beginning of this post), a device with native encryption capability.
 

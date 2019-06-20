@@ -4,6 +4,7 @@
 AWS makes it easy to add certificates to certain services. Certificates are free and easy to set up.
 
 ![](https://cdn-images-1.medium.com/max/2000/1*8KwNzfola5AWNhvOer8Nfg.png)
+> **Important! **The information in this article only applies if you are using an Elastic Load Balancer (ELB!)!
 
 ### Why do you need SSL?
 

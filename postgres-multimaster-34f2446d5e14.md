@@ -1,7 +1,7 @@
 
 # Upgrading PostgreSQL on AWS RDS with minimum or zero downtime
 
-In this article I will share all the details regarding the upgrade of our databases on Amazon Cloud as well as unveil the reason why we ended up using Bucardo for asynchronous multi-master replication and why we have eventually upgraded our production database with downtime.
+In this article, I will share all the details regarding the upgrade of our databases on Amazon Cloud as well as unveil the reason why we ended up using Bucardo for asynchronous multi-master replication and why we have eventually upgraded our production database with downtime.
 
 ![](https://cdn-images-1.medium.com/max/2000/1*GMSzGUSUjPk_Muo-jm_XAQ.jpeg)
 
@@ -31,22 +31,24 @@ Our entire infrastructure is run by Amazon Cloud. We deploy our apps via Elastic
 
 We use Amazon Redshift for storing analytics data (DWH). We [needed to upgrade](https://aws.amazon.com/blogs/big-data/join-amazon-redshift-and-amazon-rds-postgresql-with-dblink/) our stage and production PostgreSQL DB from 9.4 to 9.5 in order to make cross-platform queries between our PostgreSQL DB and Redshift with the help of dblink.
 
-Amazon [allows](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.PostgreSQL.html) to bump only one major version of PostgreSQL. So you cannot simply upgrade it from 9.4 to 9.6 but only to 9.5 first and then repeat this procedure again from 9.5 to 9.6.
+Amazon [allows](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.PostgreSQL.html) bumping only one major version of PostgreSQL. So you cannot simply upgrade it from 9.4 to 9.6 but only to 9.5 first and then repeat this procedure again from 9.5 to 9.6.
 
-Also, you cannot get access to PostgreSQL superuser, because Amazon only [allows](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.MasterAccounts.html) to create a user with RDS_SUPERUSER role with some limits.
+(UPD: [AWS already supports multi-major version upgrade](https://aws.amazon.com/about-aws/whats-new/2019/04/amazon-rds-postgresql-supports-multi-major-version-upgrades/)).
+
+Also, you cannot get access to PostgreSQL superuser, because Amazon only [allows](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.MasterAccounts.html) creating a user with RDS_SUPERUSER role with some limits.
 
 You should have a login and password for RDS_SUPERUSER for allowing replica or use of non-default parameters group for changing some parameters. In case you lost or forgot your master password you could restore it without downtime. But if you want to change your parameters group — be ready to have a downtime.
 
-Our main goal was to upgrade the database with zero downtime, and we could only achieve that by using multi-master replication of production database.
+Our main goal was to upgrade the database with zero downtime, and we could only achieve that by using multi-master replication of the production database.
 
 ## Multi-master replication
 
-Unlike the well-known master-slave replication, multi-master means that your app has the ability to use same tables on different masters with all the changes being made automatically between all masters in this replication group.
+Unlike the well-known master-slave replication, multi-master means that your app has the ability to use the same tables on different masters with all the changes being made automatically between all masters in this replication group.
 
 ![Multisource multi-master replication](https://cdn-images-1.medium.com/max/5708/1*Zy3JSaxVKmkqZAnBiEvpoA.png)*Multisource multi-master replication*
 
 Setting up a reliable multi-master replication in PostgreSQL is undoubtedly challenging. Relational DBMSs aren’t designed for this purpose at all.
-In case of a highload project, conflicts will inevitably occur and will have to be tracked and resolved somehow. In case they are launched automatically, conflict resolution systems can only overwrite data which will lead to their loss.
+In the case of a highload project, conflicts will inevitably occur and will have to be tracked and resolved somehow. In case they have launched automatically, conflict resolution systems can only overwrite data which will lead to their loss.
 
 Frankly speaking, there are a lot of problems, and it’s better to use document-oriented DBMS with such tasks. But if you want to configure such replication for PostgreSQL, it’s desirable to have a database where:
 
@@ -71,7 +73,7 @@ Thankfully, we are not alone in this world and there are some tools that can hel
 
 Since our PostgreSQL server is not recompilable, it’s not really possible to use **BDR** and **PgCluster** because they require additional plugins. **rubygrep**, on the other hand, seems to be a dead project without any successful usage proof.
 
-For the above stated reasons, **Bucardo** ended up being the most attractive option and in the next paragraph I will illustrate why.
+For the above-stated reasons, **Bucardo** ended up being the most attractive option and in the next paragraph, I will illustrate why.
 
 ## WTF is Bucardo
 
@@ -89,14 +91,14 @@ In order for Bucardo to work we should set:
 
 * table and database groups
 
-If a new table is added into one of masters in replica we should also add it to Bucardo manually, as it belongs to tables schemas.
+If a new table is added into one of the masters in replica we should also add it to Bucardo manually, as it belongs to table schemas.
 
 ## Upgrading stage DB without downtime using Bucardo
 
 So, we want to upgrade our PostgreSQL from 9.4 to 9.5 without downtime.
 Here is a short playbook for it:
 
-* take snapshot of existing RDS instance
+* take a snapshot of existing RDS instance
 
 * create new master based on this snapshot
 
@@ -104,7 +106,7 @@ Here is a short playbook for it:
 
 * create multi-master group, add both master servers to replica
 
-* switch app from old master to new master
+* switch the app from old master to new master
 
 Let’s go!
 
@@ -119,7 +121,7 @@ Get master’s endpoint and set credentials for DB:
 
     export PGENDPOINT=$(aws rds describe-db-instances --db-instance-identifier ${MASTER_NAME} --query 'DBInstances[*].Endpoint.[Address]' --output text)
 
-We need to have a superuser credentials for this DB. Remember it? We also recommend not to use default parameters group in RDS, create it before creating any new RDS instance.
+We need to have superuser credentials for this DB. Remember it? We also recommend not to use the default parameters group in RDS, create it before creating any new RDS instance.
 
 Create a snapshot from DB instance:
 
@@ -167,15 +169,15 @@ Wait for some minutes (or hours) and check new master’s version:
 
 ### Multi-master replication
 
-For creating multi-master replication we need to have EC2 instance with Bucardo. Create new instance based on Ubuntu 16.04:
+For creating multi-master replication we need to have EC2 instance with Bucardo. Create a new instance based on Ubuntu 16.04:
 
-* use same region as RDS instances
+* use the same region as RDS instances
 
-* use same VPC, subnet group and security group as RDS
+* use same VPC, subnet group, and security group as RDS
 
 * tag: Name — bucardo-stage
 
-* create new SSH keypair bucardo-stage
+* create a new SSH key pair bucardo-stage
 
 Connect to instance and install Bucardo:
 
@@ -270,7 +272,7 @@ In a new terminal tab, run the script for checking DB downtime:
     
     bash checkdb.sh
 
-This script will be checking the connection to your new master with simple query every 2 seconds.
+This script will be checking the connection to your new master with a simple query every 2 seconds.
 
 Start Bucardo:
 
@@ -291,7 +293,7 @@ Write to source master, check on destination master:
     psql -h ${PGENDPOINT_2} -U ${PGUSERNAME} ${DATABASE} \
     -c "SELECT * FROM table WHERE id=1;"
 
-Write to destination, check on source:
+Write to the destination, check on source:
 
     psql -h ${PGENDPOINT_2} -U ${PGUSERNAME} ${DATABASE} \
     -c "INSERT INTO table (id, name) VALUES (2, 'two');"
@@ -301,13 +303,13 @@ Write to destination, check on source:
 
 **UPDATE**
 
-Update on source, check on destination:
+Update on the source, check on destination:
 
     psql -h ${PGENDPOINT} -U ${PGUSERNAME} ${DATABASE} -c "UPDATE table SET name='one_one' WHERE id=1;"
 
     psql -h ${PGENDPOINT_2} -p 5432 -U ${PGUSERNAME} ${DATABASE} -c "SELECT * FROM table WHERE id=1;"
 
-Update on destination, check on source:
+Update on the destination, check on source:
 
     psql -h ${PGENDPOINT_2} -U ${PGUSERNAME} ${DATABASE} -c "UPDATE table SET name='two_two' WHERE id=2;"
 
@@ -315,13 +317,13 @@ Update on destination, check on source:
 
 **DELETE**
 
-Delete on source, check on destination:
+Delete on the source, check on destination:
 
     psql -h ${PGENDPOINT} -U ${PGUSERNAME} ${DATABASE} -c "DELETE FROM table WHERE id=1;"
 
     psql -h ${PGENDPOINT_2} -U ${PGUSERNAME} ${DATABASE} -c "SELECT * FROM table WHERE id=1;"
 
-Delete on destination, check on source:
+Delete on the destination, check on source:
 
     psql -h ${PGENDPOINT_2} -U ${PGUSERNAME} ${DATABASE} -c "DELETE FROM table WHERE id=2;"
 
@@ -344,7 +346,7 @@ We also could check lag between masters using SQL:
 
 ### App changes
 
-Now we have a multi-master replication. The application is still using the old master for read-write operations, but we need to change application to a new master with new PostgreSQL version.
+Now we have a multi-master replication. The application is still using the old master for read-write operations, but we need to change the application to a new master with a new PostgreSQL version.
 
 After that you can stop your replication:
 
@@ -355,7 +357,7 @@ After that you can stop your replication:
     bucardo remove sync mydb_sync
     bucardo stop
 
-After stopping replica you can delete old RDS instance (we recommend you to create snapshot before doing so), create read-only replica for new master and delete Bucardo EC2 instance.
+After stopping replica you can delete old RDS instance (we recommend you to create a snapshot before doing so), create read-only replica for new master and delete Bucardo EC2 instance.
 
 Don’t forget to revoke privileges for superuser and remove Bucardo’s tables:
 
@@ -379,25 +381,25 @@ When we have a lot of *INSERT*/*UPDATE*/*DELETE* operations with asynchronous st
 
 ![Broken replication](https://cdn-images-1.medium.com/max/6316/1*yH5YCnm9LKgDS5Blhd7Ong.png)*Broken replication*
 
-So, in our case we can’t use multi-master replication for production environment without changing app settings.
+So, in our case, we can’t use multi-master replication for production environment without changing app settings.
 
 ## Upgrading production DB with downtime
 
-First of all you should set a maintenance window.
+First of all, you should set a maintenance window.
 
 ![New Relic PostgreSQL metrics](https://cdn-images-1.medium.com/max/3668/1*vFHeZUPm0i6ocPhV-3p_gA.png)*New Relic PostgreSQL metrics*
 
-It’s easy when you have the DB metrics. In our example we have significantly fewer requests from 02:00 AM to 08:00 AM.
+It’s easy when you have the DB metrics. In our example, we have significantly fewer requests from 02:00 AM to 08:00 AM.
 
-Also, it was crucial to understand which services cannot work during the DB downtime. We counted the downtime for RDS on test servers and it was only 4 min while it has reached 7 min on production server.
+Also, it was a crucial understanding of which services cannot work during the DB downtime. We counted the downtime for RDS on test servers and it was only 4 min while it has reached 7 min on production server.
 
 If you are all set and ready to rock and roll, here’s a production upgrade playbook for you to keep:
 
-* make a first snapshot of production DB
+* make the first snapshot of production DB
 
-* make second snapshot of production DB (it’s significantly faster than previous)
+* make the second snapshot of production DB (it’s significantly faster than previous)
 
-* run [VACUUM](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.PostgreSQL.html#USER_UpgradeDBInstance.PostgreSQL.MajorVersion) operation before stopping instance
+* run [VACUUM](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.PostgreSQL.html#USER_UpgradeDBInstance.PostgreSQL.MajorVersion) operation before stopping the instance
 
 * modify DB version, instance type, parameters group and apply these changes immediately
 
@@ -411,7 +413,7 @@ If you are all set and ready to rock and roll, here’s a production upgrade pla
 
 *VACUUM* reclaims storage occupied by dead tuples without locking tables. *VACUUM FULL* rewrites all the table contents to a new disk file with no extra space, allowing unused space to be returned to the operating system. This form is much slower and requires an exclusive lock on each table while it is being processed. More information about it in PostgreSQL [wiki](https://www.postgresql.org/docs/devel/static/sql-vacuum.html).
 
-### Prepare you application for multi-master replication
+### Prepare your application for multi-master replication
 
 If you want to use a multi-master replication in your project you need to make sure that the application will work with it correctly. Double check whether your application works with the DB and prepare the app for the multi-master.
 
@@ -425,7 +427,7 @@ Take snapshots as often as you can afford.
 
 ### Communicate!
 
-Gather all the information regarding the maintenance even if it doesn’t seem crucial. If you do a maintenance during off business hours, make sure that there are at least a few people with different domain knowledge, who can assist.
+Gather all the information regarding the maintenance even if it doesn’t seem crucial. If you do maintenance during off business hours, make sure that there are at least a few people with different domain knowledge, who can assist.
 
 ### Have a detailed maintenance plan
 

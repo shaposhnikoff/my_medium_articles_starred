@@ -27,7 +27,7 @@ All projects and billing accounts created under your G Suite domain will be chil
 
 ![](https://cdn-images-1.medium.com/max/2000/1*jFKPGA_jal-fUSzItMmtdg.png)
 
-No enter the name of the project and create one:
+Now enter the name of the project and create one:
 
 ![](https://cdn-images-1.medium.com/max/2000/1*-XVMt-2d1bbPAUJAGsbY9g.png)
 

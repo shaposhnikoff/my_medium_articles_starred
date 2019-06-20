@@ -103,6 +103,8 @@ Cluster Autoscaler (CA) scales your cluster nodes based on pending pods. It peri
 
 * Use [PodDisruptionBudgets](https://kubernetes.io/docs/concepts/workloads/pods/disruptions/) to prevent pods from being deleted and end up part of your application fully non-functional.
 
+<iframe src="https://medium.com/media/ed14b3d4c661e490c58836817d79e587" frameborder=0></iframe>
+
 ## How Kubernetes Autoscalers Interact Together
 
 If you would like to reach nirvana autoscaling your Kubernetes cluster, you will need to use pod layer autoscalers with the CA. The way they work with each other is relatively simple as show in below illustration.
