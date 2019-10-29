@@ -1,3 +1,27 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m105[39m, end: [33m113[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m246[39m, end: [33m360[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m14[39m, end: [33m36[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m7[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m70[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m80[39m, end: [33m90[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m131[39m, end: [33m160[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m153[39m, end: [33m159[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m28[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m182[39m, end: [33m207[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m103[39m, end: [33m106[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m195[39m, end: [33m198[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m203[39m, end: [33m204[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m252[39m, end: [33m255[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m260[39m, end: [33m264[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m8[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m94[39m, end: [33m124[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m135[39m, end: [33m137[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m59[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m75[39m, end: [33m89[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m170[39m, end: [33m187[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m26[39m, end: [33m33[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m74[39m, end: [33m78[39m }
 
 # Scraping URLs with BeautifulSoup
 

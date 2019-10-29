@@ -1,3 +1,7 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m39[39m, end: [33m50[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m84[39m, end: [33m90[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m186[39m, end: [33m192[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m214[39m, end: [33m225[39m }
 
 # 100 Days of DevOps — Day 44-S3 Cross Region Replication(CRR)
 
@@ -18,6 +22,10 @@ Welcome to Day 44 of 100 Days of DevOps, Focus for today is S3 Cross Region Repl
 * *The storage class is maintained by default.*
 
 * *Lifecycle events are not replicated*
+
+* *When the bucket owner has no permissions, objects are not replicated.*
+
+* *Cross region replication is uni-directional i.e from source to destination, not the other way i.e if I delete the file at the destination it will not be deleted at Source.*
 
 *Create a source and destination bucket in two different regions under the same account*
 
@@ -78,6 +86,26 @@ Welcome to Day 44 of 100 Days of DevOps, Focus for today is S3 Cross Region Repl
 * *Terraform code to automate the above setup*
 
 <iframe src="https://medium.com/media/3c2a8e9bba708de479c94a39be910c49" frameborder=0></iframe>
+
+* *The above example shows how to perform cross region replication between the same account but what would be the case if both source and the destination account is different, in that case, you need to add a bucket policy*
+
+* *Add the following bucket policy on the destination bucket to allow the owner of the source bucket to replicate objects. Be sure to edit the policy by providing the AWS account ID of the source bucket owner and the destination bucket name*
+
+<iframe src="https://medium.com/media/0f59edd346e863bcdd585b777ec460f8" frameborder=0></iframe>
+[**Example 2: Configure CRR When Source and Destination Buckets Are Owned by Different AWS Accounts …**
+*Example of configuring Amazon S3 cross-region replication (CRR) when source and destination buckets are owned by a…*docs.aws.amazon.com](https://docs.aws.amazon.com/AmazonS3/latest/dev/crr-walkthrough-2.html)
+
+* Few more things you can change on the destination end
+
+* To replicate your data into a specific storage class in the destination bucket, select **Change the storage class for the replicated object(s)**. Then choose the storage class that you want to use for the replicated objects in the destination bucket. If you don’t select this option, the storage class for replicated objects is the same class as the original objects.
+
+* To change the object ownership of the replica objects to the destination bucket owner, select **Change object ownership to destination owner**. This option enables you to separate object ownership of the replicated data from the source. If asked, type the account ID of the destination bucket.
+
+* When you select this option, regardless of who owns the source bucket or the source object, the AWS account that owns the destination bucket is granted full permission to replica objects.
+
+![](https://cdn-images-1.medium.com/max/2000/1*5qTtNE464JZPe0IxFaR2MQ.png)
+[**How Do I Add a Cross-Region Replication (CRR) Rule to an S3 Bucket? - Amazon Simple Storage Service**
+*How to create a cross-region replication rule for an S3 bucket.*docs.aws.amazon.com](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/enable-crr.html#enable-crr-cross-account-destination)
 
 * *GitHub Link*
 [**100daysofdevops/100daysofdevops**

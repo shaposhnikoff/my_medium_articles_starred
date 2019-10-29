@@ -1,3 +1,6 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m12[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m23[39m }
 
 # 100 Days of DevOps — Day 62-Useful Linux Command for Network Troubleshooting
 

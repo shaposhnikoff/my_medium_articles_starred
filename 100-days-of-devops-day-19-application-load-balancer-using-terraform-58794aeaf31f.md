@@ -1,3 +1,14 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m276[39m, end: [33m334[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m445[39m, end: [33m456[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m460[39m, end: [33m467[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m490[39m, end: [33m501[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m613[39m, end: [33m617[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m622[39m, end: [33m641[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m944[39m, end: [33m949[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m452[39m, end: [33m466[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m271[39m, end: [33m282[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m286[39m, end: [33m294[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m298[39m, end: [33m309[39m }
 
 # 100 Days of DevOps — Day 19 - Application Load Balancer using Terraform
 

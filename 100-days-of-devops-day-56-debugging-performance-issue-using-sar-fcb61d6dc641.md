@@ -1,3 +1,9 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m26[39m, end: [33m32[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m48[39m, end: [33m55[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m377[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m528[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m328[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m251[39m }
 
 # 100 Days of DevOps — Day 56-Debugging Performance Issue using SAR
 

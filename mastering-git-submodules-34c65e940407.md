@@ -61,7 +61,7 @@ It’s precisely because submodules have caused so many poor unsuspecting Gitter
 Still, **sometimes, submodules are the right choice**. It’s especially true when your codebase is massive and you don’t want to have to fetch it all every time, a situation many tentacular code bases grapple with. You then resort to submodules so your collaborators don’t necessarily have to fetch entire blocks of the code base. Various open-source projects use submodules for precisely that reason (or because of heavy modularization not natively handled by their main language’s ecosystem).
 
 You should also strive for submodule code to remain **independent of particularities of the container** (or at least, rely on external configuration to handle such particularities), as submodule code is central code, shared across all container projects. Working around this by littering your submodule repo with container-specific branches is like opening Pandora’s box: it’s abusive coupling, going against modularization and encapsulation principles, and is sure to come back and bite your ankle at some point.
-> # Using Git with **GitHub**? Want to become a true GitHub master? We released part 1 of our best-of-class GitHub video training series! 5 hours, 69 videos, amazing contents for beginners and experts alike! [Learn more](https://medium.com/@porteneuve/our-github-video-course-series-is-out-1fe829e04a59).
+> # Check out our [amazing Git-related video courses](https://screencasts.delicious-insights.com/)! Some of them are even free!
 
 ## Submodule fundamentals
 
@@ -74,7 +74,7 @@ In practice, since Git 1.7.8, submodules use a simple *.git file* with a single 
 Be that as it may, the container and the submodule truly act as independent repos: they each have their own history (log), status, diff, etc. **Therefore be mindful of your current directory when reading your prompt or typing commands**: depending on whether you’re inside the submodule or outside of it, the context and impact of your commands differ drastically!
 > The container and the submodule truly act as independent repos.
 
-Finally, **the submodule commit referenced by the container is stored using its SHA1**, not a volatile reference (such as a branch name). Because of this, **a submodule does not automatically upgrade** which is a **blessing** in disguise when it comes to reliability, maintenance and QA (just ask Subversionians using externals how many times they have to specify *--ignore-externals* in their commands to avoid untimely upgrades…).
+Finally, **the submodule commit referenced by the container is stored using its SHA1**, not a volatile reference (such as a branch name). Because of this, **a submodule does not automatically upgrade** which is a **blessing** in disguise when it comes to reliability, maintenance and QA (just ask Subversionians using externals how many times they have to specify *— ignore-externals* in their commands to avoid untimely upgrades…).
 
 Because of this, most of the time a submodule is in **detached head** state inside its containers, as it’s updated by checking out a SHA1 (regardless of whether that commit is the branch tip at that time).
 
@@ -111,8 +111,8 @@ In short, folks, we’ll need to **know what we’re doing**.
 We’ll now explore every step of using submodules in a collaborative project, making sure we highlight **default behaviors**, **traps** and available **improvements**.
 
 In order to facilitate your following along, I’ve put together a few **example repos** with their “remotes” (actually just directories). You can uncompress the archive wherever you want, then open a shell (or Git Bash, if you’re on Windows) in the *git-subs* directory it creates:
-<center>
-[**Download the example repos](http://drive.delicious-insights.com/assets/git-subs-demo.zip)**</center>
+
+[**Download the example repos](http://drive.delicious-insights.com/assets/git-subs-demo.zip)**
 
 You’ll find three directories in there:
 
@@ -158,7 +158,7 @@ And this also staged **two** files:
     Changes to be committed:
       (use "git reset HEAD <file>..." to unstage)
 
-      new file: .gitmodules
+    new file: .gitmodules
       new file: vendor/plugins/demo
 
 Huh?! What’s this *.gitmodules* file? Let’s look at it:
@@ -194,7 +194,7 @@ And now:
     Changes to be committed:
       (use "git reset HEAD <file>..." to unstage)
 
-      new file: .gitmodules
+    new file: .gitmodules
       new file: vendor/plugins/demo
 
     Submodule changes to be committed:
@@ -266,7 +266,7 @@ In practice, when dealing with submodule-using repos, we usually **group** the t
 
 It is still a shame that Git has you do all that yourself. Just imagine, on larger FLOSS projects, when submodules have their own submodules, and so forth and so on… This would quickly become a nightmare.
 
-It so happens that **Git does provide a CLI option** for *clone* to automatically *git submodule update --init* recursively right after cloning: the rather aptly-named *--recursive* option.
+It so happens that **Git does provide a CLI option** for *clone* to automatically *git submodule update — init* recursively right after cloning: the rather aptly-named *— recursive* option.
 
 So let’s try the whole thing again:
 
@@ -362,7 +362,7 @@ Now that our submodule is updated, we can see the result in the **container repo
       (use "git add <file>..." to update what will be committed)
       (use "git checkout -- <file>..." to discard changes in working directory)
 
-      modified: vendor/plugins/demo **(new commits)**
+    modified: vendor/plugins/demo **(new commits)**
 
     Submodules changed but not updated:
 
@@ -452,7 +452,7 @@ The current prompt, with its asterisk (**)*, does hint at local modifications, b
       (use "git add <file>..." to update what will be committed)
       (use "git checkout -- <file>..." to discard changes in working directory)
 
-      modified: vendor/plugins/demo (new commits)
+    modified: vendor/plugins/demo (new commits)
 
     Submodules changed but not updated:
 
@@ -471,7 +471,7 @@ Is is therefore **mandatory** that you finalize the update:
     colleague (master * u=) $ git submodule update
     Submodule path 'vendor/plugins/demo': checked out '0e9014309fe6c663e806c9f91297a592ee04cb6c'
 
-As long as we’re trying to form generic good habits, the preferred command here would be a *git submodule update --init --recursive*, in order to auto-init any new submodule, and to recursively update these if need be.
+As long as we’re trying to form generic good habits, the preferred command here would be a *git submodule update — init — recursive*, in order to auto-init any new submodule, and to recursively update these if need be.
 
 There is another edge case: if the submodule’s remote URL changed since last used (perhaps one of the collaborators changed it in the *.gitmodules*), you have to manually update your local config to match this. In such a situation, *before* the *git submodule update*, you’d need to run a *git submodule sync*.
 
@@ -520,7 +520,7 @@ Let’s admit that you can, in good conscience, add to the submodule’s current
     Fast-forwarded master to 0e9014309fe6c663e806c9f91297a592ee04cb6c.
     demo (master u=) $
 
-Another way to go about this would be, from the container repo, to explicitly sync the submodule’s local branch over its tracked remote branch (single line on top, last *--* followed by whitespace):
+Another way to go about this would be, from the container repo, to explicitly sync the submodule’s local branch over its tracked remote branch (single line on top, last *— *followed by whitespace):
 
     colleague (master u=) $ git submodule update --remote --rebase -- vendor/plugins/demo
     …
@@ -576,7 +576,7 @@ There is **absolutely no indication that Git could not fetch** the referenced co
       (use "git add <file>..." to update what will be committed)
       (use "git checkout -- <file>..." to discard changes in working directory)
 
-      modified: vendor/plugins/demo (new commits)
+    modified: vendor/plugins/demo (new commits)
 
     Submodules changed but not updated:
 
@@ -613,7 +613,7 @@ You can plainly see how important it is to **remember pushing the submodule too*
        0e90143..12e3a52 master -> origin/master
     Submodule path 'vendor/plugins/demo': checked out '12e3a529698c519b2fab790630f71bd531c45727'
 
-I should note there is a **CLI option** that will verify whether currently referenced submodule commits need to be pushed too, and if so will push them: it’s *git push --recurse-submodules=on-demand* (quite a mouthful, admittedly). It needs to have something container-level to push to work, though: only submodules won’t cut it.
+I should note there is a **CLI option** that will verify whether currently referenced submodule commits need to be pushed too, and if so will push them: it’s *git push — recurse-submodules=on-demand* (quite a mouthful, admittedly). It needs to have something container-level to push to work, though: only submodules won’t cut it.
 
 What’s more, [EDIT Jan 14, 2016] *(there’s **no configuration setting** for this, so you’d have to standardize procedures around an alias, e.g. spush:) — *starting with Git 2.7.0, there’s now a *push.recurseSubmodules* configurations setting you can define (to *on-demand* or *check*).
 
@@ -640,11 +640,11 @@ The first situation is easily handled by *git submodule deinit*. See for yoursel
 
 This has no impact on container status whatsoever. The submodule is not locally known anymore (it’s gone from *.git/config*), so its absence from the working directory goes unnoticed. We still have the *vendor/plugins/demo* directory but it’s empty; we could strip it with no consequence.
 
-The submodule must not have any local modifications when you do this, otherwise you’d need to *--force* the call.
+The submodule must not have any local modifications when you do this, otherwise you’d need to *— force* the call.
 
 Any later subcommand of *git submodule* will **blissfully ignore this submodule** until you *init* it again, as the submodule won’t even be in local config. Such commands include *update*, *foreach* and *sync*.
 
-On the other hand, **the submodule remains defined** in *.gitmodules*: an *init* followed by an *update* (or a single *update --init*) will restore it as new:
+On the other hand, **the submodule remains defined** in *.gitmodules*: an *init* followed by an *update* (or a single *update — init*) will restore it as new:
 
     main (master u=) $ git submodule update --init
     Submodule 'vendor/plugins/demo' (../remotes/plugin) registered for path 'vendor/plugins/demo'
@@ -665,7 +665,7 @@ In addition to stripping the submodule from the working directory, the command w
     Changes to be committed:
       (use "git reset HEAD <file>..." to unstage)
 
-    **  modified: .gitmodules
+    **modified: .gitmodules
       deleted: vendor/plugins/demo**
 
     fatal: Not a git repository: 'vendor/plugins/demo/.git'
@@ -709,7 +709,7 @@ If you ever need to remove a submodule that was set up prior to Git 1.7.8, and t
 
 * Initial add: *git submodule add <url> <path>*
 
-* Initial container clone: *git clone --recursive <url> [<path>]*
+* Initial container clone: *git clone — recursive <url> [<path>]*
 
 ### Grabbing updates inside a submodule
 
@@ -727,13 +727,13 @@ If you ever need to remove a submodule that was set up prior to Git 1.7.8, and t
 
 1. *git pull*
 
-1. *git submodule sync --recursive*
+1. *git submodule sync — recursive*
 
-1. *git submodule update --init --recursive*
+1. *git submodule update — init — recursive*
 
 ### Updating a submodule inside container code
 
-1. *git submodule update --remote --rebase -- path/to/module*
+1. *git submodule update — remote — rebase — path/to/module*
 
 1. *cd path/to/module*
 
@@ -771,7 +771,7 @@ A few submodule-related tidbits are left to mention. Here goes.
 
 ### CLI options
 
-* *git diff --ignore-submodules*, just like *git status --ignore-submodules*, remove any submodule-related information. Country-productive IMHO.
+* *git diff — ignore-submodules*, just like *git status — ignore-submodules*, remove any submodule-related information. Country-productive IMHO.
 
 ### Configuration settings
 
@@ -780,6 +780,8 @@ A few submodule-related tidbits are left to mention. Here goes.
 ## Want to learn more?
 
 I wrote [a number of Git articles](https://medium.com/@porteneuve), and you might be particularly interested in the following ones:
+
+* [Check out our amazing video courses!](https://screencasts.delicious-insights.com/)
 
 * [Our GitHub video series is out!](https://medium.com/@porteneuve/our-github-video-course-series-is-out-1fe829e04a59) (absolutely kick-ass, even for experts)
 
@@ -793,6 +795,6 @@ I wrote [a number of Git articles](https://medium.com/@porteneuve), and you migh
 
 Also, if you enjoyed this post, say so: [upvote it on HN](https://news.ycombinator.com/item?id=9079447)! Thanks a bunch!
 
-Although we don’t publicize it much for now, we do offer English-language Git training across Europe, based on our battle-tested, celebrated [Total Git](http://www.git-attitude.fr/total-git/) training course. If you fancy one, just [let us know](http://www.git-attitude.fr/request-intra-or-custom)!
+Although we don’t publicize it much for now, we do offer English-language Git training across Europe, based on our battle-tested, celebrated [360° Git](https://delicious-insights.com/en/trainings/360-git/) training course. If you fancy one, just [let us know](http://www.git-attitude.fr/request-intra-or-custom)!
 
 *(We can absolutely come over to US/Canada or anywhere else in the world, but considering you’ll incur our travelling costs, despite us being super-reasonably priced, it’s likely you’ll find a more cost-effective deal using a closer provider, be it GitHub or someone else. Still, if you want **us**, follow the link above and let’s talk!)*

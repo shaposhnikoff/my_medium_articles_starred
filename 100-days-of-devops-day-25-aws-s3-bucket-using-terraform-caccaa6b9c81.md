@@ -1,3 +1,4 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
 
 # 100 Days of DevOps — Day 25-AWS S3 Bucket using Terraform
 

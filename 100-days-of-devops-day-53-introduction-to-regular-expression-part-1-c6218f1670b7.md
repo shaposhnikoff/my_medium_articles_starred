@@ -1,3 +1,5 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m72[39m, end: [33m84[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m80[39m, end: [33m91[39m }
 
 # 100 Days of DevOps — Day 53-Introduction to Regular Expression — Part 1
 

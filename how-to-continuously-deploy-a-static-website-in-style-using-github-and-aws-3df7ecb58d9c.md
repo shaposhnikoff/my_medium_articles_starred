@@ -1,3 +1,14 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m106[39m, end: [33m123[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m164[39m, end: [33m190[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m177[39m, end: [33m193[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m40[39m, end: [33m53[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m179[39m, end: [33m192[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m175[39m, end: [33m181[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m315[39m, end: [33m319[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m51[39m, end: [33m56[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m119[39m, end: [33m134[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m210[39m, end: [33m221[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m27[39m }
 
 # How to continuously deploy a static website in style using GitHub and AWS
 

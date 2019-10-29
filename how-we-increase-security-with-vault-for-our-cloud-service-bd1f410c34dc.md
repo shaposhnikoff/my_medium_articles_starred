@@ -11,7 +11,7 @@ We added a new physical server linked to our Tuleap infrastructure to retrieve, 
 
 ## Hashicorp Vault
 
-[Vault secret manager](https://www.vaultproject.io/?_ga=2.113727495.1056381731.1496406747-1856614173.1496406747) is a new tool developed by [Hashicorp](https://www.hashicorp.com/) who also made Vagrant, Terraform and Consul. This tool uses high level encryption AES 256 and control access by tokens, credentials, certificates and/or API keys.
+Vault secret manager is a new tool developed by Hashicorp who also made Vagrant, Terraform and Consul. This tool uses high level encryption AES 256 and control access by tokens, credentials, certificates and/or API keys.
 
 Vault can store infrastructure secrets, or dynamically generate token to third-party ressources with ttl (time to live) durations. Datas are then encrypted in its backend. Vault is also completely free and open source.
 
@@ -61,7 +61,7 @@ Then the sealed status will change to be False.
 
 ## Ansible Vault
 
-In a previous article, we explained our [Tuleap cluster made with this docker swarm](https://www.tuleap.org/docker-engine-docker-swarm-create-tuleap-clusters). We used ansible to automate our apps and IT infrastructure deployment, in association with vault to secure clear tokens.
+In a previous article, we explained our Tuleap cluster made with this docker swarm. We used ansible to automate our apps and IT infrastructure deployment, in association with vault to secure clear tokens.
 
 Vault is an Ansible’s feature that came in version 1.5 that allows keeping sensitive data such as credentials, passwords and keys encrypted rather than as plaintext in your playbooks or roles.
 
@@ -117,6 +117,4 @@ With this solution you no longer need to enter your password manually.
 
 * This token is also encrypted with ansible-vault and protected by a password
 
-* Ansible-vault password is encrypted with PGP keys
-
-*Originally written by *Bel Kebir Bouazza*, published on [blog.enalean.com](https://blog.enalean.com/how-we-increase-security-vault-tuleap-enterprise-cloud/).*
+* Ansible-vault password is encrypted with PGP keys*.*

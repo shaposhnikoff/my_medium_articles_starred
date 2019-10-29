@@ -1,3 +1,16 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m51[39m, end: [33m64[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m149[39m, end: [33m155[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m210[39m, end: [33m216[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m227[39m, end: [33m233[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m360[39m, end: [33m366[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m53[39m, end: [33m57[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m163[39m, end: [33m200[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m293[39m, end: [33m321[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m343[39m, end: [33m355[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m376[39m, end: [33m392[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m213[39m, end: [33m219[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m264[39m, end: [33m276[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m281[39m, end: [33m290[39m }
 
 # Fun with Multi-stage Dockerfiles
 

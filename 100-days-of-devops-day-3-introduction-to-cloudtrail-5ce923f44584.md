@@ -1,13 +1,11 @@
 
 # 100 Days of DevOps -Day 3(Introduction to CloudTrail)
 
-Welcome to Day 3of 100 Days of DevOps, Let extend the journey of DevOps Monitoring and Alerting
+Welcome to Day 3 of 100 Days of DevOps, Let extend the journey of DevOps Monitoring and Alerting with CloudTrail.
 [**100 Days of DevOps — Day 1(Introduction to CloudWatch Metrics)**
 *Welcome to Day 1 of 100 Days of DevOps, I would like to start this journey with one of the most critical concepts in…*medium.com](https://medium.com/@devopslearning/100-days-of-devops-day-1-introduction-to-cloudwatch-metrics-b04be36307a8)
 [**100 Days of DevOps — Day 2 -Introduction to Simple Notification Service(SNS)**
 *Welcome to Day 2 of 100 Days of DevOps, Let extend the journey of DevOps Monitoring and Alerting…*medium.com](https://medium.com/@devopslearning/100-days-of-devops-day-2-introduction-to-simple-notification-service-sns-97137b2f1f1e)
-
-*with CloudTrail.*
 
 ***Problem:** Logs all the API calls in an AWS account(including AWS Console, CLI and API/SDK calls)*
 
@@ -28,13 +26,13 @@ Welcome to Day 3of 100 Days of DevOps, Let extend the journey of DevOps Monitori
 
 ![](https://cdn-images-1.medium.com/max/2240/1*HMPrcWW80mljWUQKMpWgEQ.jpeg)
 
-* *It’s enabled when the account is created*
+* *It’s enabled when the account is created(for 7 days)*
 
 * *When activity occurs in your AWS account, that activity is recorded in a CloudTrail event.*
 
 * *Entries can be viewed in **Event History**(**for 90 days**)*
 
-* *Event logs can be aggregated across accounts.*
+* *Event logs can be aggregated across accounts and regions.*
 
 ***NOTE***
 
@@ -98,9 +96,7 @@ Welcome to Day 3of 100 Days of DevOps, Let extend the journey of DevOps Monitori
 
     *Results requested for 2018-12-27T00:09:00Z to 2018-12-27T00:10:00Z*
 
-    *No digests found*
-
-* *We can also configure a CloudTrail to send copies of logs to CloudWatch Logs(a central location which aggregates logs)*
+    *We can also configure a CloudTrail to send copies of logs to CloudWatch Logs(a central location which aggregates logs)*
 
 * *Go back to the trail we have just configured and click on Configure*
 

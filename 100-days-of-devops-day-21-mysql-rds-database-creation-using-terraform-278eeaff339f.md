@@ -1,3 +1,10 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m767[39m, end: [33m774[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m1284[39m, end: [33m1285[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m1290[39m, end: [33m1292[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m1354[39m, end: [33m1373[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m1489[39m, end: [33m1531[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m1918[39m, end: [33m1943[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m1956[39m, end: [33m1961[39m }
 
 # 100 Days of DevOps — Day 21- MySQL RDS Database Creation using Terraform
 

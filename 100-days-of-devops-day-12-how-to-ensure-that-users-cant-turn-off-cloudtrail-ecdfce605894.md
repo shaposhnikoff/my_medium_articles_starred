@@ -1,3 +1,4 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m33[39m }
 
 # 100 Days of DevOps — Day 12- How to ensure that users can’t turn off CloudTrail
 
@@ -133,3 +134,13 @@ Welcome to Day 12 of 100 Days of DevOps, Let continue our journey and discuss ot
 *D-day is just one day away and finally, this is a continuation of the post(I posted a month earlier)*medium.com](https://medium.com/@devopslearning/100-days-of-devops-day-0-4f2c9750542d)
 [**100 Days of DevOps**
 *Motivation*medium.com](https://medium.com/@devopslearning/100-days-of-devops-81faf13bf772)
+
+![](https://cdn-images-1.medium.com/max/2000/0*Piks8Tu6xUYpF4DU)
+
+**Follow us on [Twitter](https://twitter.com/joinfaun) **🐦** and [Facebook](https://www.facebook.com/faun.dev/) **👥** and join our [Facebook Group](https://www.facebook.com/groups/364904580892967/) **💬**.**
+
+**To join our community Slack **🗣️ **and read our weekly Faun topics **🗞️,** click here⬇**
+
+![](https://cdn-images-1.medium.com/max/3200/0*oSdFkACJxs5iy1oR)
+
+### If this post was helpful, please click the clap 👏 button below a few times to show your support for the author! ⬇

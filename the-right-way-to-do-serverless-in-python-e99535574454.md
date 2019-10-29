@@ -1,7 +1,74 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m400[39m, end: [33m425[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m47[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m65[39m, end: [33m68[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m79[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m58[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m87[39m, end: [33m97[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m135[39m, end: [33m149[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m252[39m, end: [33m266[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m301[39m, end: [33m311[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m390[39m, end: [33m401[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m544[39m, end: [33m568[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m704[39m, end: [33m718[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m727[39m, end: [33m748[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m20[39m, end: [33m34[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m64[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m75[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m266[39m, end: [33m280[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m301[39m, end: [33m315[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m333[39m, end: [33m342[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m14[39m, end: [33m28[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m48[39m, end: [33m62[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m49[39m, end: [33m57[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m5[39m, end: [33m13[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m62[39m, end: [33m76[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m87[39m, end: [33m97[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m271[39m, end: [33m285[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m20[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m22[39m, end: [33m33[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m51[39m, end: [33m59[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m199[39m, end: [33m202[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m22[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m68[39m, end: [33m89[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m166[39m, end: [33m174[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m273[39m, end: [33m281[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m47[39m, end: [33m61[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m35[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m79[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m121[39m, end: [33m137[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m193[39m, end: [33m203[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m82[39m, end: [33m88[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m103[39m, end: [33m117[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m260[39m, end: [33m266[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m57[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m339[39m, end: [33m355[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m66[39m, end: [33m71[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m73[39m, end: [33m80[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m341[39m, end: [33m360[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m532[39m, end: [33m537[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m184[39m, end: [33m198[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m337[39m, end: [33m348[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m449[39m, end: [33m463[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m20[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m603[39m, end: [33m617[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m138[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m164[39m, end: [33m168[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m173[39m, end: [33m179[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m211[39m, end: [33m215[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m249[39m, end: [33m255[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m338[39m, end: [33m345[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m372[39m, end: [33m381[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m154[39m, end: [33m164[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m325[39m, end: [33m329[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m214[39m, end: [33m239[39m }
 
 # The Right Way™ to do Serverless in Python
 
 The Right Way™ to do Serverless in Python
+> Ed note: If you want to see the latest in AWS Lambda observability and monitoring for Python, check out what’s new [here](https://read.iopipe.com/whats-new-in-iopipe-for-python-1-8-b1e45048c76b).
+> To instantly track and visualize the performance of any AWS Lambda invocation, [get started with IOpipe](https://www.iopipe.com/) for free today. No code changes required.
 
 As you’ve undoubtedly heard, serverless has grown in leaps and bounds since the release of AWS Lambda in November 2013. And while the idea of not having to manage a server, paying only for the compute you actually use and horizontal scaling out-of-the box may sound really appealing, where do you start? As a Python developer, maybe you’ve heard of the [Serverless Framework](https://serverless.com/) or [Zappa](https://www.zappa.io/); and either the prospect of working with an unfamiliar ecosystem like Node.js (in Serverless’ case) is daunting, or maybe you’re unclear on what these tools actually do and if they’re overkill when you’re just getting started. If that’s the case, you’ve come to the right place. In this blog post we’ll take a brief tour of serverless as it applies to Python as well as some handy tips and tricks to help you get your feet wet.
 

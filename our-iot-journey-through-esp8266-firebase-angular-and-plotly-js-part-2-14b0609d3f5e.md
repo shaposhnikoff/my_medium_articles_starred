@@ -1,3 +1,61 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m99[39m, end: [33m110[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m115[39m, end: [33m122[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m239[39m, end: [33m261[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m22[39m, end: [33m29[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m34[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m7[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m325[39m, end: [33m332[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m14[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m13[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m29[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m7[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m2[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m14[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m96[39m, end: [33m109[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m16[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m102[39m, end: [33m109[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m18[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m34[39m, end: [33m47[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m38[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m73[39m, end: [33m86[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m312[39m, end: [33m330[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m332[39m, end: [33m357[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m135[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m164[39m, end: [33m173[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m219[39m, end: [33m222[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m244[39m, end: [33m252[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m385[39m, end: [33m393[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m464[39m, end: [33m467[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m486[39m, end: [33m494[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m514[39m, end: [33m517[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m534[39m, end: [33m542[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m16[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m90[39m, end: [33m102[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m104[39m, end: [33m118[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m123[39m, end: [33m141[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m107[39m, end: [33m114[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m50[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m75[39m, end: [33m83[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m36[39m, end: [33m44[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m104[39m, end: [33m111[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m8[39m, end: [33m21[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m39[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m119[39m, end: [33m127[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m154[39m, end: [33m162[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m237[39m, end: [33m257[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m279[39m, end: [33m284[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m289[39m, end: [33m298[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m84[39m, end: [33m97[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m145[39m, end: [33m153[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m100[39m, end: [33m105[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m110[39m, end: [33m116[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m47[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m61[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m66[39m, end: [33m72[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m76[39m, end: [33m81[39m }
 
 # Post 2 of 3. Our IoT journey through ESP8266, Firebase and Plotly.js
 
@@ -5,7 +63,7 @@ Sunrise at Lac du Héron
 
 ## TL;DR
 
-This article stands in a serie of 3 as detailed below. These 3 articles reflect the Project Architecture we chose to achieve a simple luminosity logging/live plotting project. We hope they will **help developers or students discovering ESP8266 chip and Firebase platform**. Moreover, we believe that the solution developped here can be an interesting alternative to the comprehensive **Google, AWS and Azure IoT solutions** [[link](https://cloud.google.com/solutions/iot/), [link](https://docs.aws.amazon.com/fr_fr/iot/latest/developerguide/what-is-aws-iot.html) and [link](https://docs.microsoft.com/fr-fr/azure/iot-hub/iot-hub-device-management-overview)] when we have to **manage in a simple way only a few connected devices**. (For instance, we won’t set up a MQTT broker neither deal with a registry.)
+This article stands in a series of 3 as detailed below. These 3 articles reflect the Project Architecture we chose to achieve a simple luminosity logging/live plotting project. We hope they will **help developers or students discovering ESP8266 chip and Firebase platform**. Moreover, we believe that the solution developped here can be an interesting alternative to the comprehensive **Google, AWS and Azure IoT solutions** [[link](https://cloud.google.com/solutions/iot/), [link](https://docs.aws.amazon.com/fr_fr/iot/latest/developerguide/what-is-aws-iot.html) and [link](https://docs.microsoft.com/fr-fr/azure/iot-hub/iot-hub-device-management-overview)] when we have to **manage in a simple way only a few connected devices**. (For instance, we won’t set up a MQTT broker neither deal with a registry.)
 
 ![Project Architecture — Numbers 1, 2, 3 follow articles numerotation](https://cdn-images-1.medium.com/max/2000/1*J0IGNrEAq3n8zxCZsLO5dQ.png)*Project Architecture — Numbers 1, 2, 3 follow articles numerotation*
 

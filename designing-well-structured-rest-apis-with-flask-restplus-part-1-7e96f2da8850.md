@@ -1,7 +1,45 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m831[39m, end: [33m838[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m345[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m108[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m26[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m26[39m, end: [33m29[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m60[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m140[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m140[39m, end: [33m148[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m272[39m, end: [33m275[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m279[39m, end: [33m283[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m64[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m140[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m86[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m150[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m134[39m, end: [33m155[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m75[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m86[39m, end: [33m90[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m96[39m, end: [33m104[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m220[39m, end: [33m221[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m64[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m117[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m132[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m86[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m427[39m, end: [33m434[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m232[39m, end: [33m248[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m58[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m59[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m40[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m221[39m, end: [33m228[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m57[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m70[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m31[39m }
 
 # Designing Well-Structured REST APIs with Flask-RestPlus: Part 1
 
 Photo: Simone Viani @ Unsplash
+
+*Note: This article will soon be available solely on [my blog](https://preslav.me/2018/12/02/designing-well-structured-rest-apis-with-flask-restplus-part-1/). Before i move it off Medium, I’d like to kindly ask everyone to write further comments and feature requests there. Thank you!*
 
 This is the first part of a two-part series. In this post, I will introduce [Flask-RestPlus](https://flask-restplus.readthedocs.io/en/stable/) and demonstrate how to start organising APIs around its simple REST-based conventions. Next time, I will address the topic of request/response marshalling (serialisation) and validation.
 

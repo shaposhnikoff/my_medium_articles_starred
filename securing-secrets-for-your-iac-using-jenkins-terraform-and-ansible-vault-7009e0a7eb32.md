@@ -1,3 +1,4 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m81[39m, end: [33m127[39m }
 
 # Securing Secrets for your IaC using Jenkins, Terraform and Ansible Vault
 

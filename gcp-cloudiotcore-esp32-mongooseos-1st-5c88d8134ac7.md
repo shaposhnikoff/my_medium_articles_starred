@@ -1,7 +1,104 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m27[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m153[39m, end: [33m165[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m232[39m, end: [33m238[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m40[39m, end: [33m60[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m75[39m, end: [33m98[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m181[39m, end: [33m205[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m208[39m, end: [33m216[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m26[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m119[39m, end: [33m125[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m130[39m, end: [33m135[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m39[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m50[39m, end: [33m55[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m368[39m, end: [33m375[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m418[39m, end: [33m421[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m60[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m67[39m, end: [33m125[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m214[39m, end: [33m219[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m3[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m50[39m, end: [33m57[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m46[39m, end: [33m55[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m69[39m, end: [33m81[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m285[39m, end: [33m302[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m339[39m, end: [33m346[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m140[39m, end: [33m147[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m177[39m, end: [33m184[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m52[39m, end: [33m59[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m102[39m, end: [33m122[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m70[39m, end: [33m89[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m328[39m, end: [33m343[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m58[39m, end: [33m62[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m67[39m, end: [33m71[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m26[39m, end: [33m33[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m59[39m, end: [33m66[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m89[39m, end: [33m100[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m104[39m, end: [33m112[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m168[39m, end: [33m195[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m18[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m122[39m, end: [33m132[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m78[39m, end: [33m84[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m52[39m, end: [33m58[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m50[39m, end: [33m56[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m192[39m, end: [33m196[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m18[39m, end: [33m21[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m51[39m, end: [33m57[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m108[39m, end: [33m112[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m137[39m, end: [33m147[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m28[39m, end: [33m52[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m62[39m, end: [33m92[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m203[39m, end: [33m211[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m61[39m, end: [33m81[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m79[39m, end: [33m108[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m57[39m, end: [33m74[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m150[39m, end: [33m170[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m51[39m, end: [33m64[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m112[39m, end: [33m132[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m21[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m129[39m, end: [33m144[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m157[39m, end: [33m171[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m60[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m41[39m, end: [33m58[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m74[39m, end: [33m97[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m59[39m, end: [33m67[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m89[39m, end: [33m98[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m113[39m, end: [33m130[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m123[39m, end: [33m158[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m182[39m, end: [33m190[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m182[39m, end: [33m190[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m92[39m, end: [33m111[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m136[39m, end: [33m156[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m54[39m, end: [33m73[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m84[39m, end: [33m100[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m266[39m, end: [33m277[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m57[39m, end: [33m68[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m313[39m, end: [33m329[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m125[39m, end: [33m136[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m5[39m, end: [33m16[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m67[39m, end: [33m86[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m36[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m60[39m, end: [33m80[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m140[39m, end: [33m149[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m122[39m, end: [33m133[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m32[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m25[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m25[39m, end: [33m30[39m }
 
 # How to check the weather using GCP-Cloud IoT Core with ESP32 and Mongoose OS
 
 TL;DR
+
+(The version of this post you are reading now on Medium is the most up to date, the one on freecodecamp.org is not maintained.)
 
 This post is a step-by-step tutorial for newbies to **Google Cloud Platform-Cloud IoT Core**. The devices are **ESP32 Wifi chips** running **Mongoose OS**. To go through this tutorial, the concepts and then the setup of a simple **IoT system** **measuring weather data** are described.
 
@@ -19,9 +116,9 @@ This post is a step-by-step tutorial for newbies to **Google Cloud Platform-Clou
 
 In a previous 3-post series [[link](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-1-a07db495ac5f), [link](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-2-14b0609d3f5e), [link](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-3-644048e90ca4)], we used an **ESP8266 Wifi chip **to regularly measure luminosity and feed a database with the obtained data. The data set was ultimately lively plotted to a web app (see live plot here: [[link](https://esp8266-rocks.firebaseapp.com/)]). We massively used **Firebase products **(Realtime Database, Cloud Functions, SDK and Hosting) to meet our goals.
 
-This project worked fine, thanks to deep sleep it draws very little power and we enjoyed developing it — but:
+This project worked fine, and thanks to deep sleep it drew very little power. We really enjoyed developing it — but:
 
-* **This project was okay to handle just a few connected sensors**. Setting up a set of a hundred sensors would require a lot of (rigorous) manual intervention and monitoring/exploiting them would be challenging as well. Indeed, there is no central place where we can manage our system.
+* **This project was okay to handle just a few connected sensors**. Setting up a set of a hundred sensors would require a lot of (rigorous) manual intervention and monitoring/exploiting them would be challenging as well. Indeed, there was no central place where we can manage our system.
 
 * **Arduino IDE** and **Arduino core for ESP8266** were great for discovering ESP8266 but they are **quickly insufficient**: The IDE file management is really basic, there is only one program in the chip, and **there is no Operating System** **providing useful APIs for IoT**.
 
@@ -40,7 +137,7 @@ This is why we decided to:
 
 ### **2) A word about ESP32 Wifi chip**
 
-ESP32 Wifi chip is a successor of the famous ESP8266 we described here: [[link](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-1-a07db495ac5f)]. Compared to it, every feature is enhanced (speed up to 240 MHz, two cores, 520 kiB RAM, number of GPIOs, variety of peripherals, etc.) and there are some new ones (Bluetooth: legacy/BLE, **4 MiB-flash memory encryption capability**, **cryptographic hardware acceleration**: AES, SHA-2, RSA, ECC, RNG). There are a lot of resources on the web concerning ESP32. The following one deals with the **ESP32 DEVKIT V1 development board **that we will use and gives its pinout: [[link](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)].
+ESP32 Wifi chip is a successor of the famous ESP8266 we described here: [[link](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-1-a07db495ac5f)]. Compared to it, every feature is enhanced (speed up to 240 MHz, two cores, 520 kiB RAM, number of GPIOs, variety of peripherals, etc.) and there are some new ones: Bluetooth (legacy/BLE), **4 MiB-flash memory encryption capability** and **cryptographic hardware acceleration** (AES, SHA-2, RSA, ECC, RNG). There are a lot of resources on the web concerning ESP32. The following one deals with the **ESP32 DEVKIT V1 development board **that we will use and gives its pinout: [[link](https://randomnerdtutorials.com/esp32-pinout-reference-gpios/)].
 
 There is also this extensive resource concerning the wide variety of ESP32 chips and development kits : [http://esp32.net/](http://esp32.net/) . On their home page, searching for “ESP32 DevKit” or “GeekCreit” leads to a link to the [schematic](https://github.com/SmartArduino/ESP/blob/master/SchematicsforESP32.pdf) of our ESP32 DEVKIT V1. This development board embeds an official Espressif ESP32-WROOM-32 chip and costs about 6€ at Banggood.
 
@@ -53,9 +150,9 @@ For simplicity we’ll handle only 2 places: inside our house (“indoor”) and
 
 ### 1) Project hardware : ESP32 & DHT22
 
-At each of theses places, we’ll install a connected sensor (**“a device”**) constituted by a **DHT22** **humidity/temperature sensor **(description: [[link](https://learn.adafruit.com/dht)], datasheet: [[link](https://cdn-shop.adafruit.com/datasheets/Digital+humidity+and+temperature+sensor+AM2302.pdf)], 4€ at Banggood)** **connected to an **ESP32 DEVKIT V1** development board. DHT22 observes a kind of “1-Wire” protocol. Each ESP32 will house **Mongoose OS** for operating system. Its installation on an ESP32, a Hello, World! and a test with a DHT22 are given in the following section below.
+At each of theses places, we’ll install a connected sensor (**“a device”**) constituted by a **DHT22** **humidity/temperature sensor **(description: [[link](https://learn.adafruit.com/dht)], datasheet: [[link](https://cdn-shop.adafruit.com/datasheets/Digital+humidity+and+temperature+sensor+AM2302.pdf)], 4€ at Banggood)** **connected to an **ESP32 DEVKIT V1** development board. DHT22 observes a kind of “1-Wire” protocol. Each ESP32 will house **Mongoose OS** for operating system. Its installation on an ESP32, a “Hello, World!” and a test with a DHT22 are given in the section called “Mongoose OS installation on devices”.
 
-Just below are given DHT22 specifications. Afterwards, we think the accuracy figures are a bit optimistic but that’s not our concern today.
+Just after are given DHT22 specifications. Afterwards, we think the accuracy figures are a bit optimistic but that’s not our concern today. If you want more accurate sensors, have a look at SHT3X series or BME280.
 
 ![DHT22 sensor characteristics ([[link](https://learn.adafruit.com/dht/overview)])](https://cdn-images-1.medium.com/max/2000/1*WIxEy4NLdDr_2SVhcjmv0g.png)*DHT22 sensor characteristics ([[link](https://learn.adafruit.com/dht/overview)])*
 
@@ -87,7 +184,7 @@ Let’s explain this architecture in three sections:
 
 **From Devices to Cloud Pub/Sub**
 
-* Cloud IoT Core
+* *Cloud IoT Core*
 
 **Cloud IoT Core** is the Google Cloud Platform service to which each of our **registered devices **will send temperature/humidity data. When such a data is sent, we say that **the device publishes a telemetry event** (sometimes also called a “telemetry message”).
 
@@ -362,7 +459,7 @@ We head to [https://console.cloud.google.com/iot/](https://console.cloud.google.
 
 ![Project ID, registry ID and telemetry Pub/Sub topic name in Google Cloud Console](https://cdn-images-1.medium.com/max/2000/1*BeVR0exU6l-rXg8LqJvfeQ.jpeg)*Project ID, registry ID and telemetry Pub/Sub topic name in Google Cloud Console*
 
-Clicking on the **Registry ID** weather-devices-registry reaches another screen. Clicking on “Devices” on this new screen lists provisioned devices and gives details like the last time they were seen (but this is not a live update, we have to refresh the page):
+Clicking on the **Registry ID** weather-devices-registry reaches another screen. Clicking on “Devices” on this new screen lists provisioned devices and gives details like the last time they were seen (but this is not live updated, we have to refresh the page):
 
 ![Devices View in Google Cloud Console](https://cdn-images-1.medium.com/max/2326/1*sfa7ErglL4OqCsk2jIZqUA.png)*Devices View in Google Cloud Console*
 
@@ -379,7 +476,7 @@ Now it would be nice to see the data that devices are publishing. For this, we h
 This command ([[link](https://cloud.google.com/sdk/gcloud/reference/beta/pubsub/subscriptions/pull)]) pulls until ***2*** Pub/Sub messages from our weather-telemetry-subscription subscription. We can see data in JSON, messages ids and a list of attributes for each message. Among them the deviceId attribute is present. Unfortunately there are no timestamps, we’ll see how to get them later.
 
 ![Result of pulling telemetry messages from a subscription](https://cdn-images-1.medium.com/max/2000/1*78OYVPPUeKZWRRvlWdI4Mg.png)*Result of pulling telemetry messages from a subscription*
-> If you have reached this milestone, congrats! We’re now ready to write a Firebase Cloud Function reacting to each publication to the Pub/Sub telemetry topic!
+> If you have reached this milestone, congrats! We’re now ready to write a Firebase Cloud Function that is subscribed to each publication of the Pub/Sub telemetry topic!
 
 ## Logging, storing and visualizing weather data with Firebase
 

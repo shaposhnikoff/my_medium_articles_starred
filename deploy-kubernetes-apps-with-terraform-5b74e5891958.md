@@ -1,3 +1,14 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m15[39m, end: [33m22[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m73[39m, end: [33m89[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m59[39m, end: [33m69[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m296[39m, end: [33m310[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m39[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m34[39m, end: [33m40[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m113[39m, end: [33m120[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m93[39m, end: [33m104[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m228[39m, end: [33m240[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m206[39m, end: [33m212[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m19[39m }
 
 # Deploy Kubernetes Apps with Terraform
 

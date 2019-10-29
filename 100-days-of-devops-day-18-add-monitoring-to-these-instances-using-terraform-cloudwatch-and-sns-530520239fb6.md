@@ -1,3 +1,12 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m75[39m, end: [33m104[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m106[39m, end: [33m126[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m128[39m, end: [33m145[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m147[39m, end: [33m173[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m744[39m, end: [33m755[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m757[39m, end: [33m764[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m766[39m, end: [33m769[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m771[39m, end: [33m778[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m780[39m, end: [33m801[39m }
 
 # 100 Days of DevOps — Day 18-Add monitoring to these instances using Terraform(CloudWatch and SNS)
 

@@ -1,3 +1,27 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m67[39m, end: [33m85[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m90[39m, end: [33m113[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m58[39m, end: [33m61[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m48[39m, end: [33m65[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m70[39m, end: [33m87[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m88[39m, end: [33m106[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m156[39m, end: [33m181[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m70[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m30[39m, end: [33m47[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m31[39m, end: [33m54[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m91[39m, end: [33m97[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m99[39m, end: [33m110[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m127[39m, end: [33m135[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m6[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m150[39m, end: [33m163[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m165[39m, end: [33m180[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m186[39m, end: [33m202[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m13[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m15[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m16[39m }
 
 # Deploy to EC2 with AWS CodeDeploy from Bitbucket Pipelines
 

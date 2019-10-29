@@ -1,3 +1,19 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m52[39m, end: [33m59[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m338[39m, end: [33m352[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m357[39m, end: [33m372[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m74[39m, end: [33m112[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m279[39m, end: [33m292[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m296[39m, end: [33m300[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m66[39m, end: [33m79[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m135[39m, end: [33m148[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m170[39m, end: [33m176[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m34[39m, end: [33m47[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m35[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m20[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m66[39m, end: [33m68[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m17[39m }
 
 # 7 Tips to Start Your Terraform Project the Right Way
 

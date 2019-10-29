@@ -1,3 +1,6 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m70[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m18[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m20[39m }
 
 # Introduction to VPC — Part 3
 

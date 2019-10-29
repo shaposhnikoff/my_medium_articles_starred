@@ -1,3 +1,42 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m74[39m, end: [33m90[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m52[39m, end: [33m55[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m64[39m, end: [33m68[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m51[39m, end: [33m56[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m95[39m, end: [33m110[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m205[39m, end: [33m211[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m216[39m, end: [33m223[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m292[39m, end: [33m298[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m303[39m, end: [33m310[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m364[39m, end: [33m370[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m375[39m, end: [33m382[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m428[39m, end: [33m432[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m441[39m, end: [33m445[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m487[39m, end: [33m490[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m26[39m, end: [33m29[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m46[39m, end: [33m53[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m66[39m, end: [33m70[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m91[39m, end: [33m95[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m36[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m47[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m64[39m, end: [33m66[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m174[39m, end: [33m179[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m89[39m, end: [33m114[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m117[39m, end: [33m149[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m152[39m, end: [33m171[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m73[39m, end: [33m98[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m103[39m, end: [33m120[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m61[39m, end: [33m66[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m24[39m, end: [33m28[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m117[39m, end: [33m123[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m160[39m, end: [33m164[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m209[39m, end: [33m227[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m58[39m, end: [33m62[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m58[39m, end: [33m67[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m18[39m, end: [33m28[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m47[39m, end: [33m50[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m135[39m, end: [33m139[39m }
 
 # How to scrape websites with Python and BeautifulSoup
 

@@ -3,7 +3,7 @@
 
 Welcome to Day 8 of 100 Days of DevOps, Let shift gears from monitoring to IAM and start with Security Token Service(STS)
 
-*Problem: Rather than hardcode the value of access and secret access keys inside my instance to access any aws service, I want to use some automated ways so that keys should be rotated automatically and there is no way credentials would be compromised.*
+*Problem: Rather than hardcode the value of access and secret access keys inside my instance to access any aws service, I want to use some automated ways so that keys should be rotated automatically and there is no way credentials could be compromised.*
 
 *Solution: AWS Security Token Service(STS)*
 
@@ -15,11 +15,11 @@ Welcome to Day 8 of 100 Days of DevOps, Let shift gears from monitoring to IAM a
 
 * *No need to embed token in the code*
 
-* *Limited Lifetime(15min — 1 and 1/2 day)*
+* *Limited Lifetime(15min — 1 and 1/2 day(36 hours))*
 
 *Use Cases*
 
-* *Identity Federation(Enterprise Identity Federation[Active Directory/ADFS]/ Web Identity Federation (Google, Facebook))*
+* *Identity Federation(Enterprise Identity Federation[Active Directory/ADFS]/ Web Identity Federation (Google, Facebook,Amazon))*
 
 * *Cross-account access(For Organization with multiple AWS accounts)*
 
@@ -174,3 +174,13 @@ OR
 *D-day is just one day away and finally, this is a continuation of the post(I posted a month earlier)*medium.com](https://medium.com/@devopslearning/100-days-of-devops-day-0-4f2c9750542d)
 [**100 Days of DevOps**
 *Motivation*medium.com](https://medium.com/@devopslearning/100-days-of-devops-81faf13bf772)
+
+![](https://cdn-images-1.medium.com/max/2000/0*Piks8Tu6xUYpF4DU)
+
+**Follow us on [Twitter](https://twitter.com/joinfaun) **🐦** and [Facebook](https://www.facebook.com/faun.dev/) **👥** and join our [Facebook Group](https://www.facebook.com/groups/364904580892967/) **💬**.**
+
+**To join our community Slack **🗣️ **and read our weekly Faun topics **🗞️,** click here⬇**
+
+![](https://cdn-images-1.medium.com/max/3200/0*oSdFkACJxs5iy1oR)
+
+### If this post was helpful, please click the clap 👏 button below a few times to show your support for the author! ⬇

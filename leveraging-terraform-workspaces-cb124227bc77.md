@@ -1,3 +1,8 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m62[39m, end: [33m80[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m22[39m, end: [33m44[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m57[39m, end: [33m76[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m129[39m, end: [33m148[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m200[39m, end: [33m219[39m }
 
 # Leveraging Terraform Workspaces
 

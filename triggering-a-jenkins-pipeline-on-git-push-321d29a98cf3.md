@@ -1,3 +1,10 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m228[39m, end: [33m262[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m325[39m, end: [33m391[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m535[39m, end: [33m627[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m399[39m, end: [33m408[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m429[39m, end: [33m454[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m615[39m, end: [33m640[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m74[39m, end: [33m82[39m }
 
 # Triggering a Jenkins Pipeline on ‘git push’
 

@@ -1,3 +1,43 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m45[39m, end: [33m50[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m65[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m40[39m, end: [33m44[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m73[39m, end: [33m83[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m98[39m, end: [33m114[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m183[39m, end: [33m193[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m177[39m, end: [33m185[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m216[39m, end: [33m226[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m12[39m, end: [33m21[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m55[39m, end: [33m68[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m73[39m, end: [33m81[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m107[39m, end: [33m120[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m38[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m47[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m196[39m, end: [33m206[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m52[39m, end: [33m61[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m123[39m, end: [33m127[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m281[39m, end: [33m290[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m32[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m64[39m, end: [33m69[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m59[39m, end: [33m79[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m132[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m29[39m, end: [33m50[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m53[39m, end: [33m72[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m281[39m, end: [33m289[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m340[39m, end: [33m348[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m53[39m, end: [33m63[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m5[39m, end: [33m6[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m18[39m, end: [33m19[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m24[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m101[39m, end: [33m104[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m9[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m5[39m, end: [33m6[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m66[39m, end: [33m78[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m43[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m30[39m, end: [33m35[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m32[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m53[39m, end: [33m67[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m120[39m, end: [33m130[39m }
 
 # Espressif ESP32 Tutorial — Programming (ESP-IDF)
 

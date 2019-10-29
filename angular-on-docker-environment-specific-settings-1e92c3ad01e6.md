@@ -48,3 +48,11 @@ I use envsubst to perform the variable substitution, and then I startup nginx.
 Now when I start up the container, I can pass in my settings as environment variables.
 
 So now a single image can be deployed to any number of environments, and the settings varied accordingly.
+
+![](https://cdn-images-1.medium.com/max/2000/0*Piks8Tu6xUYpF4DU)
+
+**Join our community Slack and read our weekly Faun topics ⬇**
+
+![](https://cdn-images-1.medium.com/max/3200/0*oSdFkACJxs5iy1oR)
+
+### If this post was helpful, please click the clap 👏 button below a few times to show your support for the author! ⬇

@@ -1,3 +1,7 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m184[39m, end: [33m196[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m300[39m, end: [33m321[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m357[39m, end: [33m366[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m143[39m, end: [33m152[39m }
 
 # Protect your AWS ECS Service behind Application Load Balancer (ALB) and create them by Terraform
 

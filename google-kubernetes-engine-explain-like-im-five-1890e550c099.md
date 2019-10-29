@@ -1,3 +1,20 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m38[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m59[39m, end: [33m63[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m23[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m50[39m, end: [33m78[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m66[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m114[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m19[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m41[39m, end: [33m61[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m86[39m, end: [33m93[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m24[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m25[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m306[39m, end: [33m319[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m54[39m, end: [33m72[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m26[39m }
 
 # Google Kubernetes Engine; Explain Like I’m Five!
 
@@ -637,3 +654,13 @@ This article is part of “**Google Kubernetes Engine by Examples**”, a course
 
 This course will help you understand Google Cloud ecosystem to **build**, **run**, **deploy**, **scale**, **secure**, **log**, and **monitor** **stateless** and **stateful**, **stable** and **scalable** **microservices** applications.
 > # If you are interested in **receiving the next chapters **and accessing **the early release**, you can [**subscribe to this spam-free announcement list](https://app.getresponse.com/site2/google_kubernetes_engine_by_examples?u=hWKcs&webforms_id=BTQ6h)** and you will be notified.
+
+![](https://cdn-images-1.medium.com/max/2000/0*Piks8Tu6xUYpF4DU)
+
+**Follow us on [Twitter](https://twitter.com/joinfaun) **🐦** and [Facebook](https://www.facebook.com/faun.dev/) **👥** and join our [Facebook Group](https://www.facebook.com/groups/364904580892967/) **💬**.**
+
+**To join our community Slack **🗣️ **and read our weekly Faun topics **🗞️,** click here⬇**
+
+![](https://cdn-images-1.medium.com/max/3200/0*oSdFkACJxs5iy1oR)
+
+### If this post was helpful, please click the clap 👏 button below a few times to show your support for the author! ⬇

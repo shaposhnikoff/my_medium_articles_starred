@@ -1,11 +1,12 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m155[39m, end: [33m169[39m }
 
 # Deploying apps on multiple Kubernetes clusters with Helm
 
 Dailymotion’s Kubernetes journey: applications deployment
 
-![Shipping containers everywhere](https://cdn-images-1.medium.com/max/9442/1*5iTDZrwlyU2omKc1p2Ox0w.jpeg)*Shipping containers everywhere*
+![Smaïne Kahlouch introducing Dailymotion’s Kubernetes journey at the 2019 Google Cloud Summit](https://cdn-images-1.medium.com/max/8064/1*TnTWMSjKVvcwqafVIqSaFw.jpeg)*Smaïne Kahlouch introducing Dailymotion’s Kubernetes journey at the 2019 Google Cloud Summit*
 
-***At Dailymotion, we started using Kubernetes in our production environment 3 years ago. However, deploying applications on multiple clusters can be somewhat challenging, which is why we’ve been working to improve our tools and workflows over the past few years.***
+**At Dailymotion, we started using Kubernetes in our production environment 3 years ago. However, deploying applications on multiple clusters can be somewhat challenging, which is why we’ve been working to improve our tools and workflows over the past few years.**
 
 ## How we got here
 

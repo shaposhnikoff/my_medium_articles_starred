@@ -1,3 +1,38 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m76[39m, end: [33m83[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m57[39m, end: [33m63[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m101[39m, end: [33m107[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m126[39m, end: [33m132[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m188[39m, end: [33m194[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m76[39m, end: [33m87[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m16[39m, end: [33m23[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m22[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m39[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m55[39m, end: [33m64[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m119[39m, end: [33m126[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m160[39m, end: [33m163[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m38[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m55[39m, end: [33m61[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m88[39m, end: [33m94[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m44[39m, end: [33m48[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m76[39m, end: [33m85[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m90[39m, end: [33m100[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m5[39m, end: [33m6[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m54[39m, end: [33m60[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m76[39m, end: [33m84[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m5[39m, end: [33m7[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m47[39m, end: [33m48[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m59[39m, end: [33m60[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m89[39m, end: [33m100[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m44[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m169[39m, end: [33m183[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m127[39m, end: [33m133[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m172[39m, end: [33m178[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m186[39m, end: [33m200[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m2[39m, end: [33m12[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m35[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m110[39m, end: [33m120[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m203[39m, end: [33m214[39m }
 
 # Learning Go — from zero to hero
 
@@ -414,7 +449,7 @@ In the above example, the main is waiting on two channels, c1 and c2. With selec
 
 **Buffered channel**
 
-There are cases when we need to send multiple data to a channel. You can create a buffered channel for this. With a buffered channel, the receiver will not get the message until the buffer is full. Let’s take a look at the example:
+You can create a buffered channel in Golang. With a buffered channel, the messages sent to the channel will be blocked if the buffer is full. Let’s take a look at the example:
 
 <iframe src="https://medium.com/media/e4e974de0c4316e7c0228c4dd079e7bb" frameborder=0></iframe>
 
@@ -450,3 +485,5 @@ Congratulations, you now have a decent understanding of Go.
 Do not stop here. Keep moving forward. Think about a small application and start building.
 
 [LinkedIn](https://www.linkedin.com/in/milap-neupane-99a4b565/), [Github](http://github.com/milap-neupane), [Twitter](https://twitter.com/_milap)
+
+Also Posted on Milap Neupane Blog: [Learning Go-from zero to hero](https://milapneupane.com.np/2019/07/06/learning-golang-from-zero-to-hero/)

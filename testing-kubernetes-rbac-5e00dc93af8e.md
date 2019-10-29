@@ -1,3 +1,16 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m124[39m, end: [33m131[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m204[39m, end: [33m222[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m5[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m110[39m, end: [33m169[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m159[39m, end: [33m172[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m334[39m, end: [33m339[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m348[39m, end: [33m359[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m67[39m, end: [33m68[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m195[39m, end: [33m208[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m17[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m22[39m, end: [33m32[39m }
 
 # Testing Kubernetes RBAC
 

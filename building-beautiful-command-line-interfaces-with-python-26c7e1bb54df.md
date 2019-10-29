@@ -1,3 +1,29 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m38[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m133[39m, end: [33m140[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m145[39m, end: [33m150[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m252[39m, end: [33m259[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m279[39m, end: [33m284[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m302[39m, end: [33m307[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m326[39m, end: [33m334[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m184[39m, end: [33m187[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m140[39m, end: [33m146[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m180[39m, end: [33m198[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m114[39m, end: [33m159[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m165[39m, end: [33m176[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m210[39m, end: [33m224[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m136[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m47[39m, end: [33m70[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m125[39m, end: [33m144[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m173[39m, end: [33m192[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m29[39m, end: [33m37[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m60[39m, end: [33m73[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m97[39m, end: [33m102[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m133[39m, end: [33m134[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m301[39m, end: [33m307[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m19[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m85[39m, end: [33m90[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m15[39m, end: [33m24[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m79[39m, end: [33m85[39m }
 
 # Building Beautiful Command Line Interfaces with Python
 

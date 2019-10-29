@@ -1,3 +1,4 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m12[39m }
 
 # Learning Ansible with CentOS 7 Linux
 
@@ -13,7 +14,7 @@ On the Ansible server install EPEL by executing as root:
 
     yum install [https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm](https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm)
 
-With the new Ansible 2.8 version EPEL is no longer has the latest Ansible version. To install Ansible we need to install Python’s pip; execute as root:
+With the new Ansible 2.8 version EPEL no longer has the latest Ansible version. To install Ansible we need to install Python’s pip; execute as root:
 
     yum install python2-pip
 
@@ -21,7 +22,7 @@ Then execute:
 
     pip install ansible --upgrade
 
-This will install the new Ansible version 2.8.
+This will install the new Ansible version 2.8 or greater and will install Ansible from [https://ansible.com/](https://ansible.com/).
 
 On the Ansible CentOS 7 server create a login named lnxcfg**.** The lnxcfg login will be used for Ansible Playbook execution which will manipulate, modify, and configure Ansible client servers. On the Ansible server you could create a lnxcfg userid like this:
 
@@ -84,7 +85,7 @@ Provide your own lnxcfg login** **password for the clients and the lnxcfg .ssh/
       /usr/sbin/groupadd -g 2002 lnxcfg
       /usr/sbin/useradd -u 2002 -g 2002 -c "Ansible Automation Account" -s /bin/bash -m -d /home/lnxcfg lnxcfg
 
-    echo "lnxcfg:**<PUT IN YOUR OWN lnxcfg PASSWORD>**" | /sbin/chpasswd
+    echo "lnxcfg:**<PUT IN YOUR OWN lnxcfg PASSWORD>**" | /usr/sbin/chpasswd
 
     mkdir -p /home/lnxcfg/.ssh
 
@@ -105,7 +106,7 @@ Provide your own lnxcfg login** **password for the clients and the lnxcfg .ssh/
     then
     echo "User lnxcfg sudoers does not exist.  Will Add..."
     cat << 'EOF' > /etc/sudoers.d/lnxcfg
-    User_Alias ANSIBLE_AUTOMATION = %lnxcfg
+    User_Alias ANSIBLE_AUTOMATION = lnxcfg
     ANSIBLE_AUTOMATION ALL=(ALL)      NOPASSWD: ALL
     EOF
     chmod 400 /etc/sudoers.d/lnxcfg
@@ -125,7 +126,7 @@ Provide your own lnxcfg login** **password for the clients and the lnxcfg .ssh/
 
     # end of script
 
-Notice the script disables ssh logins for the lnxcfg user on an Ansible client except through ssh-keys. This is a good idea, for security reasons, as the lnxcfg user has sudo no password privileges, which is necessary to successfully execute Ansible automation without human interaction against a client.
+Notice the script disables ssh logins for the lnxcfg user on an Ansible client except through ssh-keys. This is a good idea, for security reasons, as the lnxcfg user has sudo no password privileges, which is useful to successfully execute Ansible automation without human interaction against a client. However, if you want or need to use sudo you can use the ansible-playbook argument **ansible_sudo_pass** when executing Ansible; make sure you remove the NOPASSWD in the sudo snippet above. Passing arguments such as **ansible_sudo_pass **when executing Ansible Playbooks is discussed further down in this document. The Ansible Playbooks described in this document will assume you are using the NOPASSWD in the sudo snippet.
 
 To execute the script on an **Ansible client **from the **Ansible server** you could execute:
 
@@ -656,6 +657,10 @@ You can also use variables to create conditional statements. The following Playb
 The output of the /etc/system-release is:
 
     CentOS version: 7.5.1804
+
+You can also pass variables as arguments when executing Ansible. To do this you can use the -e or — extra-vars argument when executing an ansible playbook. An example could be **passing the sudo password** for the **lnxcfg **user** **as in:
+
+    ansible-playbook -e "ansible_sudo_pass=lnxcfgPassword" playbooks/performYumUpdateRebootServer.yml
 
 Next is a Playbook to configure Chronyd. The Playbook uses the NIST time source for Chronyd as defined in the following /etc/chrony.conf file. The NIST time sources are from the following source: [NIST Internet Time Servers](https://tf.nist.gov/tf-cgi/servers.cgi) and are used instead of the CentOS default time server.
 

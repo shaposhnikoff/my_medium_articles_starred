@@ -1,3 +1,10 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m56[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m67[39m, end: [33m72[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m77[39m, end: [33m87[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m125[39m, end: [33m131[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m166[39m, end: [33m172[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m160[39m, end: [33m183[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m279[39m, end: [33m297[39m }
 
 # Using cloud-init to extend the Root Partition on a new Linux Instance on OCI
 

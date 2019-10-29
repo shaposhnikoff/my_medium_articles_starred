@@ -1,3 +1,15 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m74[39m, end: [33m95[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m51[39m, end: [33m69[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m40[39m, end: [33m56[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m119[39m, end: [33m140[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m38[39m, end: [33m57[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m60[39m, end: [33m79[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m88[39m, end: [33m109[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m32[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m146[39m, end: [33m167[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m40[39m, end: [33m59[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m14[39m, end: [33m20[39m }
 
 # Finally learn how to use command line apps… by making one!
 

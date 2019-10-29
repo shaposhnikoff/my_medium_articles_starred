@@ -1,3 +1,36 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m24[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m78[39m, end: [33m100[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m200[39m, end: [33m207[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m60[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m65[39m, end: [33m78[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m313[39m, end: [33m341[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m12[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m170[39m, end: [33m204[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m66[39m, end: [33m74[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m78[39m, end: [33m88[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m120[39m, end: [33m132[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m16[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m59[39m, end: [33m72[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m106[39m, end: [33m116[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m60[39m, end: [33m64[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m130[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m15[39m, end: [33m20[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m29[39m, end: [33m37[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m83[39m, end: [33m87[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m130[39m, end: [33m141[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m51[39m, end: [33m56[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m144[39m, end: [33m149[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m5[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m4[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m48[39m, end: [33m54[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m157[39m, end: [33m164[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m40[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m20[39m, end: [33m25[39m }
 
 # How to build a smaller Docker image
 

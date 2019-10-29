@@ -1,3 +1,28 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m15[39m, end: [33m21[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m299[39m, end: [33m313[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m52[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m6[39m, end: [33m17[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m33[39m, end: [33m36[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m202[39m, end: [33m206[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m46[39m, end: [33m55[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m224[39m, end: [33m230[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m235[39m, end: [33m244[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m125[39m, end: [33m137[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m169[39m, end: [33m189[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m26[39m, end: [33m34[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m160[39m, end: [33m165[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m167[39m, end: [33m193[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m26[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m33[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m33[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m62[39m, end: [33m72[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m90[39m, end: [33m107[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m77[39m, end: [33m83[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m102[39m, end: [33m111[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m51[39m, end: [33m54[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m169[39m, end: [33m183[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m307[39m, end: [33m316[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m96[39m, end: [33m103[39m }
 
 # Sending logs from AWS ECS using Logspout
 

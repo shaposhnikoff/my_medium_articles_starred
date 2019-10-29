@@ -1,3 +1,7 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m105[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m20[39m, end: [33m35[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m20[39m, end: [33m35[39m }
 
 # 100 Days of DevOps — Day 28- Introduction to VPC Flow Logs
 

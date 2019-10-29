@@ -1,3 +1,34 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m71[39m, end: [33m78[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m109[39m, end: [33m113[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m121[39m, end: [33m128[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m31[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m101[39m, end: [33m115[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m166[39m, end: [33m173[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m63[39m, end: [33m80[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m226[39m, end: [33m233[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m168[39m, end: [33m175[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m158[39m, end: [33m165[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m160[39m, end: [33m166[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m90[39m, end: [33m108[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m143[39m, end: [33m157[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m71[39m, end: [33m98[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m114[39m, end: [33m139[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m174[39m, end: [33m184[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m102[39m, end: [33m116[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m10[39m, end: [33m26[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m96[39m, end: [33m103[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m145[39m, end: [33m184[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m47[39m, end: [33m54[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m13[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m17[39m, end: [33m27[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m109[39m, end: [33m114[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m183[39m, end: [33m188[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m317[39m, end: [33m322[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m386[39m, end: [33m392[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m413[39m, end: [33m420[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m464[39m, end: [33m476[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m511[39m, end: [33m523[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m557[39m, end: [33m568[39m }
 
 # Let’s Explore Kubernetes
 

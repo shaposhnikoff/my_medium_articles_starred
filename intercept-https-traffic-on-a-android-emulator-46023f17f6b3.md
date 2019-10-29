@@ -1,3 +1,22 @@
+Unknown markup type 10 { type: [33m10[39m,
+  start: [33m127[39m,
+  end: [33m149[39m,
+  href: [32m''[39m,
+  title: [32m''[39m,
+  rel: [32m''[39m,
+  name: [32m''[39m,
+  anchorType: [33m0[39m,
+  creatorIds: [],
+  userId: [32m''[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m124[39m, end: [33m131[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m176[39m, end: [33m180[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m183[39m, end: [33m190[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m271[39m, end: [33m280[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m420[39m, end: [33m428[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m429[39m, end: [33m434[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m530[39m, end: [33m538[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m589[39m, end: [33m593[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m76[39m, end: [33m83[39m }
 
 # Intercept HTTPS Traffic On A Android Emulator
 

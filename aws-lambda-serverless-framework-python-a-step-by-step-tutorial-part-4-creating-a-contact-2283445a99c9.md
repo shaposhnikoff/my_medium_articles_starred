@@ -1,3 +1,6 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m6[39m, end: [33m16[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m17[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m6[39m, end: [33m15[39m }
 
 # AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 4 “Creating a Contact…
 
@@ -417,3 +420,11 @@ Don’t forget to subscribe to [Shipped: An Independent Newsletter Focused On Se
 You may be interested in learning more about Lambda and other AWS service, so please take a look at [Practical AWS, a training concerned with the actual use of AWS rather than with theory & ideas](https://www.practicalaws.com/).
 
 ![](https://cdn-images-1.medium.com/max/2600/0*Kju8Dog2kjhAjAqG.png)
+
+![](https://cdn-images-1.medium.com/max/2000/0*EfwXLEcMVhmxvCYg)
+
+**Join our community Slack and read our weekly Faun topics ⬇**
+[**Join a Community of Aspiring Developers.Get must-read articles, learn new technologies for free…**
+*Join thousands of developers and IT experts, get must-read articles, chat with like-minded people, get job offers and…*www.faun.dev](https://www.faun.dev/join/?utm_source=medium.com%2Ffaun&utm_medium=medium&utm_campaign=faunmedium)
+
+### If this post was helpful, please click the clap 👏 button below a few times to show your support for the author! ⬇

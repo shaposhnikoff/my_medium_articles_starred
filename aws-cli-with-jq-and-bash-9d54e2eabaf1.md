@@ -1,3 +1,14 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m194[39m, end: [33m203[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m207[39m, end: [33m215[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m16[39m, end: [33m20[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m16[39m, end: [33m20[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m33[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m48[39m, end: [33m55[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m7[39m, end: [33m145[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m121[39m, end: [33m127[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m36[39m, end: [33m44[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m128[39m, end: [33m140[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m33[39m, end: [33m37[39m }
 
 # AWS CLI with jq and Bash
 
@@ -215,6 +226,10 @@ And, then maybe the first log stream for each:
 Or, loop through the groups and streams and get the last 10 messages since midnight:
 
     for group in $logs; do for stream in $(aws logs describe-log-streams --log-group-name $group --order-by LastEventTime --descending --max-items 1 | jq -r '[ .logStreams[0].logStreamName + " "] | add'); do echo ">>>"; echo GROUP: $group; echo STREAM: $stream; aws logs get-log-events --limit 10 --log-group-name $group --log-stream-name $stream --start-time $(date -d 'today 00:00:00' '+%s%N' | cut -b1-13) | jq -r ".events[].message"; done; done
+
+Finally, since log groups default retention period is “Never Expire” they can start to build up after a few years. I don’t use CloudWatch logs for long-term storage (and neither should you) but since AWS doesn’t provide a way to set the default retention to something I’d prefer, I run the following command from time to time to make sure they’re all set to 30 days:
+
+    for group in $(aws logs describe-log-groups --query "logGroups[].[logGroupName]" --output text --no-paginate); do aws logs put-retention-policy --log-group-name $group --retention-in-days 30; done;
 
 ### What logs does my Lambda Function generate when I run it?
 

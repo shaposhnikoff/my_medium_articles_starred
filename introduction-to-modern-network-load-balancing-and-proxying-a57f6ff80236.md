@@ -1,3 +1,8 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m89[39m, end: [33m101[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m177[39m, end: [33m187[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m227[39m, end: [33m240[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m301[39m, end: [33m311[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m393[39m, end: [33m406[39m }
 
 # Introduction to modern network load balancing and proxying
 

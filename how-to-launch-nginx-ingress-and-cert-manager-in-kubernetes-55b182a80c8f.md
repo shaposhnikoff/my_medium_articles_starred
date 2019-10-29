@@ -1,3 +1,31 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m101[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m55[39m, end: [33m79[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m110[39m, end: [33m127[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m22[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m83[39m, end: [33m104[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m249[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m21[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m34[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m117[39m, end: [33m129[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m193[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m84[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m122[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m58[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m8[39m, end: [33m50[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m80[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m499[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m34[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m200[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m125[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m58[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m57[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m278[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m22[39m, end: [33m58[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m53[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m51[39m }
 
 # How to launch nginx-ingress and cert-manager in Kubernetes
 

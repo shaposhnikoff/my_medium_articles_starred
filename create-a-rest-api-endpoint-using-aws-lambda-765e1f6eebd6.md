@@ -1,9 +1,12 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m16[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m78[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m79[39m }
 
 # Create a REST API Endpoint Using AWS Lambda
 
 Use Python and MySQL to Build a simple Endpoint
 
-![](https://cdn-images-1.medium.com/max/3000/1*ecu39w-18wToZxKZDnH6jA.jpeg)
+![](https://cdn-images-1.medium.com/max/3000/1*gdqO5zdK-VBQdn8dDHxZLw@2x.jpeg)
 
 Now that you know your way around [**API Gateway](https://hackersandslackers.com/create-a-rest-api-endpoint-using-aws-lambda/),** you have the power to create vast collections of endpoints. If only we could get those endpoints to actually receive and return some stuff.
 

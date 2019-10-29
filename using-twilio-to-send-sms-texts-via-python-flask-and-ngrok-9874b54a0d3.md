@@ -1,3 +1,21 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m195[39m, end: [33m201[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m167[39m, end: [33m178[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m305[39m, end: [33m316[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m318[39m, end: [33m328[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m330[39m, end: [33m334[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m336[39m, end: [33m340[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m346[39m, end: [33m348[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m194[39m, end: [33m210[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m188[39m, end: [33m194[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m36[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m68[39m, end: [33m103[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m116[39m, end: [33m134[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m184[39m, end: [33m193[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m196[39m, end: [33m205[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m95[39m, end: [33m108[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m133[39m, end: [33m139[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m60[39m, end: [33m76[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m26[39m, end: [33m39[39m }
 
 # Using Twilio to Send SMS Texts via Python, Flask, and Ngrok
 

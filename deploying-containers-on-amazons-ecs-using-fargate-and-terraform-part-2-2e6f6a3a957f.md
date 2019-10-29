@@ -1,7 +1,33 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m341[39m, end: [33m359[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m48[39m, end: [33m58[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m47[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m126[39m, end: [33m129[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m6[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m6[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m15[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m7[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m12[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m178[39m, end: [33m200[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m66[39m, end: [33m83[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m24[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m123[39m, end: [33m146[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m138[39m, end: [33m141[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m171[39m, end: [33m181[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m212[39m, end: [33m216[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m256[39m, end: [33m271[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m12[39m, end: [33m37[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m72[39m, end: [33m77[39m }
 
 # Deploying Containers on Amazon’s ECS using Fargate and Terraform: Part 2
 
 
+
+**UPDATED (7/23/19): **Hey everyone, I just updated the source code and gists throughout this tutorial to use Terraform v0.12.5. Also there were many requests to create the ECS task execution role and ECS auto scaling role with Terraform (prior to now it was done manually in the AWS GUI in [Part 1](https://medium.com/@bradford_hamilton/deploying-containers-on-amazons-ecs-using-fargate-and-terraform-part-1-a5ab1f79cb21)). I’ve added that update to the [source code](https://github.com/bradford-hamilton/terraform-ecs-fargate) in terraform/roles.tf and those new Terraform resources are now referenced in throughout the gists below.
 
 In this part of the tutorial we will focus on writing out our entire infrastructure from [Part 1](https://medium.com/@bradford_hamilton/deploying-containers-on-amazons-ecs-using-fargate-and-terraform-part-1-a5ab1f79cb21) using Terraform. Terraform enables you to predictably create, change, and improve infrastructure using code. By the end of this section we will be able to run one command to deploy our entire application giving us:
 
@@ -67,7 +93,7 @@ You’ll notice the string interpolated value for “region”. As you may be ab
 
 <iframe src="https://medium.com/media/11f974ec646e8d5b4907d154aa89794e" frameborder=0></iframe>
 
-Terraform will know to look here for these values anytime it sees ”${var.VARIABLE_NAME}”. For the sake of clarity the file above is all the variables for the application. Hopefully with their descriptions they all make sense. There are two role ARNs that I left placeholders for. If you followed [Part 1](https://medium.com/@bradford_hamilton/deploying-containers-on-amazons-ecs-using-fargate-and-terraform-part-1-a5ab1f79cb21) of this tutorial you will have these roles and can navigate to them in your AWS console to get their ARNs.
+Terraform will know to look here for these values anytime it sees var.VARIABLE_NAME. For the sake of clarity the file above is all the variables for the application. Hopefully with their descriptions they all make sense.
 
 We’ll again be using my crystal_blockchain docker image for our application. If you see “cb” throughout the terraform configs - thats what it refers to.
 

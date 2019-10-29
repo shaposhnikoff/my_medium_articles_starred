@@ -1,3 +1,8 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m153[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m65[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m521[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m106[39m }
 
 # On Linux, backups and encrypted filesystems
 

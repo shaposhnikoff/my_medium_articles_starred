@@ -1,3 +1,5 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m17[39m, end: [33m23[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m46[39m, end: [33m71[39m }
 
 # Deploying the ELK stack on Amazon ECS, Part 3: ElasticSearch
 

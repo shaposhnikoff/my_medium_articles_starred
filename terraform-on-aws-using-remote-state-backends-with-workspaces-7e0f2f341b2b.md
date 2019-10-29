@@ -1,3 +1,23 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m116[39m, end: [33m140[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m60[39m, end: [33m95[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m35[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m5[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m55[39m, end: [33m69[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m102[39m, end: [33m111[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m120[39m, end: [33m126[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m293[39m, end: [33m324[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m10[39m, end: [33m24[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m58[39m, end: [33m77[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m63[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m18[39m, end: [33m32[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m191[39m, end: [33m206[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m308[39m, end: [33m312[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m48[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m53[39m, end: [33m60[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m33[39m, end: [33m37[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m74[39m, end: [33m88[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m104[39m, end: [33m118[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m123[39m, end: [33m135[39m }
 
 # Terraform for teams, using a remote state backend with workspaces
 

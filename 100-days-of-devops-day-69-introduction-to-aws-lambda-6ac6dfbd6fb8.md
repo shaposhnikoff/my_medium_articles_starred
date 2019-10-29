@@ -1,7 +1,9 @@
 
 # 100 Days of DevOps — Day 69-Introduction to AWS Lambda
 
-Welcome to Day 69 of 100 Days of DevOps, Focus for today is Introduction to AWS Lambda
+For new updated post please refer to the below link http://100daysofdevops.com/100-days-of-devops-day-98-aws-lambda-with-terraform-code/
+
+*Welcome to Day 69 of 100 Days of DevOps, Focus for today is Introduction to AWS Lambda*
 > *What is AWS Lambda?*
 
 *With AWS Lambda, you can run code without provisioning or managing servers. You pay only for the compute time that you consume — there’s no charge when your code isn’t running. You can run code for virtually any type of application or backend service — all with zero administration. Just upload your code and Lambda takes care of everything required to run and scale your code with high availability. You can set up your code to automatically trigger from other AWS services or call it directly from any web or mobile app.*

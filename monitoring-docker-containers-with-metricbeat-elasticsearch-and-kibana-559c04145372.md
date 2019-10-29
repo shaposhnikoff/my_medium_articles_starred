@@ -1,3 +1,40 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m35[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m123[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m70[39m, end: [33m77[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m54[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m209[39m, end: [33m223[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m339[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m1256[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m162[39m, end: [33m173[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m207[39m, end: [33m212[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m22[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m139[39m, end: [33m155[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m24[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m12[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m20[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m144[39m, end: [33m153[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m155[39m, end: [33m158[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m160[39m, end: [33m166[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m168[39m, end: [33m179[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m181[39m, end: [33m185[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m187[39m, end: [33m195[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m199[39m, end: [33m206[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m181[39m, end: [33m190[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m258[39m, end: [33m267[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m279[39m, end: [33m293[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m297[39m, end: [33m312[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m350[39m, end: [33m356[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m371[39m, end: [33m380[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m34[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m95[39m, end: [33m105[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m219[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m255[39m, end: [33m284[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m61[39m, end: [33m67[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m29[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m220[39m }
 
 # Monitoring Docker Containers With Metricbeat, Elasticsearch, and Kibana
 

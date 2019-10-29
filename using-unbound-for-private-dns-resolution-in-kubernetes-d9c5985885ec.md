@@ -1,3 +1,14 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m101[39m, end: [33m114[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m36[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m204[39m, end: [33m216[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m379[39m, end: [33m397[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m613[39m, end: [33m620[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m656[39m, end: [33m688[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m73[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m286[39m, end: [33m319[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m270[39m, end: [33m287[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m9[39m, end: [33m20[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m151[39m, end: [33m156[39m }
 
 # Using unbound for private DNS resolution in kubernetes
 

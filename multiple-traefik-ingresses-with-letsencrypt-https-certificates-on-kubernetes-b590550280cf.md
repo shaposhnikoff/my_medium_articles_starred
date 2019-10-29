@@ -1,3 +1,14 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m142[39m, end: [33m160[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m68[39m, end: [33m93[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m160[39m, end: [33m181[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m54[39m, end: [33m96[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m91[39m, end: [33m104[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m125[39m, end: [33m137[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m187[39m, end: [33m208[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m41[39m, end: [33m47[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m83[39m, end: [33m104[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m59[39m, end: [33m89[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m114[39m, end: [33m118[39m }
 
 # Deploying multiple Traefik Ingresses with LetsEncrypt HTTPS certificates on Kubernetes
 

@@ -1,3 +1,11 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m171[39m, end: [33m180[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m36[39m, end: [33m40[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m51[39m, end: [33m56[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m97[39m, end: [33m101[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m55[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m78[39m, end: [33m89[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m108[39m, end: [33m112[39m }
 
 # 100 Days of DevOps — Day 30-Introduction to AWS CLI
 

@@ -1,3 +1,11 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m20[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m82[39m, end: [33m94[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m138[39m, end: [33m147[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m52[39m, end: [33m74[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m387[39m, end: [33m448[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m474[39m, end: [33m528[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m68[39m, end: [33m80[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m112[39m, end: [33m129[39m }
 
 # Automated LetsEncrypt Certificates on AWS
 

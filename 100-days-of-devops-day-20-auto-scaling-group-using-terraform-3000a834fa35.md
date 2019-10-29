@@ -1,3 +1,14 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m44[39m, end: [33m65[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m84[39m, end: [33m88[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m211[39m, end: [33m232[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m236[39m, end: [33m240[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m19[39m, end: [33m40[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m80[39m, end: [33m84[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m127[39m, end: [33m131[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m300[39m, end: [33m321[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m325[39m, end: [33m329[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m10[39m, end: [33m30[39m }
 
 # 100 Days of DevOps — Day 20— Auto-Scaling Group using Terraform
 

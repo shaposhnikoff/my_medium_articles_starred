@@ -1,3 +1,13 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m255[39m, end: [33m342[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m309[39m, end: [33m322[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m217[39m, end: [33m234[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m58[39m, end: [33m62[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m111[39m, end: [33m115[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m120[39m, end: [33m128[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m165[39m, end: [33m177[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m356[39m, end: [33m360[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m158[39m, end: [33m166[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m241[39m, end: [33m249[39m }
 
 # Marrying ESP8266 & AWS IoT
 

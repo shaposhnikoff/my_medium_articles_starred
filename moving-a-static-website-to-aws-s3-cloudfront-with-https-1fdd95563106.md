@@ -1,3 +1,16 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m107[39m, end: [33m117[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m162[39m, end: [33m172[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m258[39m, end: [33m266[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m90[39m, end: [33m110[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m234[39m, end: [33m243[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m79[39m, end: [33m89[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m342[39m, end: [33m347[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m429[39m, end: [33m441[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m164[39m, end: [33m171[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m101[39m, end: [33m111[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m226[39m, end: [33m235[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m240[39m, end: [33m250[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m57[39m, end: [33m85[39m }
 
 # Moving a static website to AWS S3 + CloudFront with HTTPS
 

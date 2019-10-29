@@ -1,3 +1,5 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m151[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m142[39m, end: [33m217[39m }
 
 # How to connect ESP8266 to secure MQTT broker: know-it-all and get-it-done approach
 

@@ -1,3 +1,24 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m15[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m15[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m15[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m14[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m102[39m, end: [33m113[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m26[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m12[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m68[39m, end: [33m90[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m289[39m, end: [33m322[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m194[39m, end: [33m204[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m130[39m, end: [33m152[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m202[39m, end: [33m245[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m20[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m83[39m, end: [33m100[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
 
 # Mongo + Docker Swarm (Fully Automated Cluster)
 

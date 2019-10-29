@@ -1,3 +1,14 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m18[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m20[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m6[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m7[39m, end: [33m13[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m14[39m, end: [33m15[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m16[39m, end: [33m24[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m25[39m, end: [33m26[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m35[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m39[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m47[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m52[39m, end: [33m53[39m }
 
 # 100 Days of DevOps — Day 16- Building VPC using Terraform
 
@@ -115,7 +126,13 @@ Welcome to Day 16 of 100 Days of DevOps, Let continue our journey, yesterday I d
 [**AWS: aws_route_table_association - Terraform by HashiCorp**
 *Provides a resource to create an association between a subnet and routing table.*www.terraform.io](https://www.terraform.io/docs/providers/aws/r/route_table_association.html)
 
+* ***Network Access Control List(NACL) ***A *network access control list (ACL)* is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
+
 * ***Security Group** acts as a virtual firewall and is used to control the traffic for its associated instances.*
+
+* Difference between NACL and Security Group
+
+![](https://cdn-images-1.medium.com/max/2432/1*JuCWpsP4XRgACDHu3XU5Fw.png)
 
 <iframe src="https://medium.com/media/6a8da48c14c1cf295639cd72fbef879a" frameborder=0></iframe>
 [**AWS: aws_security_group - Terraform by HashiCorp**

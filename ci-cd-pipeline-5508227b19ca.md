@@ -236,5 +236,11 @@ Do look out for other articles in this series which will explain the various oth
 > 22. [Top Docker Commands](https://medium.com/edureka/docker-commands-29f7551498a8)
 > 23. [Git vs GitHub](https://medium.com/edureka/git-vs-github-67c511d09d3e)
 > 24. [DevOps Interview Questions](https://medium.com/edureka/devops-interview-questions-e91a4e6ecbf3)
+> 25. [Who Is A DevOps Engineer?](https://medium.com/edureka/devops-engineer-role-481567822e06)
+> 26. [DevOps Life cycle](https://medium.com/edureka/devops-lifecycle-8412a213a654)
+> 27. [Git Reflog](https://medium.com/edureka/git-reflog-dc05158c1217)
+> 28. [Ansible Provisioning](https://medium.com/edureka/ansible-provisioning-setting-up-lamp-stack-d8549b38dc59)
+> 29. [Top DevOps Skills That Organizations Are Looking For](https://medium.com/edureka/devops-skills-f6a7614ac1c7)
+> 30. [How to analyze Commit History with Git Log?](https://medium.com/edureka/git-log-17080a9a6217)
 
 *Originally published at [www.edureka.co](https://www.edureka.co/blog/ci-cd-pipeline/) on August 9, 2018.*

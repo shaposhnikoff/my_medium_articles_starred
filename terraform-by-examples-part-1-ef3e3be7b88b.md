@@ -1,3 +1,6 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m36[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m79[39m, end: [33m80[39m }
 
 # Terraform by examples. Part 1
 

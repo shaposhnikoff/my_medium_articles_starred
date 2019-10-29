@@ -1,3 +1,18 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m170[39m, end: [33m183[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m145[39m, end: [33m157[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m177[39m, end: [33m184[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m443[39m, end: [33m468[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m154[39m, end: [33m165[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m32[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m55[39m, end: [33m63[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m279[39m, end: [33m291[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m361[39m, end: [33m373[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m387[39m, end: [33m398[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m441[39m, end: [33m453[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m67[39m, end: [33m80[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m130[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m302[39m, end: [33m317[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m349[39m, end: [33m363[39m }
 
 # Understanding kubernetes networking: services
 

@@ -1,3 +1,4 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m109[39m, end: [33m136[39m }
 
 # Configuring Certificate-Based Mutual Authentication with Kubernetes Ingress-Nginx
 

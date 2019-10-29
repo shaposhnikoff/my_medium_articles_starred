@@ -1,3 +1,22 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m28[39m, end: [33m36[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m12[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m30[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m55[39m, end: [33m63[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m28[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m34[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m88[39m, end: [33m92[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m97[39m, end: [33m107[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m264[39m, end: [33m272[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m63[39m, end: [33m81[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m97[39m, end: [33m110[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m12[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m32[39m, end: [33m47[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m72[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m26[39m, end: [33m34[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m132[39m, end: [33m135[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m19[39m, end: [33m27[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m70[39m, end: [33m78[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m55[39m, end: [33m63[39m }
 
 # What’s in a (Python’s) __name__?
 

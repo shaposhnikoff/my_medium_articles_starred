@@ -122,3 +122,11 @@ What is IAM(Identity and Access Management)
      user = “${element(aws_iam_user.example.*.name,count.index )}”
      policy_arn = “${aws_iam_policy.example.arn}”
     }*
+
+![](https://cdn-images-1.medium.com/max/2000/0*Piks8Tu6xUYpF4DU)
+
+**Join our community Slack and read our weekly Faun topics ⬇**
+
+![](https://cdn-images-1.medium.com/max/3200/0*oSdFkACJxs5iy1oR)
+
+### If this post was helpful, please click the clap 👏 button below a few times to show your support for the author! ⬇

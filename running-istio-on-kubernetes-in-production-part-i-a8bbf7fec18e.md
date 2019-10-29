@@ -1,3 +1,7 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m469[39m, end: [33m471[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m475[39m, end: [33m477[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m480[39m, end: [33m481[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m602[39m, end: [33m604[39m }
 
 # Running Istio on Kubernetes in production. Part I.
 

@@ -1,3 +1,15 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m71[39m, end: [33m81[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m85[39m, end: [33m92[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m123[39m, end: [33m135[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m6[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m67[39m, end: [33m88[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m7[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m6[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m5[39m, end: [33m8[39m }
 
 # Easy deploy your Docker applications to AWS using ECS and Fargate
 

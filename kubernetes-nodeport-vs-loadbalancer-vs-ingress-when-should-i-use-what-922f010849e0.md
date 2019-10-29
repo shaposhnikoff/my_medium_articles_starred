@@ -1,3 +1,5 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m145[39m, end: [33m267[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m271[39m, end: [33m289[39m }
 
 # Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what?
 
@@ -80,7 +82,7 @@ Basically, a NodePort service has two differences from a normal “ClusterIP” 
 
 There are many downsides to this method:
 
-1. You can only have once service per port
+1. You can only have one service per port
 
 1. You can only use ports 30000–32767
 

@@ -1,3 +1,14 @@
+Unknown markup type 10 { type: [33m10[39m,
+  start: [33m296[39m,
+  end: [33m303[39m,
+  href: [32m''[39m,
+  title: [32m''[39m,
+  rel: [32m''[39m,
+  name: [32m''[39m,
+  anchorType: [33m0[39m,
+  creatorIds: [],
+  userId: [32m''[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m7[39m, end: [33m14[39m }
 
 # Azure DevOps API Backup
 
@@ -38,3 +49,13 @@ If the --unzip argument is present, the program will create a directory for each
 ### Final thoughts
 
 This is not an exhaustive method to retrieve every artifact on Azure DevOps. There’s a lot more to be done to make this a complete solution. As it is, it will only retrieve the files from the last commit of the default — usually Master — branch. However, it’s a good starting point to backup Azure DevOps projects and keep a local repository of these.
+
+![](https://cdn-images-1.medium.com/max/2000/0*Piks8Tu6xUYpF4DU)
+
+**Follow us on [Twitter](https://twitter.com/joinfaun) **🐦** and [Facebook](https://www.facebook.com/faun.dev/) **👥** and join our [Facebook Group](https://www.facebook.com/groups/364904580892967/) **💬**.**
+
+**To join our community Slack **🗣️ **and read our weekly Faun topics **🗞️,** click here⬇**
+
+![](https://cdn-images-1.medium.com/max/3200/0*oSdFkACJxs5iy1oR)
+
+### If this post was helpful, please click the clap 👏 button below a few times to show your support for the author! ⬇

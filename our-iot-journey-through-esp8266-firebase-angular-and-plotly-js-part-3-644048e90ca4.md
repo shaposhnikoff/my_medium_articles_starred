@@ -1,3 +1,47 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m107[39m, end: [33m115[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m58[39m, end: [33m66[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m175[39m, end: [33m195[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m83[39m, end: [33m103[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m65[39m, end: [33m73[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m44[39m, end: [33m50[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m34[39m, end: [33m44[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m49[39m, end: [33m58[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m80[39m, end: [33m86[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m178[39m, end: [33m229[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m246[39m, end: [33m267[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m33[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m61[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m32[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m23[39m, end: [33m28[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m35[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m294[39m, end: [33m299[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m316[39m, end: [33m325[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m348[39m, end: [33m357[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m369[39m, end: [33m378[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m381[39m, end: [33m391[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m48[39m, end: [33m57[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m169[39m, end: [33m177[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m236[39m, end: [33m244[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m299[39m, end: [33m300[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m305[39m, end: [33m306[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m19[39m, end: [33m27[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m209[39m, end: [33m217[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m40[39m, end: [33m60[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m89[39m, end: [33m102[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m32[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m235[39m, end: [33m245[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m41[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m50[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m55[39m, end: [33m75[39m }
 
 # Post 3 of 3. Our IoT journey through ESP8266, Firebase and Plotly.js
 
@@ -5,7 +49,7 @@ Science moves forward :-)
 
 ## TL;DR
 
-This post stands in a serie of 3 as detailed below. These 3 posts reflect the Project Architecture we chose to achieve a simple luminosity logging/live plotting project. We hope they will **help developers or students discovering ESP8266 chip and Firebase platform**. Moreover, we believe that the solution developped here can be an interesting alternative to the comprehensive **Google, AWS and Azure IoT solutions** [[link](https://cloud.google.com/solutions/iot/), [link](https://docs.aws.amazon.com/fr_fr/iot/latest/developerguide/what-is-aws-iot.html) and [link](https://docs.microsoft.com/fr-fr/azure/iot-hub/iot-hub-device-management-overview)] when we have to **manage in a simple way only a few connected devices**. (For instance, we won’t set up a MQTT broker neither deal with a registry.)
+This post stands in a series of 3 as detailed below. These 3 posts reflect the Project Architecture we chose to achieve a simple luminosity logging/live plotting project. We hope they will **help developers or students discovering ESP8266 chip and Firebase platform**. Moreover, we believe that the solution developped here can be an interesting alternative to the comprehensive **Google, AWS and Azure IoT solutions** [[link](https://cloud.google.com/solutions/iot/), [link](https://docs.aws.amazon.com/fr_fr/iot/latest/developerguide/what-is-aws-iot.html) and [link](https://docs.microsoft.com/fr-fr/azure/iot-hub/iot-hub-device-management-overview)] when we have to **manage in a simple way only a few connected devices**. (For instance, we won’t set up a MQTT broker neither deal with a registry.)
 
 ![Project Architecture — Numbers 1, 2, 3 follow posts numerotation](https://cdn-images-1.medium.com/max/2000/1*J0IGNrEAq3n8zxCZsLO5dQ.png)*Project Architecture — Numbers 1, 2, 3 follow posts numerotation*
 
@@ -35,7 +79,7 @@ Indeed, at the end of this third and last post describing our ESP8266-based proj
 
 ## B) Angular web app or “classical” web app?
 
-When we hacked this small project (5 months ago), before writing the 3 related Medium posts, we used **Angular** framework [[link](https://angular.io/)] to write the web app. We believed we would use it in this last post of the serie, that’s why it is mentionned in the 3 posts URLs. But, as we published our first (4 months ago) and second (2 months ago) Medium posts [[link](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-1-a07db495ac5f), [link](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-2-14b0609d3f5e)], it turned out that this project could be **a basis for students discovering IoT**, even if they were not initially developers. In that context, we cannot ask them to learn Angular before diving into the IoT topic, that would really be discouraging. So, as our project went eventually more newbies oriented, we will explain here how to write the web app “classically”, *i.e. *with **html**, **javascript** and **css** files. It’s not possible to change Medium posts URLs afterwards, that’s why “Angular” remains in them and we’re sorry for that. That’s not bad marketing!
+When we hacked this small project (5 months ago), before writing the 3 related Medium posts, we used **Angular** framework [[link](https://angular.io/)] to write the web app. We believed we would use it in this last post of the series, that’s why it is mentioned in the 3 posts URLs. But, as we published our first (4 months ago) and second (2 months ago) Medium posts [[link](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-1-a07db495ac5f), [link](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-2-14b0609d3f5e)], it turned out that this project could be **a basis for students discovering IoT**, even if they were not initially developers. In that context, we cannot ask them to learn Angular before diving into the IoT topic, that would really be discouraging. So, as our project went eventually more newbies oriented, we will explain here how to write the web app “classically”, *i.e. *with **html**, **javascript** and **css** files. It’s not possible to change Medium posts URLs afterwards, that’s why “Angular” remains in them and we’re sorry for that. That’s not bad marketing!
 
 *Note: *If you want to write the web app with Angular all the same, follow the excellent resource mentioned in the **Acknowledgments** section at the end of this post. We ourselves started with it.
 
@@ -224,7 +268,7 @@ After a few seconds, deploy is complete and we get the public URL of our web app
 
 ### D) 4 ) How much data can be downloaded from the database?
 
-With **Firebasebase “Spark” pricing plan** (the free one), up to 10 GB/month can be downladed. This can be quickly reached if:
+With **Firebasebase “Spark” pricing plan** (the free one), up to 10 GB/month can be downloaded. This can be quickly reached if:
 
 * We have many points in the plot, *i.e.* if nbOfElts is high.
 
@@ -252,7 +296,7 @@ Then we could consider the **sending of notifications **to some registered users
 
 We have already implemented both aspects (authentication/notifications) in other contexts and this was really immediate.
 
-**Acknowlegments for this post: **We’d like to thank here @angularfirebase ([Jeff Delaney](undefined)) whose videos-lessons are great quality content. Especially, **Episode #39 “Realtime Charts With Plot.ly”** [[link](https://angularfirebase.com/lessons/realtime-charts-with-plot-ly/)] made us discover plotly.js in an Angular context and gave us the idea to lively plot measures made by an ESP8266.
+**Acknowledgments for this post: **We’d like to thank here @angularfirebase ([Jeff Delaney](undefined)) whose videos-lessons are great quality content. Especially, **Episode #39 “Realtime Charts With Plot.ly”** [[link](https://angularfirebase.com/lessons/realtime-charts-with-plot-ly/)] made us discover plotly.js in an Angular context and gave us the idea to lively plot measures made by an ESP8266.
 
 **About this 3-post serie**
 
@@ -272,6 +316,6 @@ With this third and last post about ESP8266-Firebase topic, we now have the full
 
 We’ve been really happy to share this newly learned knowledge with you.
 
-**Links to the posts of this serie: [**Post 1](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-1-a07db495ac5f), [Post 2](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-2-14b0609d3f5e), Post 3, [GitHub](https://github.com/olivierlourme/esp8266webapp) and [Live Demo](https://esp8266-rocks.firebaseapp.com/).
+**Links to the posts of this series: [**Post 1](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-1-a07db495ac5f), [Post 2](https://medium.com/@o.lourme/our-iot-journey-through-esp8266-firebase-angular-and-plotly-js-part-2-14b0609d3f5e), Post 3, [GitHub](https://github.com/olivierlourme/esp8266webapp) and [Live Demo](https://esp8266-rocks.firebaseapp.com/).
 
 **Check also this post:** [GCP-Cloud IoT Core with ESP32 and Mongoose OS](https://medium.com/@o.lourme/gcp-cloudiotcore-esp32-mongooseos-1st-5c88d8134ac7?source=---------4------------------).

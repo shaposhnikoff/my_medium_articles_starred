@@ -1,3 +1,14 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m62[39m, end: [33m76[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m15[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m49[39m, end: [33m54[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m72[39m, end: [33m85[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m34[39m, end: [33m48[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m302[39m, end: [33m311[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m255[39m, end: [33m259[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m29[39m, end: [33m43[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m71[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m211[39m, end: [33m230[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m302[39m, end: [33m316[39m }
 
 # Terraform Pipelines in GitLab
 

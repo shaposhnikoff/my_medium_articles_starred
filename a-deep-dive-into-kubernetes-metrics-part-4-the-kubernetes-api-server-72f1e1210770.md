@@ -1,3 +1,24 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m183[39m, end: [33m206[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m95[39m, end: [33m129[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m101[39m, end: [33m133[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m37[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m52[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m50[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m40[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m47[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m29[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m27[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m28[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m40[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m44[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m40[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m44[39m }
 
 # A Deep Dive into Kubernetes Metrics — Part 4: The Kubernetes API Server
 

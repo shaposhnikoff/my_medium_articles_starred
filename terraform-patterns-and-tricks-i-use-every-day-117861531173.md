@@ -1,3 +1,32 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m288[39m, end: [33m292[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m622[39m, end: [33m637[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m750[39m, end: [33m754[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m858[39m, end: [33m869[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m904[39m, end: [33m908[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m913[39m, end: [33m924[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m985[39m, end: [33m989[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m1102[39m, end: [33m1117[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m386[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m129[39m, end: [33m135[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m151[39m, end: [33m157[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m496[39m, end: [33m502[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m259[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m17[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m265[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m27[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m89[39m, end: [33m101[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m16[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m91[39m, end: [33m99[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m291[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m53[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m203[39m, end: [33m210[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m314[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m34[39m, end: [33m43[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m81[39m, end: [33m90[39m }
 
 # Terraform patterns and tricks I use every day
 

@@ -1,3 +1,13 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m101[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m18[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m77[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m59[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m87[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m26[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m108[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m327[39m }
 
 # 100 Days of DevOps — Day 72-Introduction to Kubernetes
 

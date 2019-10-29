@@ -1,3 +1,37 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m97[39m, end: [33m113[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m79[39m, end: [33m94[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m73[39m, end: [33m94[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m12[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m17[39m, end: [33m60[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m246[39m, end: [33m263[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m177[39m, end: [33m190[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m254[39m, end: [33m264[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m322[39m, end: [33m335[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m17[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m38[39m, end: [33m52[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m54[39m, end: [33m94[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m88[39m, end: [33m95[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m73[39m, end: [33m86[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m18[39m, end: [33m34[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m131[39m, end: [33m230[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m16[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m164[39m, end: [33m193[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m211[39m, end: [33m256[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m14[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m101[39m, end: [33m146[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m168[39m, end: [33m201[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m88[39m, end: [33m119[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m149[39m, end: [33m195[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m50[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m116[39m, end: [33m130[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m249[39m, end: [33m273[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m103[39m, end: [33m129[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m14[39m, end: [33m40[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m49[39m, end: [33m71[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m26[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m87[39m }
 
 # Learn Kubernetes in Under 3 Hours: A Detailed Guide to Orchestrating Containers
 
@@ -763,26 +797,31 @@ The YAML resource definition that achieves all the above-mentioned points:
     metadata:
       name: sa-frontend
     spec:
-      replicas: 2                                             # 2
+      selector:                                               # 2
+        matchLabels:
+          app: sa-frontend  
+      replicas: 2                                             # 3
       minReadySeconds: 15
       strategy:
-        type: RollingUpdate                                   # 3
+        type: RollingUpdate                                   # 4
         rollingUpdate: 
-          maxUnavailable: 1                                   # 4
-          maxSurge: 1                                         # 5
-      template:                                               # 6
+          maxUnavailable: 1                                   # 5
+          maxSurge: 1                                         # 6
+      template:                                               # 7
         metadata:
           labels:
-            app: sa-frontend                                  # 7
+            app: sa-frontend                                  # 8
         spec:
           containers:
             - image: rinormaloku/sentiment-analysis-frontend
-              imagePullPolicy: Always                         # 8
+              imagePullPolicy: Always                         # 9
               name: sa-frontend
               ports:
                 - containerPort: 80
 
 1. **Kind: **A deployment.
+
+1. **Selector: **Pods matching the selector will be taken under the management of this deployment.
 
 1. **Replicas **is a property of the deployments Spec object that defines how many pods we want to run. So only 2.
 

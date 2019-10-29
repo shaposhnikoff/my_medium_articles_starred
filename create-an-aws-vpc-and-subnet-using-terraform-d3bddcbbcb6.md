@@ -1,5 +1,5 @@
 
-# Create an AWS VPC, Subnet, Security Group, and ACL using Terraform
+# Create an AWS VPC, Subnet, Security Group, and Network ACL using Terraform
 
 For those learning AWS/AWS CLI Terraform is a tool for building infrastructure with various technologies including AWS.
 

@@ -1,3 +1,5 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m105[39m, end: [33m136[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m222[39m, end: [33m239[39m }
 
 # Wrapping Ansible Vault with gpg
 

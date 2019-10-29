@@ -1,3 +1,9 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m240[39m, end: [33m249[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m312[39m, end: [33m317[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m331[39m, end: [33m336[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m676[39m, end: [33m683[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m730[39m, end: [33m774[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m800[39m, end: [33m815[39m }
 
 # Understanding kubernetes networking: pods
 
@@ -22,6 +28,8 @@ As shown above the second container gets a new virtual network interface veth1, 
 [ * Dan Nissenbaum pointed out that this description omits some detail. For background see our [brief discussion](https://medium.com/@dannissenbaum?source=post_header_lockup) at the end of the post.]
 
 [ * 12/15/2018: my previous update really got the lower levels of this wrong. The connection between a container and the bridge is established over a pair of linked virtual ethernet devices, one in the container network namespace and the other in the root network namespace. For a great overview of this subject see Kristen Jacobs’ awesome “[Container Networking From Scratch](https://kccna18.sched.com/event/GrWx/container-networking-from-scratch-kristen-jacobs-oracle)” talk given this week at Kubecon 2018 in Seattle (slide link at the bottom). I really enjoyed Kristen’s presentation and I plan to shamelessly copy it in a future post on container networking.]
+
+[ * 9/9/2019: [this article by Ifeanyi Ubah](http://ifeanyi.co/posts/linux-namespaces-part-4/) does a great job of exploring linux network namespaces and veth pairs]
 
 That’s fine and all but it doesn’t get us to the “shared network stack” of a kubernetes pod. Fortunately namespaces are very flexible. Docker can start a container and rather than creating a new virtual network interface for it, specify that it [shares an existing interface](https://docs.docker.com/engine/reference/run/#network-settings). In this case the drawing above looks a little different:
 

@@ -1,3 +1,13 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m20[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m23[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m16[39m, end: [33m27[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m54[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m66[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m25[39m, end: [33m27[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m57[39m, end: [33m59[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m48[39m, end: [33m58[39m }
 
 # Setting IP security (IPsec) di Centos 7 dengan Strongswan dan Cron
 

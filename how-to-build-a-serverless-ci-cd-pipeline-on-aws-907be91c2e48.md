@@ -1,3 +1,5 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m60[39m }
 
 # How to build a serverless CI/CD pipeline on AWS
 
@@ -245,3 +247,11 @@ We can test the API endpoint created in our simple app (URL is in the CodeBuild 
 CodePipeline allows you to create a scalable, flexible and low cost CI/CD pipeline and helps solve some of the issues associated with traditional pipelines created on servers.
 
 I would love to take this one step further and add unit testing into the mix once the deployment has completed, though it warrants an article of it’s own — something to stay tuned for in the future!
+
+![](https://cdn-images-1.medium.com/max/2000/0*Piks8Tu6xUYpF4DU)
+
+**Join our community Slack and read our weekly Faun topics ⬇**
+
+![](https://cdn-images-1.medium.com/max/3200/0*oSdFkACJxs5iy1oR)
+
+### If this post was helpful, please click the clap 👏 button below a few times to show your support for the author! ⬇

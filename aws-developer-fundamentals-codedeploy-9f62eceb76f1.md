@@ -1,3 +1,11 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m123[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m95[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m284[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m267[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m55[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m54[39m }
 
 # AWS Developer Fundamentals: CodeDeploy
 

@@ -1,3 +1,6 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m116[39m, end: [33m140[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m196[39m, end: [33m205[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m73[39m, end: [33m105[39m }
 
 # Terraform Dynamic Environment Variables through Workspaces and Local Values
 

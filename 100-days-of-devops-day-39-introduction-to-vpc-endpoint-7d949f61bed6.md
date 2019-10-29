@@ -1,3 +1,5 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m240[39m, end: [33m252[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m436[39m, end: [33m448[39m }
 
 # 100 Days of DevOps — Day 39-Introduction to VPC EndPoint
 
@@ -109,6 +111,16 @@ Welcome to Day 39 of 100 Days of DevOps, Focus for today VPC Endpoint
 * *Support only for the same region*
 
 * *Interface endpoint cannot only be accessible via VPC Peering or VPN connection only via Direct Connect.*
+
+* *You cannot use an IAM policy or bucket policy to allow access from a VPC IPv4 CIDR range (the private IPv4 address range). VPC CIDR blocks can be overlapping or identical, which may lead to unexpected results. Therefore, you cannot use the aws:SourceIp condition in your IAM policies for requests to Amazon S3 through a VPC endpoint. This applies to IAM policies for users and roles, and any bucket policies.If a statement includes the aws:SourceIp condition, the value fails to match any provided IP address or range*
+
+## Restricting Access to a Specific VPC Endpoint
+
+<iframe src="https://medium.com/media/d62de16c0919602569625e56fbfa9952" frameborder=0></iframe>
+
+## Restricting Access to a Specific VPC
+
+<iframe src="https://medium.com/media/6606333424ec05e709691c5750f57ce4" frameborder=0></iframe>
 
 *Looking forward from you guys to join this journey and spend a minimum an hour every day for the next 100 days on DevOps work and post your progress using any of the below medium.*
 

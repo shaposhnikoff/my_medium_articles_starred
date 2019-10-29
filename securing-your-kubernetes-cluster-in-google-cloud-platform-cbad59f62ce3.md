@@ -1,3 +1,5 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m83[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m92[39m }
 
 # Securing Your Kubernetes Cluster in Google Cloud Platform
 

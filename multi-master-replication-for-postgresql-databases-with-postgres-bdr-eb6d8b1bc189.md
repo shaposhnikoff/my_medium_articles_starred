@@ -1,3 +1,27 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m113[39m, end: [33m120[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m124[39m, end: [33m127[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m131[39m, end: [33m139[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m33[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m52[39m, end: [33m79[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m98[39m, end: [33m101[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m145[39m, end: [33m259[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m10[39m, end: [33m35[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m201[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m10[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m401[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m34[39m, end: [33m43[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m182[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m10[39m, end: [33m16[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m24[39m, end: [33m33[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m54[39m, end: [33m61[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m145[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m164[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m245[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m63[39m }
 
 # Multi-Master Replication for PostgreSQL databases with Postgres-BDR
 

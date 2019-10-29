@@ -1,3 +1,8 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m22[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m13[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m19[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m20[39m }
 
 # Learn to Use Variable Groups in Azure DevOps Pipelines
 

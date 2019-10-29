@@ -1,3 +1,5 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m400[39m, end: [33m405[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m250[39m, end: [33m255[39m }
 
 # Five things learned using terraform to manage cloud infrastructure
 

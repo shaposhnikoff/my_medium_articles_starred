@@ -1,3 +1,15 @@
+Unknown markup type 10 { type: [33m10[39m,
+  start: [33m249[39m,
+  end: [33m258[39m,
+  href: [32m''[39m,
+  title: [32m''[39m,
+  rel: [32m''[39m,
+  name: [32m''[39m,
+  anchorType: [33m0[39m,
+  creatorIds: [],
+  userId: [32m''[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m132[39m, end: [33m148[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m93[39m, end: [33m109[39m }
 
 # Docker and Kubernetes in high security environments
 

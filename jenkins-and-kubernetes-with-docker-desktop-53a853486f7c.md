@@ -1,3 +1,10 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m74[39m, end: [33m78[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m286[39m, end: [33m302[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m67[39m, end: [33m90[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m69[39m, end: [33m96[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m98[39m, end: [33m119[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m362[39m, end: [33m369[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m354[39m, end: [33m361[39m }
 
 # Jenkins and Kubernetes with Docker Desktop
 

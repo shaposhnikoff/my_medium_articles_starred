@@ -1,3 +1,5 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m128[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m47[39m, end: [33m61[39m }
 
 # 5 Lessons Learned From Writing Over 300,000 Lines of Infrastructure Code
 

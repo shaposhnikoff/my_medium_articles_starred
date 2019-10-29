@@ -1,3 +1,6 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m43[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m41[39m, end: [33m56[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m60[39m, end: [33m70[39m }
 
 # How to Create a Kubernetes Cluster on AWS in Few Minutes
 

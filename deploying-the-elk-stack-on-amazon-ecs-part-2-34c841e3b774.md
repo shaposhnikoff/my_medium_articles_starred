@@ -1,3 +1,4 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m115[39m, end: [33m127[39m }
 
 # Deploying the ELK stack on Amazon ECS, Part 2: EC2 Container Service (ECS)
 

@@ -1,3 +1,34 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m74[39m, end: [33m88[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m12[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m13[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m189[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m62[39m, end: [33m71[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m24[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m413[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m251[39m, end: [33m273[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m231[39m, end: [33m244[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m28[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m333[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m8[39m, end: [33m19[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m63[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m106[39m, end: [33m116[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m24[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m109[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m29[39m, end: [33m40[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m12[39m, end: [33m22[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m26[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m14[39m, end: [33m24[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m71[39m, end: [33m76[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m35[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m57[39m, end: [33m86[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m70[39m, end: [33m81[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m125[39m, end: [33m138[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m179[39m, end: [33m195[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m68[39m }
 
 # Improve your AWS Lambda Workflow with python-lambda
 

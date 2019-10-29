@@ -1,3 +1,7 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m6[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m97[39m, end: [33m103[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m108[39m, end: [33m112[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
 
 # 100 Days of DevOps — Day 17- Creating EC2 Instance using Terraform
 

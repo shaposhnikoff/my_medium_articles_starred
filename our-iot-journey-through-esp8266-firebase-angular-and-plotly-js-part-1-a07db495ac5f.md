@@ -1,11 +1,43 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m158[39m, end: [33m162[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m73[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m87[39m, end: [33m100[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m72[39m, end: [33m80[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m84[39m, end: [33m97[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m135[39m, end: [33m143[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m56[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m99[39m, end: [33m114[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m129[39m, end: [33m157[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m56[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m235[39m, end: [33m259[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m323[39m, end: [33m336[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m349[39m, end: [33m362[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m62[39m, end: [33m71[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m111[39m, end: [33m114[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m140[39m, end: [33m151[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m164[39m, end: [33m174[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m47[39m, end: [33m67[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m56[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m61[39m, end: [33m74[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m44[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m64[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m68[39m, end: [33m74[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m201[39m, end: [33m221[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m406[39m, end: [33m412[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m536[39m, end: [33m563[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m588[39m, end: [33m608[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m15[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m113[39m, end: [33m128[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m114[39m, end: [33m126[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m141[39m, end: [33m152[39m }
 
 # Post 1 of 3. Our IoT journey through ESP8266, Firebase and Plotly.js
 
-What we will achieve… at the end of this 3-post serie
+What we will achieve… at the end of this 3-post series
 
 ## TL;DR
 
-This post stands in a serie of 3 as detailed below. These 3 posts reflect the Project Architecture we chose to achieve a simple luminosity logging/live plotting project. We hope they will **help developers or students discovering ESP8266 chip and Firebase platform**. Moreover, we believe that the solution developped here can be an interesting alternative to the comprehensive **Google, AWS and Azure IoT solutions** [[link](https://cloud.google.com/solutions/iot/), [link](https://docs.aws.amazon.com/fr_fr/iot/latest/developerguide/what-is-aws-iot.html) and [link](https://docs.microsoft.com/fr-fr/azure/iot-hub/iot-hub-device-management-overview)] when we have to **manage in a simple way only a few connected devices**. (For instance, we won’t set up a MQTT broker neither deal with a registry.)
+This post stands in a series of 3 as detailed below. These 3 posts reflect the Project Architecture we chose to achieve a simple luminosity logging/live plotting project. We hope they will **help developers or students discovering ESP8266 chip and Firebase platform**. Moreover, we believe that the solution developped here can be an interesting alternative to the comprehensive **Google, AWS and Azure IoT solutions** [[link](https://cloud.google.com/solutions/iot/), [link](https://docs.aws.amazon.com/fr_fr/iot/latest/developerguide/what-is-aws-iot.html) and [link](https://docs.microsoft.com/fr-fr/azure/iot-hub/iot-hub-device-management-overview)] when we have to **manage in a simple way only a few connected devices**. (For instance, we won’t set up a MQTT broker neither deal with a registry.)
 
 ![Project Architecture — Numbers 1, 2, 3 follow post numerotation](https://cdn-images-1.medium.com/max/2000/1*J0IGNrEAq3n8zxCZsLO5dQ.png)*Project Architecture — Numbers 1, 2, 3 follow post numerotation*
 

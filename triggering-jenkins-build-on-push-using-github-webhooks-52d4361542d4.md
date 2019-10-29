@@ -56,3 +56,11 @@ Add public URL of your tunnel as **Payload URL, **it will tell Github where to s
 **step 6: **Finally** **add your build steps in the **Build** tab and save.
 
 That’s all! Now whenever any change is pushed, a new Jenkins build will be triggered.
+
+![](https://cdn-images-1.medium.com/max/2000/0*Piks8Tu6xUYpF4DU)
+
+**Join our community Slack and read our weekly Faun topics ⬇**
+
+![](https://cdn-images-1.medium.com/max/3200/0*oSdFkACJxs5iy1oR)
+
+### If this post was helpful, please click the clap 👏 button below a few times to show your support for the author! ⬇

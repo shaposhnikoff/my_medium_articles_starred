@@ -1,3 +1,16 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m84[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m36[39m, end: [33m99[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m151[39m, end: [33m181[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m62[39m, end: [33m114[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m24[39m, end: [33m102[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m69[39m, end: [33m136[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m113[39m, end: [33m126[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m23[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m15[39m, end: [33m26[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m26[39m, end: [33m44[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m77[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m121[39m, end: [33m132[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m7[39m, end: [33m16[39m }
 
 # Centralized logging in Kubernetes
 

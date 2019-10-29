@@ -1,3 +1,14 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m32[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m502[39m, end: [33m592[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m6[39m, end: [33m16[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m17[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m7[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m13[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m12[39m, end: [33m14[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m15[39m }
 
 # AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 2 “Using AWS KMS with…
 

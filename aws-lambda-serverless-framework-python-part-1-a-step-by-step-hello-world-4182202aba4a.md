@@ -1,3 +1,20 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m29[39m, end: [33m91[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m30[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m88[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m32[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m52[39m, end: [33m57[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m179[39m, end: [33m184[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m212[39m, end: [33m226[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m6[39m, end: [33m16[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m17[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m7[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m13[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m12[39m, end: [33m14[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m15[39m }
 
 # AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 1 “Hello World”
 
@@ -365,10 +382,23 @@ I am creating a series of blog posts to help you develop, deploy and run (mostly
 
 You can also find my other articles about the same topic but using other frameworks like [Creating a Serverless Uptime Monitor & Getting Alerted by SMS — Lambda, Zappa & Python](https://hackernoon.com/creating-a-serverless-uptime-monitor-getting-alerted-by-sms-lambda-zappa-python-flask-15c5fb31027) or [Creating a Serverless Python API Using AWS Lambda & Chalice](https://hackernoon.com/creating-a-serverless-python-api-using-aws-lambda-chalice-d321dc43ce2)
 
-Don’t forget to subscribe to [Shipped: An Independent Newsletter Focused On Serverless, Containers, FaaS & Other Interesting Stuff](http://joinshipped.com/).
+## Don’t forget to subscribe to Shipped: An Independent Newsletter Focused On Serverless, Containers, FaaS & Other Interesting Stuff.
 
 ![](https://cdn-images-1.medium.com/max/3750/1*lpdjzNxQBaz1uFMNDZkSHA.png)
 
-You may be interested in learning more about Lambda and other AWS service, so please take a look at [Practical AWS, a training concerned with the actual use of AWS rather than with theory & ideas](https://www.practicalaws.com/).
+## If learning more about AWS Lambda and other AWS service is of your interest, take a look at Practical AWS, a training concerned with the actual use of AWS rather than with theory & ideas.
 
 ![](https://cdn-images-1.medium.com/max/2202/1*HobgTbb2pjbEz_fZ2QYAMg.png)
+
+Make sure to follow me on [Medium](https://medium.com/@eon01) / [Twitter](https://twitter.com/eon01) to receive my future articles. You can also check my online training [Painless Docker](https://painlessdocker.com) and [Practical AWS](https://practicalaws.com).
+> # This story unline most stories on Medium is free and not behind a paywall. If you liked this work, you can support it by buying me a coffee [here](https://www.buymeacoffee.com/eon01).
+
+![](https://cdn-images-1.medium.com/max/2000/0*Piks8Tu6xUYpF4DU)
+
+**Follow us on [Twitter](https://twitter.com/joinfaun) **🐦** and [Facebook](https://www.facebook.com/faun.dev/) **👥** and join our [Facebook Group](https://www.facebook.com/groups/364904580892967/) **💬**.**
+
+**To join our community Slack **🗣️ **and read our weekly Faun topics **🗞️,** click here⬇**
+
+![](https://cdn-images-1.medium.com/max/3200/0*oSdFkACJxs5iy1oR)
+
+### If this post was helpful, please click the clap 👏 button below a few times to show your support for the author! ⬇

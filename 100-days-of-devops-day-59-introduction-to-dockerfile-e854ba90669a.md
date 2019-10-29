@@ -1,3 +1,4 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m2[39m, end: [33m12[39m }
 
 # 100 Days of DevOps — Day 59- Introduction to DockerFile
 

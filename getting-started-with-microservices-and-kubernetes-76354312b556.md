@@ -1,3 +1,41 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m29[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m33[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m109[39m, end: [33m125[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m7[39m, end: [33m19[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m8[39m, end: [33m16[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m78[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m52[39m, end: [33m69[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m30[39m, end: [33m42[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m299[39m, end: [33m303[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m59[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m74[39m, end: [33m89[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m97[39m, end: [33m101[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m104[39m, end: [33m111[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m123[39m, end: [33m140[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m35[39m, end: [33m45[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m95[39m, end: [33m102[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m157[39m, end: [33m170[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m201[39m, end: [33m219[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m215[39m, end: [33m223[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m35[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m9[39m, end: [33m19[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m25[39m, end: [33m37[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m17[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m33[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m19[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m19[39m, end: [33m36[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m71[39m, end: [33m83[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m30[39m, end: [33m47[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m109[39m, end: [33m120[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m51[39m, end: [33m63[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m73[39m, end: [33m85[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m276[39m, end: [33m311[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m320[39m, end: [33m337[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m354[39m, end: [33m397[39m }
 
 # Getting started with microservices and Kubernetes
 

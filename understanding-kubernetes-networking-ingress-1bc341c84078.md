@@ -1,3 +1,24 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m262[39m, end: [33m274[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m616[39m, end: [33m631[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m657[39m, end: [33m661[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m411[39m, end: [33m426[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m489[39m, end: [33m502[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m80[39m, end: [33m93[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m321[39m, end: [33m336[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m106[39m, end: [33m115[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m231[39m, end: [33m239[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m369[39m, end: [33m373[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m533[39m, end: [33m561[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m151[39m, end: [33m167[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m171[39m, end: [33m187[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m142[39m, end: [33m158[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m245[39m, end: [33m260[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m358[39m, end: [33m371[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m127[39m, end: [33m139[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m95[39m, end: [33m123[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m162[39m, end: [33m176[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m189[39m, end: [33m199[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m307[39m, end: [33m311[39m }
 
 # Understanding kubernetes networking: ingress
 

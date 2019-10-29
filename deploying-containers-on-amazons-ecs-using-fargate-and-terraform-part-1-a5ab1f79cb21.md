@@ -1,3 +1,7 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m161[39m, end: [33m186[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m56[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m66[39m, end: [33m94[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m59[39m, end: [33m64[39m }
 
 # Deploying Containers on Amazon’s ECS using Fargate and Terraform: Part 1
 

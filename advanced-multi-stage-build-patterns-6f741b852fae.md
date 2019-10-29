@@ -1,3 +1,38 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m112[39m, end: [33m116[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m130[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m151[39m, end: [33m167[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m180[39m, end: [33m184[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m233[39m, end: [33m237[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m250[39m, end: [33m256[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m514[39m, end: [33m530[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m548[39m, end: [33m562[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m943[39m, end: [33m952[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m972[39m, end: [33m984[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m40[39m, end: [33m44[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m156[39m, end: [33m162[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m270[39m, end: [33m294[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m77[39m, end: [33m81[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m71[39m, end: [33m81[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m86[39m, end: [33m99[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m133[39m, end: [33m143[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m229[39m, end: [33m261[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m306[39m, end: [33m310[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m23[39m, end: [33m29[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m42[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m209[39m, end: [33m215[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m268[39m, end: [33m274[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m331[39m, end: [33m335[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m493[39m, end: [33m497[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m28[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m79[39m, end: [33m83[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m32[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m75[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m46[39m, end: [33m61[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m117[39m, end: [33m130[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m173[39m, end: [33m186[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m147[39m, end: [33m151[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m110[39m, end: [33m126[39m }
 
 # Advanced multi-stage build patterns
 

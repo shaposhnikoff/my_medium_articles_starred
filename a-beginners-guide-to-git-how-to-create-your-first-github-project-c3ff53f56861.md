@@ -1,3 +1,22 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m17[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m26[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m15[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m15[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m15[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m97[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m27[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m12[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m37[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m19[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m62[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m24[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m16[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m21[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m2[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m2[39m }
 
 # A beginner’s guide to Git — how to start and create your first repository
 
@@ -243,8 +262,11 @@ I plan to write the second part of this article. Now that you know the basics, I
 
 <iframe src="https://medium.com/media/707781ebbf73f78c167b41ac92d12269" frameborder=0></iframe>
 
-Thanks for reading! I regularly share articles on the Medium platform; you can [check out my profile](https://medium.com/@gaelthomas).
+Thanks for reading! I regularly share articles on [FreeCodeCamp](https://www.freecodecamp.org/news/author/gaelthomas/); you can [check out my Twitter profile](https://twitter.com/gaelthomas_) to follow my activities and get useful tips and news about development.
 
-I have tried to give you the basics to start with a simple and concrete example. I hope it will be useful and easy for you to understand!
+If you want to learn to code, receive resources sent directly to your mailbox which allow you to improve your programming skills. Get the latest articles, courses, tutorials, tips, books, motivation, and other exclusive content.
+So, [join the new community dedicated to code](https://mailchi.mp/26f79f1a37d6/herewecode) without further delay (spam-free guarantee)!
+
+-> [Subscribe to [Here We Code] newsletter](https://mailchi.mp/26f79f1a37d6/herewecode)
 
 Do not hesitate to give me some feedback to improve my future articles in the comments below.

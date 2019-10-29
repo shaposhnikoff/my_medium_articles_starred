@@ -1,3 +1,4 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m317[39m }
 
 # Manage secrets with Ansible- Vault
 

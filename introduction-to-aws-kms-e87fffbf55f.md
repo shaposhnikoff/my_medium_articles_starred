@@ -1,3 +1,8 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m9[39m, end: [33m15[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m25[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m112[39m, end: [33m118[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m53[39m, end: [33m72[39m }
 
 # Introduction to AWS KMS
 
@@ -275,3 +280,11 @@ What is KMS?
 * *While KMS is integrated well with other AWS Services, to interact with CloudHSM we need to use industry standard API, no normal AWS API’s.*
 
 ![](https://cdn-images-1.medium.com/max/2040/1*IhVK2IvUGfwd5DHFQ-nGNA.jpeg)
+
+![](https://cdn-images-1.medium.com/max/2000/0*Piks8Tu6xUYpF4DU)
+
+**Join our community Slack and read our weekly Faun topics ⬇**
+
+![](https://cdn-images-1.medium.com/max/3200/0*oSdFkACJxs5iy1oR)
+
+### If this post was helpful, please click the clap 👏 button below a few times to show your support for the author! ⬇

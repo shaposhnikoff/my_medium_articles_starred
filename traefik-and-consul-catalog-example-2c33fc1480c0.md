@@ -1,3 +1,8 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m52[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m19[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m33[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m36[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m21[39m }
 
 # Traefik and Consul Catalog Example
 

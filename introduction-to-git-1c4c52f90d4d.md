@@ -1,3 +1,7 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m2[39m, end: [33m50[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m53[39m, end: [33m104[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m21[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m38[39m }
 
 # Introduction to GIT — Part 1
 

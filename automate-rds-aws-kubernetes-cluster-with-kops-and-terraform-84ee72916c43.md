@@ -1,3 +1,27 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m38[39m, end: [33m55[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m60[39m, end: [33m63[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m23[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m67[39m, end: [33m86[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m25[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m72[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m54[39m, end: [33m72[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m19[39m, end: [33m22[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m14[39m, end: [33m21[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m8[39m, end: [33m26[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m39[39m, end: [33m71[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m7[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m38[39m, end: [33m62[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m41[39m, end: [33m73[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m81[39m, end: [33m84[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m108[39m, end: [33m115[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m41[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m66[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m19[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m60[39m, end: [33m78[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m82[39m, end: [33m89[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m93[39m, end: [33m112[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m129[39m, end: [33m142[39m }
 
 # Automate RDS+AWS-Kubernetes Cluster with Kops and Terraform
 

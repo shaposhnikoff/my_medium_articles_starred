@@ -1,3 +1,10 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m73[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m52[39m, end: [33m63[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m33[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m44[39m, end: [33m48[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m32[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m55[39m }
 
 # A Beginner’s Guide to Kubernetes
 

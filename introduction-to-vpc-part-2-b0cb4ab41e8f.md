@@ -1,3 +1,17 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m27[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m14[39m, end: [33m29[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m36[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m74[39m, end: [33m77[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m41[39m, end: [33m52[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m10[39m }
 
 # Introduction to VPC — Part 2
 

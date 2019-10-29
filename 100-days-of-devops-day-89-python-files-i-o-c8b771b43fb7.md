@@ -1,3 +1,10 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m1[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m1[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m2[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m2[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m3[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m3[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m2[39m }
 
 # 100 Days of DevOps — Day 89-Python Files I/O
 

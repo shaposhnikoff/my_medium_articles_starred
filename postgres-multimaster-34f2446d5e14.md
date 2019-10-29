@@ -1,3 +1,22 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m101[39m, end: [33m114[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m41[39m, end: [33m54[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m145[39m, end: [33m151[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m153[39m, end: [33m159[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m161[39m, end: [33m167[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m54[39m, end: [33m74[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m36[39m, end: [33m44[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m49[39m, end: [33m59[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m38[39m, end: [33m48[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m44[39m, end: [33m52[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m54[39m, end: [33m74[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m5[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m26[39m, end: [33m39[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m26[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m8[39m, end: [33m16[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m31[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m35[39m, end: [33m41[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m43[39m, end: [33m49[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m51[39m, end: [33m57[39m }
 
 # Upgrading PostgreSQL on AWS RDS with minimum or zero downtime
 

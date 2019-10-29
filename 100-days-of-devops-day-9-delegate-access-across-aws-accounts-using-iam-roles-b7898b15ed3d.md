@@ -45,21 +45,13 @@ Welcome to Day 9 of 100 Days of DevOps, On Day 8 I explained about the really cr
 
 ***Step2: **Grant Access to the role(This will allow users in Account B permissions to allow switching to the role)*
 
-* *Go to the Developer Account B*
+* *Go to the Role we have just created*
 
-* *Go to the IAM console [https://console.aws.amazon.com/iam/home?region=us-west-2#/home](https://console.aws.amazon.com/iam/home?region=us-west-2#/home)*
+* *Click on Trust relationships → Edit trust relationships*
 
-* *Select the user and Add Inline policy*
+<iframe src="https://medium.com/media/f30915bcfd859917faf76d67d42a4913" frameborder=0></iframe>
 
-![](https://cdn-images-1.medium.com/max/5036/1*C7wAYob94ZzX901J8L1y2Q.png)
-
-* *Attach the below-mentioned policy with the IAM role we created in Step1*
-
-<iframe src="https://medium.com/media/ba5ff054c238935d349b45e49f2472ef" frameborder=0></iframe>
-
-* *Give this policy some name*
-
-![](https://cdn-images-1.medium.com/max/4372/1*oAiyClVYd1H-xJTk49XtSA.png)
+* *As you can see only root user has access to AssumeRole, change it with the arn of the user you want to assume this role*
 
 ***Step3:** Test access by Switching the role*
 
@@ -71,10 +63,10 @@ Welcome to Day 9 of 100 Days of DevOps, On Day 8 I explained about the really cr
 
 ![](https://cdn-images-1.medium.com/max/5096/1*YegJz7sl-LZWsSL6xh9QbA.png)
 
-    ** Account: This is Prod/Account A ID
-    * Role: Role we created in Step1: **S3ReadOnlyAccesstoDevAccount
-    * **Display Name: Any display name
-    * Switch Role*
+** Account: This is Prod/Account A ID
+* Role: Role we created in Step1: S3ReadOnlyAccesstoDevAccount**(Dont give full arn here just the Role name)
+* **Display Name: Any display name
+* Switch Role*
 
 * *You will see something like this*
 

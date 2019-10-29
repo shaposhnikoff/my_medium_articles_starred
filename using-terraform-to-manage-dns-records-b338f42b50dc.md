@@ -1,3 +1,11 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m57[39m, end: [33m92[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m134[39m, end: [33m144[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m27[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m9[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m86[39m, end: [33m100[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m111[39m, end: [33m118[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m199[39m, end: [33m202[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m168[39m }
 
 # Using Terraform to Manage DNS Records
 

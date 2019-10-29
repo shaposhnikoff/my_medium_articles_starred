@@ -1,3 +1,7 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m38[39m, end: [33m52[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m57[39m, end: [33m74[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m256[39m, end: [33m291[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m39[39m }
 
 # Zero Downtime Deployments with AWS CodeDeploy
 
@@ -5,7 +9,7 @@ A CTO’s experience switching cloud providers from Azure to AWS and some hard-e
 
 ![**AWS CodeDeploy** is a service that automates code deployments to any instance](https://cdn-images-1.medium.com/max/11522/1*JxzXw1jY8StM_5f9ofnzoQ.jpeg)***AWS CodeDeploy** is a service that automates code deployments to any instance*
 
-We at [Gatherer](https://www.gatherer.at) have recently changed our cloud provider from Microsoft Azure to Amazon AWS, so it was up to me (the CTO) to setup a completely new infrastructure for staging and production.
+We at Gatherer have recently changed our cloud provider from Microsoft Azure to Amazon AWS, so it was up to me (the CTO) to setup a completely new infrastructure for staging and production.
 
 This was my first time ever working with auto scaling groups, elastic load balancers and services for automated deployment. I learned a lot from the process, and want to share my experiences and point out some nasty obstacles I encountered.
 > AWS CodeDeploy is a service that automates code deployments to any instance making it easier to avoid downtime during application deployment and handle the complexity of updating your applications.

@@ -1,3 +1,31 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m64[39m, end: [33m73[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m33[39m, end: [33m43[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m106[39m, end: [33m115[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m98[39m, end: [33m108[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m114[39m, end: [33m131[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m308[39m, end: [33m328[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m8[39m, end: [33m14[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m34[39m, end: [33m43[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m31[39m, end: [33m46[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m55[39m, end: [33m64[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m128[39m, end: [33m137[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m248[39m, end: [33m257[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m157[39m, end: [33m169[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m126[39m, end: [33m142[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m192[39m, end: [33m207[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m28[39m, end: [33m38[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m26[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m118[39m, end: [33m133[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m15[39m, end: [33m24[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m73[39m, end: [33m82[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m132[39m, end: [33m165[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m176[39m, end: [33m182[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m5[39m, end: [33m11[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m23[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m41[39m, end: [33m51[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m61[39m, end: [33m71[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m16[39m, end: [33m25[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m30[39m, end: [33m39[39m }
 
 # Gentle Introduction to How AWS ECS Works with Example Tutorial
 

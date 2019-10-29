@@ -1,3 +1,4 @@
+Unknown markup type 10 { type: [33m10[39m, start: [33m96[39m, end: [33m119[39m }
 
 # Creating a Serverless Uptime Monitor & Getting Alerted by SMS — Lambda, Zappa & Python
 
@@ -248,3 +249,11 @@ Our goal is giving people the opportunity to enter the DevOps world trough quali
 
 We are looking for skilled people to help us deliver the DevOps ecosystem with great and high quality contents.
 > # We ❤ DevOps ! [Join us here](https://eon01.typeform.com/to/hlmmcG).
+
+![](https://cdn-images-1.medium.com/max/2000/0*Nu61Xm8x-xMrUIXE)
+
+**Join our community Slack and read our weekly Faun topics ⬇**
+[**Join a Community of Aspiring Developers.Get must-read articles, learn new technologies for free…**
+*Join thousands of developers and IT experts, get must-read articles, chat with like-minded people, get job offers and…*www.faun.dev](https://www.faun.dev/join/?utm_source=medium.com%2Ffaun&utm_medium=medium&utm_campaign=faunmedium)
+
+### If this post was helpful, please click the clap 👏 button below a few times to show your support for the author! ⬇
