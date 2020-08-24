@@ -1,4 +1,4 @@
-^CUnknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m133[39m }
+Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m133[39m }
 Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m298[39m }
 
 # Kubevious — a Revolutionary Kubernetes Dashboard for Cross-Checking and Validating Your Kubernetes…
