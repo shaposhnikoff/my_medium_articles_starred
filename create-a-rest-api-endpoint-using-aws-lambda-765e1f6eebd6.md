@@ -1,6 +1,3 @@
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m16[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m78[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m79[39m }
 
 # Create a REST API Endpoint Using AWS Lambda
 

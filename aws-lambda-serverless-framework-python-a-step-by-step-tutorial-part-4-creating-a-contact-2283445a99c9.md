@@ -1,10 +1,15 @@
-Unknown markup type 10 { type: [33m10[39m, start: [33m6[39m, end: [33m16[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m17[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m6[39m, end: [33m15[39m }
 
 # AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 4 “Creating a Contact…
 
 In the latest tutorial, we learned how to create the integration between AWS Lambda and AWS SES using the Serverless Framework. In this example, we are going to invoke the same Lambda function from a static HTML page that we host on S3.
+
+### Disclaimer
+
+This content is part of / inspired by one of our online courses/training. We are offering up to 80% OFF on these materials, during the **Black Friday 2019**.
+
+You can receive your discount [here](http://bf.eralabs.io).
+
+![](https://cdn-images-1.medium.com/max/2000/1*B0qBLWIa0zP-zJcrenZN8w.png)
 
 This is a series of blog posts about using AWS Lambda with the Serverless Framework. You can check previous similar blog posts like:
 [**AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 1 “Hello World”**

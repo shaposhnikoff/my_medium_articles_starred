@@ -1,24 +1,20 @@
-Unknown markup type 10 { type: [33m10[39m, start: [33m155[39m, end: [33m169[39m }
 
 # Deploying apps on multiple Kubernetes clusters with Helm
 
 Dailymotion’s Kubernetes journey: applications deployment
 
-![Smaïne Kahlouch introducing Dailymotion’s Kubernetes journey at the 2019 Google Cloud Summit](https://cdn-images-1.medium.com/max/8064/1*TnTWMSjKVvcwqafVIqSaFw.jpeg)*Smaïne Kahlouch introducing Dailymotion’s Kubernetes journey at the 2019 Google Cloud Summit*
+![](https://cdn-images-1.medium.com/max/4080/1*IabPcL9_oHoOeHmptXmk0A.jpeg)
 
 **At Dailymotion, we started using Kubernetes in our production environment 3 years ago. However, deploying applications on multiple clusters can be somewhat challenging, which is why we’ve been working to improve our tools and workflows over the past few years.**
 
 ## How we got here
 
-Here we will focus on how we deploy our applications on multiple Kubernetes clusters around the world.
+*Here we will focus on how we deploy our applications on multiple Kubernetes clusters around the world.*
 
 In order to deploy multiple Kubernetes objects in one shot, we use [**Helm](https://helm.sh/) **and all our charts are stored in a single git repository. To be able to deploy a complete application stack composed of multiple services we use what we call an **umbrella** chart. This is basically a chart that declares dependencies and allows us to bootstrap our API and its services in a single command line.
 
 Additionally, we’ve created a small python script on top of Helm that makes some checks, builds charts, adds the secrets and deploys our applications. All these tasks are completed from a **central CI Platform** using a docker image.
-
-Time to get into the nitty-gritty
-
-***Note!:** By the time you’ll read this blog post Helm 3’s first[ release candidate ](https://github.com/helm/helm/releases/tag/v3.0.0-alpha.1)will have already been announced. This major version is coming with a bunch of enhancements that will definitely solve some of the issues we encountered in the past.*
+> ***Note:** By the time you’ll read this blog post Helm 3’s first[ release candidate ](https://github.com/helm/helm/releases/tag/v3.0.0-alpha.1)will have already been announced. This major version is coming with a bunch of enhancements that will definitely solve some of the issues we encountered in the past.*
 
 ## Charts development workflow
 
@@ -37,7 +33,8 @@ Each environment has its own private repository that stores our charts and we us
 It is worth noting that when the developers push their dev branch, a version of their chart is automatically pushed to the dev Chartmuseum. Thus all the developers are using the same dev repository and they have to be careful to specify their own chart version in order to avoid using someone else’s chart changes.
 
 Furthermore, our small python script validates the Kubernetes objects against the Kubernetes OpenAPI specs by using [**Kubeval](https://kubeval.instrumenta.dev/) **before pushing them to the Chartmusem
-> Summary of the chart development workflow
+
+### Summary of the chart development workflow
 
 ![](https://cdn-images-1.medium.com/max/2000/1*gQ5wsmgYGmEv98WUaCVQ7Q.png)
 
@@ -54,17 +51,20 @@ Furthermore, our small python script validates the Kubernetes objects against th
 6. Push the chart to the Chartmuseum that corresponds to its environment
 
 ## Managing clusters differences
-> Cluster federation
+
+### Cluster federation
 
 At some point, we were using the [Kubernetes cluster federation](https://kubernetes.io/docs/concepts/cluster-administration/federation/) that allowed us to declare Kubernetes objects from a single API endpoint. But we faced issues namely that some of the Kubernetes objects couldn’t be created in the federation endpoint making it hard to maintain federated objects and other *per-cluster* objects.
 
 To alieviate this issue, we decided to manage our clusters independently and which ended up making the process much easier (we were using the federation v1 though, things may have changed with the v2).
-> Geo-distributed platform
+
+### Geo-distributed platform
 
 Currently, our platform is spread across 6 regions, 3 on-premises and 3 in the cloud.
 
 ![Distributed deployment](https://cdn-images-1.medium.com/max/4068/1*FA8rxWOZZjdU6wFrKveImg.png)*Distributed deployment*
-> Helm global values
+
+### Helm global values
 
 4 global Helm values allow us to define the differences between our clusters. These are the minimum default values for all of our charts.
 
@@ -85,7 +85,8 @@ Here is a concrete example:
 <iframe src="https://medium.com/media/f8889c480a27a1ee1bb64fda674aedf8" frameborder=0></iframe>
 
 Note that this logic is defined in a helper template in order to keep the Kubernetes YAML fairly readable.
-> Declaring an application
+
+### Declaring an application
 
 Our deployment tooling is based on several YAML files, below is an example of us declaring a service and its scaling topology (number of replicas) per cluster.
 
@@ -140,7 +141,8 @@ Currently, we have a single [AppRole](https://www.vaultproject.io/docs/auth/appr
 Rolling back requires to run the command on multiple clusters which can be error-prone. We make this operation manual because we want to make sure we apply the right revision id .
 
 ## Our GitOps future is being written
-> Our target
+
+### Our target
 
 The idea is to put back a chart under the repository of the application it deploys.
 The workflow will be the same as for development. For example, whenever a branch is merged on master a deployment would be triggered automatically. The main difference between this approach and the current workflow is that** everything will be managed from git** (The application itself and the way we deploy it in Kubernetes)
@@ -156,7 +158,8 @@ These are some of the benefits:
 * **Benefits of git** features for the chart management: revert, audit log… If you want to revert a chart change you can do it using git. Deployment will be automatically triggered.
 
 * We can consider an improvement of the development workflow with tools like **Skaffold** that allow developers to test their changes in a context similar to the production.
-> 2 steps migration
+
+### 2 steps migration
 
 Our developers have been using the workflow described above for 2 years so we need the migration to run as smoothly as possible. That’s why we’ve decided to add an intermediate step before reaching our target.
 
@@ -170,7 +173,7 @@ The first step is simple:
 
 * The charts in the application git repository
 
-We have begun spreading the word to all the developers and the migration process has already begun. This first step is still controlled using the CI platform. I will write another blog post shortly that will describe the second step: How we achieved our migration to a GitOps workflow with [**Flux](https://github.com/weaveworks/flux)**. We will describe our setup and the challenges faced (multiple repositories, secrets …). So stay tuned !
+We have begun spreading the word to all the developers and the migration process has already begun. This first step is still controlled using the CI platform. I will write another blog post shortly that will describe the second step: how we achieved our migration to a GitOps workflow with [**Flux](https://github.com/weaveworks/flux)**. We will describe our setup and the challenges faced (multiple repositories, secrets …).
 
 We tried here to describe our progress in recent years regarding our application deployment workflow that led us to consider the GitOps approach. This journey is not finished yet and we will keep you posted soon but we are now convinced that keeping things simple and getting closer to the developers’ habits is the right choice.
 [**How we built our hybrid Kubernetes platform**

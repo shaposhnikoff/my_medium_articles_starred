@@ -1,4 +1,3 @@
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m6[39m }
 
 # 100 Days of DevOps — Day 70-Introduction to Boto3
 

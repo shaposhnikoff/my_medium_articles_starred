@@ -1,24 +1,15 @@
-Unknown markup type 10 { type: [33m10[39m, start: [33m29[39m, end: [33m91[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m46[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m30[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m88[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m42[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m32[39m, end: [33m49[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m52[39m, end: [33m57[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m179[39m, end: [33m184[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m212[39m, end: [33m226[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m6[39m, end: [33m16[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m17[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m7[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m13[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m12[39m, end: [33m14[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m15[39m }
 
 # AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 1 “Hello World”
 
 I am creating a series of blog posts to help you develop, deploy and run (mostly) Python applications on AWS Lambda using Serverless Framework.
+
+### Disclaimer
+
+This content is part of / inspired by one of our online courses/training. We are offering up to 80% OFF on these materials, during the **Black Friday 2019**.
+
+You can receive your discount [here](http://bf.eralabs.io).
+
+![](https://cdn-images-1.medium.com/max/2000/1*B0qBLWIa0zP-zJcrenZN8w.png)
 
 This is a series of blog posts about using AWS Lambda with the Serverless Framework. You can check previous similar blog posts like:
 [**AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 1 “Hello World”**

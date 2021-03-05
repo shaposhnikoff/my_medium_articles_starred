@@ -1,17 +1,15 @@
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m46[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m41[39m, end: [33m58[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m6[39m, end: [33m16[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m17[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m7[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m13[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m12[39m, end: [33m14[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m15[39m }
 
 # AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 3 “Sending Emails from…
 
 One of the good things about AWS Lambda is that it integrates easily with many AWS services like AWS SES (Simple Email Service). This may help you to develop faster applications without even managing infrastructure (at least in the traditional way).. but beware of cloud lock!
+
+### Disclaimer
+
+This content is part of / inspired by one of our online courses/training. We are offering up to 80% OFF on these materials, during the **Black Friday 2019**.
+
+You can receive your discount [here](http://bf.eralabs.io).
+
+![](https://cdn-images-1.medium.com/max/2000/1*B0qBLWIa0zP-zJcrenZN8w.png)
 
 This is a series of blog posts about using AWS Lambda with the Serverless Framework. You can check previous similar blog posts like
 [**AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 1 “Hello World”**

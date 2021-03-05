@@ -1,11 +1,3 @@
-Unknown markup type 10 { type: [33m10[39m, start: [33m137[39m, end: [33m141[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m271[39m, end: [33m277[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m299[39m, end: [33m303[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m75[39m, end: [33m99[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m154[39m, end: [33m158[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m294[39m, end: [33m305[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m350[39m, end: [33m389[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m394[39m, end: [33m433[39m }
 
 # Getting started with AWS Lambda Layers for Python
 
@@ -53,7 +45,7 @@ To test that newly created layer, author a small lambda function from scratch, g
 
 ![](https://cdn-images-1.medium.com/max/2560/1*mLMOZXjUQXMmqUg-YfZXhw.png)
 
-Once the function is created, replace the generic function code with the one bellow.
+Once the function is created, replace the generic function code with the one below.
 
     import custom_func as cf
 

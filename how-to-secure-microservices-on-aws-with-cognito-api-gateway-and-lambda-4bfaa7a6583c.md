@@ -1,39 +1,3 @@
-Unknown markup type 10 { type: [33m10[39m, start: [33m60[39m, end: [33m68[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m79[39m, end: [33m91[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m53[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m29[39m, end: [33m41[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m179[39m, end: [33m192[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m27[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m60[39m, end: [33m77[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m3[39m, end: [33m9[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m33[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m82[39m, end: [33m112[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m146[39m, end: [33m152[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m197[39m, end: [33m201[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m60[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m39[39m, end: [33m55[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m119[39m, end: [33m135[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m25[39m, end: [33m38[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m168[39m, end: [33m172[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m274[39m, end: [33m285[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m4[39m, end: [33m7[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m32[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m97[39m, end: [33m107[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m112[39m, end: [33m127[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m37[39m, end: [33m41[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m66[39m, end: [33m76[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m93[39m, end: [33m100[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m206[39m, end: [33m213[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m337[39m, end: [33m352[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m154[39m, end: [33m179[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m183[39m, end: [33m194[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m309[39m, end: [33m313[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m3[39m, end: [33m16[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m19[39m, end: [33m28[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m22[39m, end: [33m30[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m48[39m, end: [33m59[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m21[39m, end: [33m30[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m23[39m }
 
 # How to secure Microservices on AWS with Cognito, API Gateway, and Lambda
 

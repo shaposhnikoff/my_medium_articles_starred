@@ -1,34 +1,3 @@
-Unknown markup type 10 { type: [33m10[39m, start: [33m74[39m, end: [33m88[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m38[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m12[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m13[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m25[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m27[39m, end: [33m45[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m189[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m62[39m, end: [33m71[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m24[39m, end: [33m30[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m51[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m413[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m251[39m, end: [33m273[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m231[39m, end: [33m244[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m28[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m333[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m8[39m, end: [33m19[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m63[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m106[39m, end: [33m116[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m24[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m109[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m29[39m, end: [33m40[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m12[39m, end: [33m22[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m26[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m14[39m, end: [33m24[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m71[39m, end: [33m76[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m35[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m57[39m, end: [33m86[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m70[39m, end: [33m81[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m125[39m, end: [33m138[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m179[39m, end: [33m195[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m56[39m, end: [33m68[39m }
 
 # Improve your AWS Lambda Workflow with python-lambda
 
@@ -36,9 +5,9 @@ Create and deploy AWS Lambda functions with ease in Python
 
 ![](https://cdn-images-1.medium.com/max/3000/1*HEojJ3WAcSlqJXsWS-lUTw.jpeg)
 
-In our series about building [AWS APIs](https://hackersandslackers.com/tag/aws-api/), we’ve covered a lot of ground around learning the AWS ecosystem. Now that we’re all feeling a bit more comfortable, it may be time to let everybody in on the world’s worst-kept secret: Almost nobody builds architecture by interacting with the AWS UI directly. There are plenty examples of how this is done, with the main example being **HashiCorp:** an entire business model based around the premise that AWS has a shitty UI, to the point where it’s easier to write code to make things which will host your code. What a world.
+In our series about building [AWS APIs](https://hackersandslackers.com/tag/aws-api/), we’ve covered a lot of ground around learning the AWS ecosystem. Now that we’re all feeling a bit more comfortable, it may be time to let everybody in on the world’s worst-kept secret: Almost nobody builds architecture by interacting with the AWS UI directly. There are plenty of examples of how this is done, with the main example being **HashiCorp:** an entire business model based around the premise that AWS has a shitty UI, to the point where it’s easier to write code to make things that will host your code. What a world.
 
-In the case of creating Python Lambda functions, the “official” (aka: manual) workflow of deploying your code to AWS is something horrible like this:
+In the case of creating Python Lambda functions, the “official” (AKA manual) workflow of deploying your code to AWS is something horrible like this:
 
 * You start a project locally and begin development.
 
@@ -46,11 +15,11 @@ In the case of creating Python Lambda functions, the “official” (aka: manual
 
 * When you’re ready to ‘deploy’ to AWS, you *copy all your dependencies from */site-packages *and move them into your root directory*, temporarily creating an abomination of a project structure.
 
-* With your project fully bloated and confused, you cherry pick the files needed to zip into an archive.
+* With your project fully bloated and confused, you cherry-pick the files needed to zip into an archive.
 
-* Finally, you upload your code via zip either to Lambda directory or to S3, only to run your code, realize its broken, and need to start all over.
+* Finally, you upload your code via zip either to Lambda directory or to S3, only to run your code, realize it's broken, and need to start all over.
 
-## There Must be a Better Way
+## There Must Be a Better Way
 
 Indeed there is, and surprisingly enough the solution is 100% Python (sorry HashiCorp, we’ll talk another time). This “better way” is my personal method of leveraging the following:
 

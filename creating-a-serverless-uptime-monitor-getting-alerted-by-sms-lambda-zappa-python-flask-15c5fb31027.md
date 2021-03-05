@@ -1,8 +1,15 @@
-Unknown markup type 10 { type: [33m10[39m, start: [33m96[39m, end: [33m119[39m }
 
 # Creating a Serverless Uptime Monitor & Getting Alerted by SMS — Lambda, Zappa & Python
 
 Creating a Serverless Uptime Monitor & Getting Alerted by SMS — Lambda, Zappa & Python
+
+### Disclaimer
+
+This content is part of / inspired by one of our online courses/training. We are offering up to 80% OFF on these materials, during the **Black Friday 2019**.
+
+You can receive your discount [here](http://bf.eralabs.io).
+
+![](https://cdn-images-1.medium.com/max/2000/1*B0qBLWIa0zP-zJcrenZN8w.png)
 
 My last article was about [Creating a Serverless Python API Using AWS Lambda & Chalice](https://hackernoon.com/creating-a-serverless-python-api-using-aws-lambda-chalice-d321dc43ce2). After posting it to Reddit, I get a suggestion about using Zappa and since this is a framework that I already used, I thought about adding a new lesson to [Practical AWS training](http://practicalaws.com).
 

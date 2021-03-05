@@ -1,18 +1,15 @@
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m46[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m32[39m, end: [33m49[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m502[39m, end: [33m592[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m6[39m, end: [33m16[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m17[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m7[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m11[39m, end: [33m13[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m8[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m12[39m, end: [33m14[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m0[39m, end: [33m9[39m }
-Unknown markup type 10 { type: [33m10[39m, start: [33m13[39m, end: [33m15[39m }
 
 # AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 2 “Using AWS KMS with…
 
 Using serverless technologies is becoming more and more mainstream. Serverless may make your life easier in several contexts, however, you are always responsible for securing your code. As a developer, one of the things you need to know is how to store secrets safely. Just google “Github leaks”, and you will find how easy is finding logins, passwords and other sensitive information.
+
+### Disclaimer
+
+This content is part of / inspired by one of our online courses/training. We are offering up to 80% OFF on these materials, during the **Black Friday 2019**.
+
+You can receive your discount [here](http://bf.eralabs.io).
+
+![](https://cdn-images-1.medium.com/max/2000/1*B0qBLWIa0zP-zJcrenZN8w.png)
 
 This is a series of blog posts about using AWS Lambda with the Serverless Framework. You can check previous similar blog posts like:
 [**AWS Lambda + Serverless Framework + Python — A Step By Step Tutorial — Part 1 “Hello World”**
